@@ -1,3 +1,4 @@
-# docs for PAdam-Softworks
+# Docs for PAdam-Softworks
 
-[Link](https://dev.azure.com/dawidiaco/PAdam%20Softworks)
+[Docs link](https://padam-softworks.github.io/docs/index.html)
+[Azure link](https://dev.azure.com/dawidiaco/PAdam%20Softworks)
