@@ -1,0 +1,82 @@
+{
+  "api/Global.AttackController.html": {
+    "href": "api/Global.AttackController.html",
+    "title": "Class AttackController | PAdam Softworks",
+    "keywords": "Class AttackController Inheritance Object AttackController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AttackController : MonoBehaviour"
+  },
+  "api/Global.DeathZone.html": {
+    "href": "api/Global.DeathZone.html",
+    "title": "Class DeathZone | PAdam Softworks",
+    "keywords": "Class DeathZone Inheritance Object DeathZone Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DeathZone : MonoBehaviour"
+  },
+  "api/Global.EnemySpawner.html": {
+    "href": "api/Global.EnemySpawner.html",
+    "title": "Class EnemySpawner | PAdam Softworks",
+    "keywords": "Class EnemySpawner Inheritance Object EnemySpawner Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EnemySpawner : MonoBehaviour Fields SpawnCount Declaration public int SpawnCount Field Value Type Description Int32 SpawnDelay Declaration public float SpawnDelay Field Value Type Description Single spawnDirection Declaration public Vector2 spawnDirection Field Value Type Description Vector2 SpawnPrefab Declaration public GameObject SpawnPrefab Field Value Type Description GameObject"
+  },
+  "api/Global.HoboController.html": {
+    "href": "api/Global.HoboController.html",
+    "title": "Class HoboController | PAdam Softworks",
+    "keywords": "Class HoboController Inheritance Object HoboController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HoboController : MonoBehaviour Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single isMove Declaration public bool isMove Field Value Type Description Boolean moveDirection Declaration public Vector2 moveDirection Field Value Type Description Vector2 Speed Declaration public float Speed Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D >"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace Global | PAdam Softworks",
+    "keywords": "Namespace Global Classes AttackController DeathZone EnemySpawner HoboController MovingPlatformController PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController TimerController"
+  },
+  "api/Global.MovingPlatformController.html": {
+    "href": "api/Global.MovingPlatformController.html",
+    "title": "Class MovingPlatformController | PAdam Softworks",
+    "keywords": "Class MovingPlatformController Inheritance Object MovingPlatformController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MovingPlatformController : MonoBehaviour Fields Direction Declaration public Vector2 Direction Field Value Type Description Vector2 PositionDelta Declaration public Vector3 PositionDelta Field Value Type Description Vector3 Speed Declaration public float Speed Field Value Type Description Single"
+  },
+  "api/Global.PlayerController.html": {
+    "href": "api/Global.PlayerController.html",
+    "title": "Class PlayerController | PAdam Softworks",
+    "keywords": "Class PlayerController Inheritance Object PlayerController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlayerController : MonoBehaviour Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single Attack2Frames Declaration public List<Texture2D> Attack2Frames Field Value Type Description List < Texture2D > AttackFrames Declaration public List<Texture2D> AttackFrames Field Value Type Description List < Texture2D > AttackFX Declaration public GameObject AttackFX Field Value Type Description GameObject FallFrames Declaration public List<Texture2D> FallFrames Field Value Type Description List < Texture2D > floorCollider Declaration public Collider2D floorCollider Field Value Type Description Collider2D GroundMask Declaration public LayerMask GroundMask Field Value Type Description LayerMask HurtFrames Declaration public List<Texture2D> HurtFrames Field Value Type Description List < Texture2D > IdleFrames Declaration public List<Texture2D> IdleFrames Field Value Type Description List < Texture2D > JumpFrames Declaration public List<Texture2D> JumpFrames Field Value Type Description List < Texture2D > KnockbackSpeed Declaration public float KnockbackSpeed Field Value Type Description Single meshRenderer Declaration public Renderer meshRenderer Field Value Type Description Renderer ProjectilePrefab Declaration public GameObject ProjectilePrefab Field Value Type Description GameObject SlowDownRate Declaration public float SlowDownRate Field Value Type Description Single SpeedAirbone Declaration public float SpeedAirbone Field Value Type Description Single SpeedGrounded Declaration public float SpeedGrounded Field Value Type Description Single SpeedJump Declaration public float SpeedJump Field Value Type Description Single SpeedKickstart Declaration public float SpeedKickstart Field Value Type Description Single StillJumpSpeedModifier Declaration public float StillJumpSpeedModifier Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D > Properties isGrounded Declaration public bool isGrounded { get; } Property Value Type Description Boolean isOnMoving Declaration public bool isOnMoving { get; } Property Value Type Description Boolean rb Declaration public Rigidbody2D rb { get; } Property Value Type Description Rigidbody2D Methods Attack() Atak Krótkodystansowy Declaration public IEnumerator Attack() Returns Type Description IEnumerator Attack2() Atak Długodystansowy Declaration public IEnumerator Attack2() Returns Type Description IEnumerator ReceiveDamageKnockback() Gracz otrzymuje obrażenia Declaration public void ReceiveDamageKnockback()"
+  },
+  "api/Global.PlayerTestingUI.html": {
+    "href": "api/Global.PlayerTestingUI.html",
+    "title": "Class PlayerTestingUI | PAdam Softworks",
+    "keywords": "Class PlayerTestingUI Inheritance Object PlayerTestingUI Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlayerTestingUI : MonoBehaviour Fields TestingUI Declaration public GameObject TestingUI Field Value Type Description GameObject UITextPrefab Declaration public GameObject UITextPrefab Field Value Type Description GameObject"
+  },
+  "api/Global.ProjectileController.html": {
+    "href": "api/Global.ProjectileController.html",
+    "title": "Class ProjectileController | PAdam Softworks",
+    "keywords": "Class ProjectileController Inheritance Object ProjectileController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ProjectileController : MonoBehaviour Methods Shoot(Vector3, Single, Vector2, Single) Declaration public void Shoot(Vector3 position, float speed, Vector2 direction, float lifeTime) Parameters Type Name Description Vector3 position Single speed Vector2 direction Single lifeTime"
+  },
+  "api/Global.ScoreManager.html": {
+    "href": "api/Global.ScoreManager.html",
+    "title": "Class ScoreManager | PAdam Softworks",
+    "keywords": "Class ScoreManager Inheritance Object ScoreManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ScoreManager : MonoBehaviour Fields scoreText Declaration public Text scoreText Field Value Type Description Text Properties ScoreCount Declaration public int ScoreCount { get; } Property Value Type Description Int32 Methods AddScore(Int32) Declaration public void AddScore(int scoreToAdd) Parameters Type Name Description Int32 scoreToAdd RemoveScore(Int32) Removes given score number from score. Score will be always positive Declaration public void RemoveScore(int scoreToRemove) Parameters Type Name Description Int32 scoreToRemove ResetScore() Resets score count to 0 Declaration public void ResetScore()"
+  },
+  "api/Global.ScrollingCameraController.html": {
+    "href": "api/Global.ScrollingCameraController.html",
+    "title": "Class ScrollingCameraController | PAdam Softworks",
+    "keywords": "Class ScrollingCameraController Inheritance Object ScrollingCameraController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ScrollingCameraController : MonoBehaviour Fields HeightOffset Declaration public float HeightOffset Field Value Type Description Single SmoothTime Declaration public float SmoothTime Field Value Type Description Single target Declaration public Transform target Field Value Type Description Transform"
+  },
+  "api/Global.SpiderController.html": {
+    "href": "api/Global.SpiderController.html",
+    "title": "Class SpiderController | PAdam Softworks",
+    "keywords": "Class SpiderController Inheritance Object SpiderController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpiderController : MonoBehaviour Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single isMove Declaration public bool isMove Field Value Type Description Boolean Speed Declaration public float Speed Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D >"
+  },
+  "api/Global.TimerController.html": {
+    "href": "api/Global.TimerController.html",
+    "title": "Class TimerController | PAdam Softworks",
+    "keywords": "Class TimerController Inheritance Object TimerController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TimerController : MonoBehaviour Fields Instance Declaration public static TimerController Instance Field Value Type Description TimerController timeCounter Declaration public Text timeCounter Field Value Type Description Text Properties GetElapsedTime Elapsed time of timer in seconds Declaration public float GetElapsedTime { get; } Property Value Type Description Single IsTimerActive Returns state of timer, active or stopped Declaration public bool IsTimerActive { get; } Property Value Type Description Boolean Methods ResumeTimer() Resumes timer if the timer was stopped Declaration public void ResumeTimer() StartTimer(Boolean) Start/restarts timer. Should be called by main level/scene controller Declaration public void StartTimer(bool resetTime = true) Parameters Type Name Description Boolean resetTime True if time should reset, false if time counter should continue StopTimer() Stops the timer. Doesn't reset the time Declaration public void StopTimer()"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER | PAdam Softworks",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here! | PAdam Softworks",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | PAdam Softworks",
+    "keywords": "This is the HOMEPAGE . Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
