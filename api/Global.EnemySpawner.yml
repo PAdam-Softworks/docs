@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EnemySpawner
+  commentId: T:Global.EnemySpawner
+  id: EnemySpawner
+  parent: Global
+  children:
+  - Global.EnemySpawner.SpawnCount
+  - Global.EnemySpawner.SpawnDelay
+  - Global.EnemySpawner.spawnDirection
+  - Global.EnemySpawner.SpawnPrefab
+  langs:
+  - csharp
+  - vb
+  name: EnemySpawner
+  nameWithType: EnemySpawner
+  fullName: EnemySpawner
+  type: Class
+  source:
+    id: EnemySpawner
+    path: ''
+    startLine: 33
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class EnemySpawner : MonoBehaviour'
+    content.vb: >-
+      Public Class EnemySpawner
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EnemySpawner.SpawnCount
+  commentId: F:Global.EnemySpawner.SpawnCount
+  id: SpawnCount
+  parent: Global.EnemySpawner
+  langs:
+  - csharp
+  - vb
+  name: SpawnCount
+  nameWithType: EnemySpawner.SpawnCount
+  fullName: EnemySpawner.SpawnCount
+  type: Field
+  source:
+    id: SpawnCount
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int SpawnCount
+    return:
+      type: System.Int32
+    content.vb: Public SpawnCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EnemySpawner.SpawnDelay
+  commentId: F:Global.EnemySpawner.SpawnDelay
+  id: SpawnDelay
+  parent: Global.EnemySpawner
+  langs:
+  - csharp
+  - vb
+  name: SpawnDelay
+  nameWithType: EnemySpawner.SpawnDelay
+  fullName: EnemySpawner.SpawnDelay
+  type: Field
+  source:
+    id: SpawnDelay
+    path: ''
+    startLine: 36
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float SpawnDelay
+    return:
+      type: System.Single
+    content.vb: Public SpawnDelay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EnemySpawner.SpawnPrefab
+  commentId: F:Global.EnemySpawner.SpawnPrefab
+  id: SpawnPrefab
+  parent: Global.EnemySpawner
+  langs:
+  - csharp
+  - vb
+  name: SpawnPrefab
+  nameWithType: EnemySpawner.SpawnPrefab
+  fullName: EnemySpawner.SpawnPrefab
+  type: Field
+  source:
+    id: SpawnPrefab
+    path: ''
+    startLine: 38
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject SpawnPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public SpawnPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EnemySpawner.spawnDirection
+  commentId: F:Global.EnemySpawner.spawnDirection
+  id: spawnDirection
+  parent: Global.EnemySpawner
+  langs:
+  - csharp
+  - vb
+  name: spawnDirection
+  nameWithType: EnemySpawner.spawnDirection
+  fullName: EnemySpawner.spawnDirection
+  type: Field
+  source:
+    id: spawnDirection
+    path: ''
+    startLine: 39
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2 spawnDirection
+    return:
+      type: Global.Vector2
+    content.vb: Public spawnDirection As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

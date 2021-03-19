@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TimerController
+  commentId: T:Global.TimerController
+  id: TimerController
+  parent: Global
+  children:
+  - Global.TimerController.GetElapsedTime
+  - Global.TimerController.Instance
+  - Global.TimerController.IsTimerActive
+  - Global.TimerController.ResumeTimer
+  - Global.TimerController.StartTimer(System.Boolean)
+  - Global.TimerController.StopTimer
+  - Global.TimerController.timeCounter
+  langs:
+  - csharp
+  - vb
+  name: TimerController
+  nameWithType: TimerController
+  fullName: TimerController
+  type: Class
+  source:
+    id: TimerController
+    path: ''
+    startLine: 734
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TimerController : MonoBehaviour'
+    content.vb: >-
+      Public Class TimerController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TimerController.Instance
+  commentId: F:Global.TimerController.Instance
+  id: Instance
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: TimerController.Instance
+  fullName: TimerController.Instance
+  type: Field
+  source:
+    id: Instance
+    path: ''
+    startLine: 736
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static TimerController Instance
+    return:
+      type: Global.TimerController
+    content.vb: Public Shared Instance As TimerController
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.TimerController.timeCounter
+  commentId: F:Global.TimerController.timeCounter
+  id: timeCounter
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: timeCounter
+  nameWithType: TimerController.timeCounter
+  fullName: TimerController.timeCounter
+  type: Field
+  source:
+    id: timeCounter
+    path: ''
+    startLine: 737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text timeCounter
+    return:
+      type: Global.Text
+    content.vb: Public timeCounter As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimerController.IsTimerActive
+  commentId: P:Global.TimerController.IsTimerActive
+  id: IsTimerActive
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: IsTimerActive
+  nameWithType: TimerController.IsTimerActive
+  fullName: TimerController.IsTimerActive
+  type: Property
+  source:
+    id: IsTimerActive
+    path: ''
+    startLine: 742
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nReturns state of timer, active or stopped\n"
+  example: []
+  syntax:
+    content: public bool IsTimerActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTimerActive As Boolean
+  overload: Global.TimerController.IsTimerActive*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.TimerController.GetElapsedTime
+  commentId: P:Global.TimerController.GetElapsedTime
+  id: GetElapsedTime
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: GetElapsedTime
+  nameWithType: TimerController.GetElapsedTime
+  fullName: TimerController.GetElapsedTime
+  type: Property
+  source:
+    id: GetElapsedTime
+    path: ''
+    startLine: 747
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nElapsed time of timer in seconds\n"
+  example: []
+  syntax:
+    content: public float GetElapsedTime { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property GetElapsedTime As Single
+  overload: Global.TimerController.GetElapsedTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.TimerController.StartTimer(System.Boolean)
+  commentId: M:Global.TimerController.StartTimer(System.Boolean)
+  id: StartTimer(System.Boolean)
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: StartTimer(Boolean)
+  nameWithType: TimerController.StartTimer(Boolean)
+  fullName: TimerController.StartTimer(System.Boolean)
+  type: Method
+  source:
+    id: StartTimer
+    path: ''
+    startLine: 767
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStart/restarts timer. Should be called by main level/scene controller\n"
+  example: []
+  syntax:
+    content: public void StartTimer(bool resetTime = true)
+    parameters:
+    - id: resetTime
+      type: System.Boolean
+      description: True if time should reset, false if time counter should continue
+    content.vb: Public Sub StartTimer(resetTime As Boolean = True)
+  overload: Global.TimerController.StartTimer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimerController.ResumeTimer
+  commentId: M:Global.TimerController.ResumeTimer
+  id: ResumeTimer
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: ResumeTimer()
+  nameWithType: TimerController.ResumeTimer()
+  fullName: TimerController.ResumeTimer()
+  type: Method
+  source:
+    id: ResumeTimer
+    path: ''
+    startLine: 778
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nResumes timer if the timer was stopped\n"
+  example: []
+  syntax:
+    content: public void ResumeTimer()
+    content.vb: Public Sub ResumeTimer
+  overload: Global.TimerController.ResumeTimer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TimerController.StopTimer
+  commentId: M:Global.TimerController.StopTimer
+  id: StopTimer
+  parent: Global.TimerController
+  langs:
+  - csharp
+  - vb
+  name: StopTimer()
+  nameWithType: TimerController.StopTimer()
+  fullName: TimerController.StopTimer()
+  type: Method
+  source:
+    id: StopTimer
+    path: ''
+    startLine: 788
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nStops the timer. Doesn&apos;t reset the time\n"
+  example: []
+  syntax:
+    content: public void StopTimer()
+    content.vb: Public Sub StopTimer
+  overload: Global.TimerController.StopTimer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.TimerController
+  commentId: T:Global.TimerController
+  name: TimerController
+  nameWithType: TimerController
+  fullName: TimerController
+- uid: Global.Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Global.TimerController.IsTimerActive*
+  commentId: Overload:Global.TimerController.IsTimerActive
+  name: IsTimerActive
+  nameWithType: TimerController.IsTimerActive
+  fullName: TimerController.IsTimerActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TimerController.GetElapsedTime*
+  commentId: Overload:Global.TimerController.GetElapsedTime
+  name: GetElapsedTime
+  nameWithType: TimerController.GetElapsedTime
+  fullName: TimerController.GetElapsedTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.TimerController.StartTimer*
+  commentId: Overload:Global.TimerController.StartTimer
+  name: StartTimer
+  nameWithType: TimerController.StartTimer
+  fullName: TimerController.StartTimer
+- uid: Global.TimerController.ResumeTimer*
+  commentId: Overload:Global.TimerController.ResumeTimer
+  name: ResumeTimer
+  nameWithType: TimerController.ResumeTimer
+  fullName: TimerController.ResumeTimer
+- uid: Global.TimerController.StopTimer*
+  commentId: Overload:Global.TimerController.StopTimer
+  name: StopTimer
+  nameWithType: TimerController.StopTimer
+  fullName: TimerController.StopTimer

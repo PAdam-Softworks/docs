@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ScoreManager
+  commentId: T:Global.ScoreManager
+  id: ScoreManager
+  parent: Global
+  children:
+  - Global.ScoreManager.AddScore(System.Int32)
+  - Global.ScoreManager.RemoveScore(System.Int32)
+  - Global.ScoreManager.ResetScore
+  - Global.ScoreManager.ScoreCount
+  - Global.ScoreManager.scoreText
+  langs:
+  - csharp
+  - vb
+  name: ScoreManager
+  nameWithType: ScoreManager
+  fullName: ScoreManager
+  type: Class
+  source:
+    id: ScoreManager
+    path: ''
+    startLine: 586
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ScoreManager : MonoBehaviour'
+    content.vb: >-
+      Public Class ScoreManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ScoreManager.scoreText
+  commentId: F:Global.ScoreManager.scoreText
+  id: scoreText
+  parent: Global.ScoreManager
+  langs:
+  - csharp
+  - vb
+  name: scoreText
+  nameWithType: ScoreManager.scoreText
+  fullName: ScoreManager.scoreText
+  type: Field
+  source:
+    id: scoreText
+    path: ''
+    startLine: 588
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Text scoreText
+    return:
+      type: Global.Text
+    content.vb: Public scoreText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScoreManager.ScoreCount
+  commentId: P:Global.ScoreManager.ScoreCount
+  id: ScoreCount
+  parent: Global.ScoreManager
+  langs:
+  - csharp
+  - vb
+  name: ScoreCount
+  nameWithType: ScoreManager.ScoreCount
+  fullName: ScoreManager.ScoreCount
+  type: Property
+  source:
+    id: ScoreCount
+    path: ''
+    startLine: 590
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int ScoreCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ScoreCount As Integer
+  overload: Global.ScoreManager.ScoreCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.ScoreManager.AddScore(System.Int32)
+  commentId: M:Global.ScoreManager.AddScore(System.Int32)
+  id: AddScore(System.Int32)
+  parent: Global.ScoreManager
+  langs:
+  - csharp
+  - vb
+  name: AddScore(Int32)
+  nameWithType: ScoreManager.AddScore(Int32)
+  fullName: ScoreManager.AddScore(System.Int32)
+  type: Method
+  source:
+    id: AddScore
+    path: ''
+    startLine: 594
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddScore(int scoreToAdd)
+    parameters:
+    - id: scoreToAdd
+      type: System.Int32
+    content.vb: Public Sub AddScore(scoreToAdd As Integer)
+  overload: Global.ScoreManager.AddScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScoreManager.RemoveScore(System.Int32)
+  commentId: M:Global.ScoreManager.RemoveScore(System.Int32)
+  id: RemoveScore(System.Int32)
+  parent: Global.ScoreManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveScore(Int32)
+  nameWithType: ScoreManager.RemoveScore(Int32)
+  fullName: ScoreManager.RemoveScore(System.Int32)
+  type: Method
+  source:
+    id: RemoveScore
+    path: ''
+    startLine: 603
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nRemoves given score number from score. Score will be always positive\n"
+  example: []
+  syntax:
+    content: public void RemoveScore(int scoreToRemove)
+    parameters:
+    - id: scoreToRemove
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub RemoveScore(scoreToRemove As Integer)
+  overload: Global.ScoreManager.RemoveScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScoreManager.ResetScore
+  commentId: M:Global.ScoreManager.ResetScore
+  id: ResetScore
+  parent: Global.ScoreManager
+  langs:
+  - csharp
+  - vb
+  name: ResetScore()
+  nameWithType: ScoreManager.ResetScore()
+  fullName: ScoreManager.ResetScore()
+  type: Method
+  source:
+    id: ResetScore
+    path: ''
+    startLine: 611
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nResets score count to 0\n"
+  example: []
+  syntax:
+    content: public void ResetScore()
+    content.vb: Public Sub ResetScore
+  overload: Global.ScoreManager.ResetScore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Global.ScoreManager.ScoreCount*
+  commentId: Overload:Global.ScoreManager.ScoreCount
+  name: ScoreCount
+  nameWithType: ScoreManager.ScoreCount
+  fullName: ScoreManager.ScoreCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ScoreManager.AddScore*
+  commentId: Overload:Global.ScoreManager.AddScore
+  name: AddScore
+  nameWithType: ScoreManager.AddScore
+  fullName: ScoreManager.AddScore
+- uid: Global.ScoreManager.RemoveScore*
+  commentId: Overload:Global.ScoreManager.RemoveScore
+  name: RemoveScore
+  nameWithType: ScoreManager.RemoveScore
+  fullName: ScoreManager.RemoveScore
+- uid: Global.ScoreManager.ResetScore*
+  commentId: Overload:Global.ScoreManager.ResetScore
+  name: ResetScore
+  nameWithType: ScoreManager.ResetScore
+  fullName: ScoreManager.ResetScore

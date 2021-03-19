@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ScrollingCameraController
+  commentId: T:Global.ScrollingCameraController
+  id: ScrollingCameraController
+  parent: Global
+  children:
+  - Global.ScrollingCameraController.HeightOffset
+  - Global.ScrollingCameraController.SmoothTime
+  - Global.ScrollingCameraController.target
+  langs:
+  - csharp
+  - vb
+  name: ScrollingCameraController
+  nameWithType: ScrollingCameraController
+  fullName: ScrollingCameraController
+  type: Class
+  source:
+    id: ScrollingCameraController
+    path: ''
+    startLine: 627
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ScrollingCameraController : MonoBehaviour'
+    content.vb: >-
+      Public Class ScrollingCameraController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ScrollingCameraController.target
+  commentId: F:Global.ScrollingCameraController.target
+  id: target
+  parent: Global.ScrollingCameraController
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: ScrollingCameraController.target
+  fullName: ScrollingCameraController.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform target
+    return:
+      type: Global.Transform
+    content.vb: Public target As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScrollingCameraController.SmoothTime
+  commentId: F:Global.ScrollingCameraController.SmoothTime
+  id: SmoothTime
+  parent: Global.ScrollingCameraController
+  langs:
+  - csharp
+  - vb
+  name: SmoothTime
+  nameWithType: ScrollingCameraController.SmoothTime
+  fullName: ScrollingCameraController.SmoothTime
+  type: Field
+  source:
+    id: SmoothTime
+    path: ''
+    startLine: 630
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float SmoothTime
+    return:
+      type: System.Single
+    content.vb: Public SmoothTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScrollingCameraController.HeightOffset
+  commentId: F:Global.ScrollingCameraController.HeightOffset
+  id: HeightOffset
+  parent: Global.ScrollingCameraController
+  langs:
+  - csharp
+  - vb
+  name: HeightOffset
+  nameWithType: ScrollingCameraController.HeightOffset
+  fullName: ScrollingCameraController.HeightOffset
+  type: Field
+  source:
+    id: HeightOffset
+    path: ''
+    startLine: 631
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float HeightOffset
+    return:
+      type: System.Single
+    content.vb: Public HeightOffset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Transform
+  commentId: '!:Global.Transform'
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

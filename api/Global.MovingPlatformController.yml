@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MovingPlatformController
+  commentId: T:Global.MovingPlatformController
+  id: MovingPlatformController
+  parent: Global
+  children:
+  - Global.MovingPlatformController.Direction
+  - Global.MovingPlatformController.PositionDelta
+  - Global.MovingPlatformController.Speed
+  langs:
+  - csharp
+  - vb
+  name: MovingPlatformController
+  nameWithType: MovingPlatformController
+  fullName: MovingPlatformController
+  type: Class
+  source:
+    id: MovingPlatformController
+    path: ''
+    startLine: 152
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MovingPlatformController : MonoBehaviour'
+    content.vb: >-
+      Public Class MovingPlatformController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MovingPlatformController.Speed
+  commentId: F:Global.MovingPlatformController.Speed
+  id: Speed
+  parent: Global.MovingPlatformController
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: MovingPlatformController.Speed
+  fullName: MovingPlatformController.Speed
+  type: Field
+  source:
+    id: Speed
+    path: ''
+    startLine: 154
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float Speed
+    return:
+      type: System.Single
+    content.vb: Public Speed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MovingPlatformController.Direction
+  commentId: F:Global.MovingPlatformController.Direction
+  id: Direction
+  parent: Global.MovingPlatformController
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: MovingPlatformController.Direction
+  fullName: MovingPlatformController.Direction
+  type: Field
+  source:
+    id: Direction
+    path: ''
+    startLine: 155
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2 Direction
+    return:
+      type: Global.Vector2
+    content.vb: Public Direction As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MovingPlatformController.PositionDelta
+  commentId: F:Global.MovingPlatformController.PositionDelta
+  id: PositionDelta
+  parent: Global.MovingPlatformController
+  langs:
+  - csharp
+  - vb
+  name: PositionDelta
+  nameWithType: MovingPlatformController.PositionDelta
+  fullName: MovingPlatformController.PositionDelta
+  type: Field
+  source:
+    id: PositionDelta
+    path: ''
+    startLine: 158
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 PositionDelta
+    return:
+      type: Global.Vector3
+    content.vb: Public PositionDelta As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
