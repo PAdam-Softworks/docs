@@ -69,10 +69,15 @@
     "title": "Dokumentacja API | PAdam Softworks",
     "keywords": "Dokumentacja API"
   },
+  "articles/howToAddNewDocument.html": {
+    "href": "articles/howToAddNewDocument.html",
+    "title": "Dodawanie nowej dokumentacji | PAdam Softworks",
+    "keywords": "Dodawanie nowej dokumentacji Instalacja DocFX na lokalnej maszynie (opcjonalne) Pobierz docfx z http://dotnet.github.io/docfx/ . Oficjalna dokumentacja dokładniej opisuje jak zainstalować docfx . Pobierz docfx.zip i rozpakuj zawartość np do folderu D:\\docfx\\ . Dodaj D:\\docfx\\ do PATH dzięki czemu docfx będzie dodane jako globalna polecenie. (Na Windowsie np. set PATH=%PATH%;D:\\docfx\\ .) Tworzenie nowego dokumentu W celu dodania nowego dokumentu do dokumentacji, należy stworzyć nowy plik markdown w folderze Documentation/articles . Struktura folderu articles będzie wyglądać następująco |- articles | |- intro.md | |- howToAddNewDocument.md | |- newDocument.md | |- ...restOfDocuments | |- toc.yml Uzupełnienie nowego dokumentu zawartością w formacie markdown. O formatowaniu markdown można przyczytać więcej tutaj . Aby dodać nowo dodany dokument do paska nawigacji należy wyedytować plik articles/toc.yml Przykładowy plik toc.yml pokazany jest poniżej: - name: Strona główna href: intro.md - name: Dodawanie dokumentacji href: howToAddNewDocument.md - name: Nowy dokument href: newDocument.md Więcej na temat pliku toc.yml można przeczytać w oficjalnej dokumentacji . Testowanie lokalne Aby przetestować wprowadzone zmiany lokalnie należy zainstalować DocFX na lokalnej maszynie. Następnie w folderze Documentation wykonujemy polecenie docfx .\\docfx.json --serve . Po zbudowaniu pod adresem http://localhost:8080 znajdować się bedzię nowo zbudowana dokumentacja która powinna wyglądać podobnie do:"
+  },
   "articles/intro.html": {
     "href": "articles/intro.html",
-    "title": "Add your introductions here! | PAdam Softworks",
-    "keywords": "Add your introductions here!"
+    "title": "Strona główna | PAdam Softworks",
+    "keywords": "Strona główna Opis strony głównej"
   },
   "index.html": {
     "href": "index.html",
