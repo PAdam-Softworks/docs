@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HoboController
+    <title>Class EntityHealthSystem
    | PAdam Softworks </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HoboController
+    <meta name="title" content="Class EntityHealthSystem
    | PAdam Softworks ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -77,34 +77,91 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.HoboController">
+            <article class="content wrap" id="_content" data-uid="Health.EntityHealthSystem">
   
   
-  <h1 id="Global_HoboController" data-uid="Global.HoboController" class="text-break">Class HoboController
+  <h1 id="Health_EntityHealthSystem" data-uid="Health.EntityHealthSystem" class="text-break">Class EntityHealthSystem
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">HoboController</span></div>
+    <div class="level1"><a class="xref" href="Health.BaseHealthSystem.html">BaseHealthSystem</a></div>
+    <div class="level2"><span class="xref">EntityHealthSystem</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Health.IDamageable.html">IDamageable</a></div>
+    <div><a class="xref" href="Health.IHealthPoint.html">IHealthPoint</a></div>
+    <div><a class="xref" href="Health.IHealable.html">IHealable</a></div>
+    <div><a class="xref" href="Health.IRevivable.html">IRevivable</a></div>
+    <div><a class="xref" href="Health.IDamageInvurnelable.html">IDamageInvurnelable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem__currentHealth">BaseHealthSystem._currentHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem__maxHealth">BaseHealthSystem._maxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem__invulnerable">BaseHealthSystem._invulnerable</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem__invulnerabilityTimer">BaseHealthSystem._invulnerabilityTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_HealthValue">BaseHealthSystem.HealthValue</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_MaxHealth">BaseHealthSystem.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_IsDead">BaseHealthSystem.IsDead</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_InvurnelableAfterDamage">BaseHealthSystem.InvurnelableAfterDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_InvulnerabilityDuration">BaseHealthSystem.InvulnerabilityDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_Update">BaseHealthSystem.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_TakeDamage_System_Int32_">BaseHealthSystem.TakeDamage(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_Heal_System_Int32_">BaseHealthSystem.Heal(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_Revive">BaseHealthSystem.Revive()</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_EnableInvulnerability_System_Boolean_">BaseHealthSystem.EnableInvulnerability(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_DisableInvulnerability">BaseHealthSystem.DisableInvulnerability()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Health.html">Health</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_HoboController_syntax">Syntax</h5>
+  <h5 id="Health_EntityHealthSystem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HoboController : BaseEnemy</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityHealthSystem : BaseHealthSystem, IDamageable, IHealthPoint, IHealable, IRevivable, IDamageInvurnelable</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_HoboController_AnimationTimeScale" data-uid="Global.HoboController.AnimationTimeScale">AnimationTimeScale</h4>
+  <h4 id="Health_EntityHealthSystem_OnDamaged" data-uid="Health.EntityHealthSystem.OnDamaged">OnDamaged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float AnimationTimeScale</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnDamaged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,19 +173,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_HoboController_bloodSplashEffect" data-uid="Global.HoboController.bloodSplashEffect">bloodSplashEffect</h4>
+  <h4 id="Health_EntityHealthSystem_OnDeath" data-uid="Health.EntityHealthSystem.OnDeath">OnDeath</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject bloodSplashEffect</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnDeath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,19 +197,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">UnityEvent</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_HoboController_isMove" data-uid="Global.HoboController.isMove">isMove</h4>
+  <h4 id="Health_EntityHealthSystem_OnHealed" data-uid="Health.EntityHealthSystem.OnHealed">OnHealed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isMove</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnHealed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,19 +221,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_HoboController_moveDirection" data-uid="Global.HoboController.moveDirection">moveDirection</h4>
+  <h4 id="Health_EntityHealthSystem_OnHealthChanged" data-uid="Health.EntityHealthSystem.OnHealthChanged">OnHealthChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 moveDirection</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnHealthChanged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,19 +245,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector2</span></td>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_HoboController_Speed" data-uid="Global.HoboController.Speed">Speed</h4>
+  <h4 id="Health_EntityHealthSystem_OnMaxHealthChanged" data-uid="Health.EntityHealthSystem.OnMaxHealthChanged">OnMaxHealthChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Speed</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnMaxHealthChanged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,19 +269,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_HoboController_WalkFrames" data-uid="Global.HoboController.WalkFrames">WalkFrames</h4>
+  <h4 id="Health_EntityHealthSystem_OnRevived" data-uid="Health.EntityHealthSystem.OnRevived">OnRevived</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; WalkFrames</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent OnRevived</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -236,7 +293,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Texture2D</span>&gt;</td>
+        <td><span class="xref">UnityEvent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -245,13 +302,73 @@
   </h3>
   
   
-  <a id="Global_HoboController_OnDeath_" data-uid="Global.HoboController.OnDeath*"></a>
-  <h4 id="Global_HoboController_OnDeath" data-uid="Global.HoboController.OnDeath">OnDeath()</h4>
+  <a id="Health_EntityHealthSystem_ChangeHealth_" data-uid="Health.EntityHealthSystem.ChangeHealth*"></a>
+  <h4 id="Health_EntityHealthSystem_ChangeHealth_System_Int32_" data-uid="Health.EntityHealthSystem.ChangeHealth(System.Int32)">ChangeHealth(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDeath()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override HealthChangeResult ChangeHealth(int amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Health.HealthChangeResult.html">HealthChangeResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Health.BaseHealthSystem.html#Health_BaseHealthSystem_ChangeHealth_System_Int32_">BaseHealthSystem.ChangeHealth(Int32)</a></div>
+  
+  
+  <a id="Health_EntityHealthSystem_Start_" data-uid="Health.EntityHealthSystem.Start*"></a>
+  <h4 id="Health_EntityHealthSystem_Start" data-uid="Health.EntityHealthSystem.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Start()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Health.IDamageable.html">IDamageable</a>
+  </div>
+  <div>
+      <a class="xref" href="Health.IHealthPoint.html">IHealthPoint</a>
+  </div>
+  <div>
+      <a class="xref" href="Health.IHealable.html">IHealable</a>
+  </div>
+  <div>
+      <a class="xref" href="Health.IRevivable.html">IRevivable</a>
+  </div>
+  <div>
+      <a class="xref" href="Health.IDamageInvurnelable.html">IDamageInvurnelable</a>
   </div>
 </article>
           </div>

@@ -14,6 +14,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Enemy.BaseEnemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enemy.BaseEnemy.html",
+          "hash": "ulkptNf0WNublzg3SCInQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enemy.Healthbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enemy.Healthbar.html",
+          "hash": "lnih/PZI94444mvJdBdvPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enemy.IEnemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enemy.IEnemy.html",
+          "hash": "xl5UZgGEkPfVYC1ouwtRvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Enemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Enemy.html",
+          "hash": "WOA5OjBe5n2HTxbjYNuYiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.AttackController.yml",
       "output": {
         ".html": {
@@ -38,6 +86,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.DestroyAfterTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DestroyAfterTime.html",
+          "hash": "mlfc6GvOTBULh5GeZ/Z70A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.EnemySpawner.yml",
       "output": {
         ".html": {
@@ -54,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoboController.html",
-          "hash": "ceZ9S2Nq7LocEu92wwAHAg=="
+          "hash": "W+naEXaPETSsiCJd/LLaeg=="
         }
       },
       "is_incremental": false,
@@ -78,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "gIwJc+vhdU4mSFUDLCHaFQ=="
+          "hash": "w/BxA+6TLTtwYj+crcYg9w=="
         }
       },
       "is_incremental": false,
@@ -162,7 +222,127 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "omCSwStK0RPZVXx95U5XxA=="
+          "hash": "N5AWgLDonE+3M2EFg8m/tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.BaseHealthSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.BaseHealthSystem.html",
+          "hash": "ahpYuuq+wgcT3A7LSN8IDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.EntityHealthSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.EntityHealthSystem.html",
+          "hash": "PmUzNLRFxU43bDWftAlM6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.HealthChangeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.HealthChangeResult.html",
+          "hash": "TWIp4utGVYR7UFaYG468Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.HeartContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.HeartContainer.html",
+          "hash": "8AR/16J/NAX9Gy24qnTfww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.IDamageInvurnelable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.IDamageInvurnelable.html",
+          "hash": "KRv3PwHPxCconYXMump1Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.IDamageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.IDamageable.html",
+          "hash": "MgjUunLqOOcf+LcSIhxOzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.IHealable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.IHealable.html",
+          "hash": "gGAER9V/BWDOBes5vDBcZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.IHealthPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.IHealthPoint.html",
+          "hash": "VC49tTqFeXHEj9OlyAKliw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.IRevivable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.IRevivable.html",
+          "hash": "BXItpi31dUihmwWBCHOAmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Health.html",
+          "hash": "3vlRC+ApWTR3aLexiqr1Kg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "7kNC2oJhch8ibdrTf/GoYg=="
+          "hash": "VoL4WAp9fdW9XlwevrLvWQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +486,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 13,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
