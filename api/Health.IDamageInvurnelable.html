@@ -96,7 +96,7 @@
   
   <a id="Health_IDamageInvurnelable_InvulnerabilityDuration_" data-uid="Health.IDamageInvurnelable.InvulnerabilityDuration*"></a>
   <h4 id="Health_IDamageInvurnelable_InvulnerabilityDuration" data-uid="Health.IDamageInvurnelable.InvulnerabilityDuration">InvulnerabilityDuration</h4>
-  <div class="markdown level1 summary"><p>Time of invulnerability after taking damage in seconds</p>
+  <div class="markdown level1 summary"><p>Czas nieśmiertelności po otrzymaniu obrażeń w sekundach. Działa tylko gdy <a class="xref" href="Health.IDamageInvurnelable.html#Health_IDamageInvurnelable_InvurnelableAfterDamage">InvurnelableAfterDamage</a> jest prawdą</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -122,7 +122,7 @@
   
   <a id="Health_IDamageInvurnelable_InvurnelableAfterDamage_" data-uid="Health.IDamageInvurnelable.InvurnelableAfterDamage*"></a>
   <h4 id="Health_IDamageInvurnelable_InvurnelableAfterDamage" data-uid="Health.IDamageInvurnelable.InvurnelableAfterDamage">InvurnelableAfterDamage</h4>
-  <div class="markdown level1 summary"><p>Is entity invurnelable after taking damage</p>
+  <div class="markdown level1 summary"><p>Czy jednostka jest nieśmiertelna po otrzymaniu obrażeń</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -150,7 +150,7 @@
   
   <a id="Health_IDamageInvurnelable_DisableInvulnerability_" data-uid="Health.IDamageInvurnelable.DisableInvulnerability*"></a>
   <h4 id="Health_IDamageInvurnelable_DisableInvulnerability" data-uid="Health.IDamageInvurnelable.DisableInvulnerability">DisableInvulnerability()</h4>
-  <div class="markdown level1 summary"><p>Set's invulnerability state to false, entity is no longer invulnerable</p>
+  <div class="markdown level1 summary"><p>Wyłączna stan nieśmiertelności jednostki</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -161,7 +161,7 @@
   
   <a id="Health_IDamageInvurnelable_EnableInvulnerability_" data-uid="Health.IDamageInvurnelable.EnableInvulnerability*"></a>
   <h4 id="Health_IDamageInvurnelable_EnableInvulnerability_System_Boolean_" data-uid="Health.IDamageInvurnelable.EnableInvulnerability(System.Boolean)">EnableInvulnerability(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Enables entity invulnerability</p>
+  <div class="markdown level1 summary"><p>Włącza stan nieśmiertelności jednostki</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -181,7 +181,7 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">enableTimer</span></td>
-        <td><p>Should the invulnerability timer be enabled. When false the invulnerability time will be float <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single.maxvalue">MaxValue</a></p>
+        <td><p>Czy timer nieśmiertelnośći powinien być włączony. Podczas fałszu <a class="xref" href="Health.IDamageInvurnelable.html#Health_IDamageInvurnelable_InvulnerabilityDuration">InvulnerabilityDuration</a> przyjmie wartość <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single.maxvalue">MaxValue</a></p>
 </td>
       </tr>
     </tbody>

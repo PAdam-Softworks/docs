@@ -82,7 +82,8 @@
   
   <h1 id="Health_BaseHealthSystem" data-uid="Health.BaseHealthSystem" class="text-break">Class BaseHealthSystem
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Podstawowy system życia obiektów</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -208,7 +209,8 @@
   
   <a id="Health_BaseHealthSystem_HealthValue_" data-uid="Health.BaseHealthSystem.HealthValue*"></a>
   <h4 id="Health_BaseHealthSystem_HealthValue" data-uid="Health.BaseHealthSystem.HealthValue">HealthValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Aktualna ilość punktów życia, nie może być większa niż <a class="xref" href="Health.IHealthPoint.html#Health_IHealthPoint_MaxHealth">MaxHealth</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -233,7 +235,8 @@
   
   <a id="Health_BaseHealthSystem_InvulnerabilityDuration_" data-uid="Health.BaseHealthSystem.InvulnerabilityDuration*"></a>
   <h4 id="Health_BaseHealthSystem_InvulnerabilityDuration" data-uid="Health.BaseHealthSystem.InvulnerabilityDuration">InvulnerabilityDuration</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Czas nieśmiertelności po otrzymaniu obrażeń w sekundach. Działa tylko gdy <a class="xref" href="Health.IDamageInvurnelable.html#Health_IDamageInvurnelable_InvurnelableAfterDamage">InvurnelableAfterDamage</a> jest prawdą</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -258,7 +261,8 @@
   
   <a id="Health_BaseHealthSystem_InvurnelableAfterDamage_" data-uid="Health.BaseHealthSystem.InvurnelableAfterDamage*"></a>
   <h4 id="Health_BaseHealthSystem_InvurnelableAfterDamage" data-uid="Health.BaseHealthSystem.InvurnelableAfterDamage">InvurnelableAfterDamage</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Czy jednostka jest nieśmiertelna po otrzymaniu obrażeń</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -283,7 +287,8 @@
   
   <a id="Health_BaseHealthSystem_IsDead_" data-uid="Health.BaseHealthSystem.IsDead*"></a>
   <h4 id="Health_BaseHealthSystem_IsDead" data-uid="Health.BaseHealthSystem.IsDead">IsDead</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Czy jednostka jest martwa, zazwyczaj gdy <a class="xref" href="Health.IHealthPoint.html#Health_IHealthPoint_HealthValue">HealthValue</a> jest mniejsze od 0</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -308,7 +313,8 @@
   
   <a id="Health_BaseHealthSystem_MaxHealth_" data-uid="Health.BaseHealthSystem.MaxHealth*"></a>
   <h4 id="Health_BaseHealthSystem_MaxHealth" data-uid="Health.BaseHealthSystem.MaxHealth">MaxHealth</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Maksymalna ilość punktów życia</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -335,7 +341,8 @@
   
   <a id="Health_BaseHealthSystem_ChangeHealth_" data-uid="Health.BaseHealthSystem.ChangeHealth*"></a>
   <h4 id="Health_BaseHealthSystem_ChangeHealth_System_Int32_" data-uid="Health.BaseHealthSystem.ChangeHealth(System.Int32)">ChangeHealth(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Funckja zmieniająca aktualną ilość życia</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -354,7 +361,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>Ilość życia do zmiany</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -369,7 +377,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Health.HealthChangeResult.html">HealthChangeResult</a></td>
-        <td></td>
+        <td><p>Zwraca <a class="xref" href="Health.HealthChangeResult.html">HealthChangeResult</a> z danymi o wykonanych operacjach</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -377,7 +386,8 @@
   
   <a id="Health_BaseHealthSystem_DisableInvulnerability_" data-uid="Health.BaseHealthSystem.DisableInvulnerability*"></a>
   <h4 id="Health_BaseHealthSystem_DisableInvulnerability" data-uid="Health.BaseHealthSystem.DisableInvulnerability">DisableInvulnerability()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Wyłączna stan nieśmiertelności jednostki</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -387,7 +397,8 @@
   
   <a id="Health_BaseHealthSystem_EnableInvulnerability_" data-uid="Health.BaseHealthSystem.EnableInvulnerability*"></a>
   <h4 id="Health_BaseHealthSystem_EnableInvulnerability_System_Boolean_" data-uid="Health.BaseHealthSystem.EnableInvulnerability(System.Boolean)">EnableInvulnerability(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Włącza stan nieśmiertelności jednostki</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -406,7 +417,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">enableTimer</span></td>
-        <td></td>
+        <td><p>Czy timer nieśmiertelnośći powinien być włączony. Podczas fałszu <a class="xref" href="Health.IDamageInvurnelable.html#Health_IDamageInvurnelable_InvulnerabilityDuration">InvulnerabilityDuration</a> przyjmie wartość <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single.maxvalue">MaxValue</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -414,7 +426,8 @@
   
   <a id="Health_BaseHealthSystem_Heal_" data-uid="Health.BaseHealthSystem.Heal*"></a>
   <h4 id="Health_BaseHealthSystem_Heal_System_Int32_" data-uid="Health.BaseHealthSystem.Heal(System.Int32)">Heal(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Wyleczenie obiektu o określoną ilość życia</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -433,7 +446,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">amount</span></td>
-        <td></td>
+        <td><p>Ilość życia do wyleczenia</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -441,7 +455,8 @@
   
   <a id="Health_BaseHealthSystem_Revive_" data-uid="Health.BaseHealthSystem.Revive*"></a>
   <h4 id="Health_BaseHealthSystem_Revive" data-uid="Health.BaseHealthSystem.Revive">Revive()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Wskrzeszenie obiektu</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -451,7 +466,8 @@
   
   <a id="Health_BaseHealthSystem_TakeDamage_" data-uid="Health.BaseHealthSystem.TakeDamage*"></a>
   <h4 id="Health_BaseHealthSystem_TakeDamage_System_Int32_" data-uid="Health.BaseHealthSystem.TakeDamage(System.Int32)">TakeDamage(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Otrzymanie określonej ilości obrażeń</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -470,7 +486,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">damage</span></td>
-        <td></td>
+        <td><p>Ilość życia do zabrania</p>
+</td>
       </tr>
     </tbody>
   </table>
