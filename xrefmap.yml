@@ -192,6 +192,50 @@ references:
   commentId: F:Global.MovingPlatformController.Speed
   fullName: MovingPlatformController.Speed
   nameWithType: MovingPlatformController.Speed
+- uid: Global.PauseMenu
+  name: PauseMenu
+  href: api/Global.PauseMenu.html
+  commentId: T:Global.PauseMenu
+  fullName: PauseMenu
+  nameWithType: PauseMenu
+- uid: Global.PauseMenu.IsPaused
+  name: IsPaused
+  href: api/Global.PauseMenu.html#Global_PauseMenu_IsPaused
+  commentId: F:Global.PauseMenu.IsPaused
+  fullName: PauseMenu.IsPaused
+  nameWithType: PauseMenu.IsPaused
+- uid: Global.PauseMenu.pauseMenuUI
+  name: pauseMenuUI
+  href: api/Global.PauseMenu.html#Global_PauseMenu_pauseMenuUI
+  commentId: F:Global.PauseMenu.pauseMenuUI
+  fullName: PauseMenu.pauseMenuUI
+  nameWithType: PauseMenu.pauseMenuUI
+- uid: Global.PauseMenu.QuitGame
+  name: QuitGame()
+  href: api/Global.PauseMenu.html#Global_PauseMenu_QuitGame
+  commentId: M:Global.PauseMenu.QuitGame
+  fullName: PauseMenu.QuitGame()
+  nameWithType: PauseMenu.QuitGame()
+- uid: Global.PauseMenu.QuitGame*
+  name: QuitGame
+  href: api/Global.PauseMenu.html#Global_PauseMenu_QuitGame_
+  commentId: Overload:Global.PauseMenu.QuitGame
+  isSpec: "True"
+  fullName: PauseMenu.QuitGame
+  nameWithType: PauseMenu.QuitGame
+- uid: Global.PauseMenu.Resume
+  name: Resume()
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Resume
+  commentId: M:Global.PauseMenu.Resume
+  fullName: PauseMenu.Resume()
+  nameWithType: PauseMenu.Resume()
+- uid: Global.PauseMenu.Resume*
+  name: Resume
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Resume_
+  commentId: Overload:Global.PauseMenu.Resume
+  isSpec: "True"
+  fullName: PauseMenu.Resume
+  nameWithType: PauseMenu.Resume
 - uid: Global.PlayerController
   name: PlayerController
   href: api/Global.PlayerController.html

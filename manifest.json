@@ -134,6 +134,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.PauseMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PauseMenu.html",
+          "hash": "MKUZIcD6rL/F8WI7dDfvVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.PlayerController.yml",
       "output": {
         ".html": {
@@ -222,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "N5AWgLDonE+3M2EFg8m/tA=="
+          "hash": "W8pL0mZV9SHiBRgMnV4fTw=="
         }
       },
       "is_incremental": false,
@@ -366,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "VoL4WAp9fdW9XlwevrLvWQ=="
+          "hash": "jVTXvLUVSLEl+siErI7qNg=="
         }
       },
       "is_incremental": false,
@@ -486,7 +498,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 28,
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

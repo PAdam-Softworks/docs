@@ -47,12 +47,17 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController MovingPlatformController PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController TimerController"
+    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController MovingPlatformController PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController TimerController"
   },
   "api/Global.MovingPlatformController.html": {
     "href": "api/Global.MovingPlatformController.html",
     "title": "Class MovingPlatformController | PAdam Softworks",
     "keywords": "Class MovingPlatformController Inheritance Object MovingPlatformController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MovingPlatformController : MonoBehaviour Fields Direction Declaration public Vector2 Direction Field Value Type Description Vector2 PositionDelta Declaration public Vector3 PositionDelta Field Value Type Description Vector3 Speed Declaration public float Speed Field Value Type Description Single"
+  },
+  "api/Global.PauseMenu.html": {
+    "href": "api/Global.PauseMenu.html",
+    "title": "Class PauseMenu | PAdam Softworks",
+    "keywords": "Class PauseMenu Inheritance Object PauseMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PauseMenu : MonoBehaviour Fields IsPaused Declaration public static bool IsPaused Field Value Type Description Boolean pauseMenuUI Declaration public GameObject pauseMenuUI Field Value Type Description GameObject Methods QuitGame() Declaration public void QuitGame() Resume() Declaration public void Resume()"
   },
   "api/Global.PlayerController.html": {
     "href": "api/Global.PlayerController.html",
