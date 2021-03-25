@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Strona g&#322;&#243;wna | PAdam Softworks </title>
+    <title>Obs&#322;uga przedmiot&#243;w | PAdam Softworks </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Strona g&#322;&#243;wna | PAdam Softworks ">
+    <meta name="title" content="Obs&#322;uga przedmiot&#243;w | PAdam Softworks ">
     <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
@@ -76,9 +76,29 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="strona-główna">Strona główna</h1>
+<h1 id="obsługa-przedmiotów">Obsługa przedmiotów</h1>
 
-<p>Opis strony głównej</p>
+<h2 id="dodawanie-przedmiotu-na-mapę">Dodawanie przedmiotu na mapę</h2>
+<p>Dodając przedmiot mamy dwie drogi postępowania - stworzenie przedmiotu od początku i podmienienie pliku metadanych, lub skopiowanie już istniejącej instancji. W przypadku drugiej ścieżki należy umieścić prefab &quot;ItemBase&quot; w świecie gry. Znajduje się on w katalogu <code>Resources/Items/</code>. Po utworzeniu i wybraniu z hierarchii ItemBase, w inspektorze powinien się pojawić taki widok:</p>
+<p><img src="../images/baseItemInspector.png" alt="Inspektor"></p>
+<p>Dobrym nawykiem przy pracy z przedmiotami będzie zablokowanie podglądu inspektora po przez naciśnięcie ikony kłódki (patrz AD. 1). Zablokuje to zmianę widoku w przypadku, gdy klikniemy na inny obiekt w drzewku projektu. Drugim polem (AD. 2) jest miejsce, gdzie podajemy plik z metadanymi danego przedmiotu. Pliki metadanowe powinny znajdować się pod ścieżką <code>Resources/Items/&lt;Nazwa przedmiotu&gt;/&lt;Nazwa przedmiotu&gt;.json</code>. Po wybraniu pliku z danymi, żeby zobaczyć zmiany w edytorze należy chociaż raz uruchomić &quot;Play mode&quot;.</p>
+<h2 id="deklarowanie-nowego-przedmiotu">Deklarowanie nowego przedmiotu</h2>
+<p>Deklaracja przedmiotu jest dość prosta. W ścieżce <code>Resources/Items/</code> należy stworzyć podkatalog z nazwą przedmiotu, a w nim plik <code>.json</code>. Jeśli przedmiot nazywa się <code>xyz</code> wtedy jego ścieżka powinna przybrać formę: <code>Resources/Items/xyz/xyz.json</code>. W pliku JSON, zadeklarować następującą strukturę pliku:</p>
+<pre><code class="lang-json">{
+  &quot;IsStackable&quot;: true, // Określa czy przedmiot łączy się z innymi przedmiotami tego samego rodzaju.
+  &quot;Type&quot;: 0, // Typ przedmiotu - niestety musi być podawany liczbowo. Wymagane, aby API wiedziało jak obsłużyć dany przedmiot.
+  &quot;Quantity&quot;: 1, // Ilość przedmiotu, który zostanie dodany do ekwipunku.
+  &quot;Texture&quot;: &quot;Items/xyz/xyz.png&quot;, // Tekstura, która zostanie ustawiona na przedmiocie.
+  &quot;Name&quot;: &quot;xyz&quot; // Nazwa przedmiotu - przydatne, gdy API potrzebuje sprawdzić jaki przedmiot wpadł do ekwipunku. Jeśli nazwa przedmiotu nie zostanie podana, zostanie ustawiona nazwa pliku, skąd były pobierane metadane.
+}
+</code></pre>
+<p>W obecnej wersji gry rozrózniamy 4 typy przedmiotów:</p>
+<pre><code>- Money - ID: 0
+- PowerUp - ID: 1
+- Ammunition - ID: 2
+- Health - ID: 3
+</code></pre>
+<p>Ostatnim krokiem jest dodanie tekstury <code>xyz.png</code> do katalogu <code>Items/xyz</code>.</p>
 </article>
           </div>
           
@@ -87,7 +107,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/dawidiaco/PAdam%20Softworks/_git/PAdam%20Softworks?path=Documentation/articles/intro.md&amp;version=GBInventory&amp;line=1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://dev.azure.com/dawidiaco/PAdam%20Softworks/_git/PAdam%20Softworks?path=Documentation/articles/creatingItems.md&amp;version=GBInventory&amp;line=1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
