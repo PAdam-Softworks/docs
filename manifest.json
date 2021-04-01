@@ -122,6 +122,78 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.IInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IInventory.html",
+          "hash": "Sc/doSUIwa3XgkiY3DHUoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Inventory.html",
+          "hash": "iz7ESWKANeeat8UTx8Pyfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InventoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InventoryController.html",
+          "hash": "DrIq4OzVEF6XKtY8MhffMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Item.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Item.ItemType.html",
+          "hash": "8Um5dfxON95Wzgnv0ALJKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Item.html",
+          "hash": "/POTzc4LIpe4in7431A3Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ItemController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ItemController.html",
+          "hash": "3MGU16nGueVaYGGu5hRrLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.MovingPlatformController.yml",
       "output": {
         ".html": {
@@ -218,6 +290,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestInventory.html",
+          "hash": "GmXI4IH38dHounqYj/v2Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.TimerController.yml",
       "output": {
         ".html": {
@@ -234,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "W8pL0mZV9SHiBRgMnV4fTw=="
+          "hash": "J8o/gaSlF7t2B00aXJ6fOQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +462,19 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jVTXvLUVSLEl+siErI7qNg=="
+          "hash": "HsIeof9bO+LSxK1aV/CEKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/creatingItems.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/creatingItems.html",
+          "hash": "mq3h/06zIo5VwcYAg4fJag=="
         }
       },
       "is_incremental": false,
@@ -414,7 +510,18 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "c1OE98WRHuQa8uRMAHSG5w=="
+          "hash": "a8k6k560KdRaOrFmaMOiIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/baseItemInspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/baseItemInspector.png"
         }
       },
       "is_incremental": false,
@@ -492,13 +599,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
+          "total_file_count": 36,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -47,7 +47,37 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController MovingPlatformController PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController TimerController"
+    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController Inventory Bazowa klasa ekwipunku. Obs�uguje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa r�wnie� wystawia metody niezb�dne do obserwowania, czy co� si� zmieni�o w kolekcji przedmiot�w. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowa� przedmiot�w na mapie. MovingPlatformController PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController TestInventory Testuje klase Inventory TimerController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
+  },
+  "api/Global.IInventory.html": {
+    "href": "api/Global.IInventory.html",
+    "title": "Interface IInventory | PAdam Softworks",
+    "keywords": "Interface IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Namespace : Global Assembly : cs.temp.dll.dll Syntax public interface IInventory Methods AddItem(Item) Dodaje przedmiot do ekwipunku Declaration void AddItem(Item item) Parameters Type Name Description Item item Przedmiot do dodania RemoveItem(Item) Usuwa przedmiot z ewkipunku Declaration void RemoveItem(Item item) Parameters Type Name Description Item item Przedmiot do usuni�cia"
+  },
+  "api/Global.Inventory.html": {
+    "href": "api/Global.Inventory.html",
+    "title": "Class Inventory | PAdam Softworks",
+    "keywords": "Class Inventory Bazowa klasa ekwipunku. Obs�uguje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa r�wnie� wystawia metody niezb�dne do obserwowania, czy co� si� zmieni�o w kolekcji przedmiot�w. Inheritance Object Inventory Implements IInventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Inventory : IInventory Properties ItemList Lista przedmiot�w w ekwpiunku. Declaration public ReadOnlyCollection<Item> ItemList { get; } Property Value Type Description ReadOnlyCollection < Item > Methods AddItem(Item) Dodaje przedmiot do ekwipunku Declaration public void AddItem(Item item) Parameters Type Name Description Item item Przedmiot do dodania RemoveItem(Item) Usuwa przedmiot z ewkipunku Declaration public void RemoveItem(Item item) Parameters Type Name Description Item item Przedmiot do usuni�cia Events CollectionChanged Zdarzenie informuj�ce o zmianie kolekcji przedmiot�w. Declaration public event EventHandler CollectionChanged Event Type Type Description EventHandler Remarks Zostaje wywo�ane po u�yciu metody Inventory.AddItem(Item) oraz Inventory.RemoveItem(Item) Implements IInventory"
+  },
+  "api/Global.InventoryController.html": {
+    "href": "api/Global.InventoryController.html",
+    "title": "Class InventoryController | PAdam Softworks",
+    "keywords": "Class InventoryController Kontroler dla ekwipunku gracza. Inheritance Object InventoryController Implements IInventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class InventoryController : MonoBehaviour, IInventory Methods AddItem(Item) Dodaje przedmiot do ekwipunku Declaration public void AddItem(Item item) Parameters Type Name Description Item item Przedmiot do dodania RemoveItem(Item) Usuwa przedmiot z ewkipunku Declaration public void RemoveItem(Item item) Parameters Type Name Description Item item Przedmiot do usuni�cia Implements IInventory"
+  },
+  "api/Global.Item.html": {
+    "href": "api/Global.Item.html",
+    "title": "Class Item | PAdam Softworks",
+    "keywords": "Class Item Model przedmiot�w w grze Inheritance Object Item Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Item Fields ID ID przedmiotu Declaration public int ID Field Value Type Description Int32 IsStackable Okre�la, czy przedmiot mo�e ��czy� si� z innymi przedmiotami tego samego typu Declaration public bool IsStackable Field Value Type Description Boolean Name Nazwa przedmiotu Declaration public string Name Field Value Type Description String Quantity Ilo�� przedmiotu Declaration public int Quantity Field Value Type Description Int32 Texture Tekstura reprezentuj�ca przedmot Declaration public string Texture Field Value Type Description String Type Typ przedmiotu Declaration public Item.ItemType Type Field Value Type Description Item.ItemType"
+  },
+  "api/Global.Item.ItemType.html": {
+    "href": "api/Global.Item.ItemType.html",
+    "title": "Enum Item.ItemType | PAdam Softworks",
+    "keywords": "Enum Item.ItemType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum ItemType Fields Name Description Ammunition Health Money PowerUp"
+  },
+  "api/Global.ItemController.html": {
+    "href": "api/Global.ItemController.html",
+    "title": "Class ItemController | PAdam Softworks",
+    "keywords": "Class ItemController Kontroler zachowa� przedmiot�w na mapie. Inheritance Object ItemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemController : MonoBehaviour Fields ItemData Declaration public TextAsset ItemData Field Value Type Description TextAsset"
   },
   "api/Global.MovingPlatformController.html": {
     "href": "api/Global.MovingPlatformController.html",
@@ -88,6 +118,11 @@
     "href": "api/Global.SpiderController.html",
     "title": "Class SpiderController | PAdam Softworks",
     "keywords": "Class SpiderController Inheritance Object SpiderController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpiderController : MonoBehaviour Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single isMove Declaration public bool isMove Field Value Type Description Boolean Speed Declaration public float Speed Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D >"
+  },
+  "api/Global.TestInventory.html": {
+    "href": "api/Global.TestInventory.html",
+    "title": "Class TestInventory | PAdam Softworks",
+    "keywords": "Class TestInventory Testuje klase Inventory Inheritance Object TestInventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TestInventory Methods AddItem_OnExistingItem_ItemQuantityIncreased() Jak item jest w EQ to podnosi jego ilo�� Declaration public void AddItem_OnExistingItem_ItemQuantityIncreased() AddItem_OnNewItem_CollectionCountIncreased() Sprawdza, czy jak nie ma itemu w inventory, to dodaje nowy item do EQ Declaration public void AddItem_OnNewItem_CollectionCountIncreased() RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() Sprawdza, czy ilo�� przedmiot�w w ekwipunku zostaje obni�ona, o ile r�nica przedmi�w jest wi�ksza ni� 0 Declaration public void RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() RemoveItem_OnQuantityBelowZero_ItemRemoved() Je�eli ilo�� przedmiot�w w eq jest mniejsza ni� 0, to powinen zosta� skasowany Declaration public void RemoveItem_OnQuantityBelowZero_ItemRemoved()"
   },
   "api/Global.TimerController.html": {
     "href": "api/Global.TimerController.html",
@@ -148,6 +183,11 @@
     "href": "api/index.html",
     "title": "Dokumentacja API | PAdam Softworks",
     "keywords": "Dokumentacja API"
+  },
+  "articles/creatingItems.html": {
+    "href": "articles/creatingItems.html",
+    "title": "Obsługa przedmiotów | PAdam Softworks",
+    "keywords": "Obsługa przedmiotów Dodawanie przedmiotu na mapę Dodając przedmiot mamy dwie drogi postępowania - stworzenie przedmiotu od początku i podmienienie pliku metadanych, lub skopiowanie już istniejącej instancji. W przypadku drugiej ścieżki należy umieścić prefab \"ItemBase\" w świecie gry. Znajduje się on w katalogu Resources/Items/ . Po utworzeniu i wybraniu z hierarchii ItemBase, w inspektorze powinien się pojawić taki widok: Dobrym nawykiem przy pracy z przedmiotami będzie zablokowanie podglądu inspektora po przez naciśnięcie ikony kłódki (patrz AD. 1). Zablokuje to zmianę widoku w przypadku, gdy klikniemy na inny obiekt w drzewku projektu. Drugim polem (AD. 2) jest miejsce, gdzie podajemy plik z metadanymi danego przedmiotu. Pliki metadanowe powinny znajdować się pod ścieżką Resources/Items/<Nazwa przedmiotu>/<Nazwa przedmiotu>.json . Po wybraniu pliku z danymi, żeby zobaczyć zmiany w edytorze należy chociaż raz uruchomić \"Play mode\". Deklarowanie nowego przedmiotu Deklaracja przedmiotu jest dość prosta. W ścieżce Resources/Items/ należy stworzyć podkatalog z nazwą przedmiotu, a w nim plik .json . Jeśli przedmiot nazywa się xyz wtedy jego ścieżka powinna przybrać formę: Resources/Items/xyz/xyz.json . W pliku JSON, zadeklarować następującą strukturę pliku: { \"IsStackable\": true, // Określa czy przedmiot łączy się z innymi przedmiotami tego samego rodzaju. \"Type\": 0, // Typ przedmiotu - niestety musi być podawany liczbowo. Wymagane, aby API wiedziało jak obsłużyć dany przedmiot. \"Quantity\": 1, // Ilość przedmiotu, który zostanie dodany do ekwipunku. \"Texture\": \"Items/xyz/xyz.png\", // Tekstura, która zostanie ustawiona na przedmiocie. \"Name\": \"xyz\" // Nazwa przedmiotu - przydatne, gdy API potrzebuje sprawdzić jaki przedmiot wpadł do ekwipunku. Jeśli nazwa przedmiotu nie zostanie podana, zostanie ustawiona nazwa pliku, skąd były pobierane metadane. } W obecnej wersji gry rozrózniamy 4 typy przedmiotów: - Money - ID: 0 - PowerUp - ID: 1 - Ammunition - ID: 2 - Health - ID: 3 Ostatnim krokiem jest dodanie tekstury xyz.png do katalogu Items/xyz ."
   },
   "articles/howToAddNewDocument.html": {
     "href": "articles/howToAddNewDocument.html",
