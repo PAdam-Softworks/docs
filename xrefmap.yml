@@ -441,38 +441,6 @@ references:
   commentId: T:Global.PlayerController
   fullName: PlayerController
   nameWithType: PlayerController
-- uid: Global.PlayerController.AnimationTimeScale
-  name: AnimationTimeScale
-  href: api/Global.PlayerController.html#Global_PlayerController_AnimationTimeScale
-  commentId: F:Global.PlayerController.AnimationTimeScale
-  fullName: PlayerController.AnimationTimeScale
-  nameWithType: PlayerController.AnimationTimeScale
-- uid: Global.PlayerController.Attack
-  name: Attack()
-  href: api/Global.PlayerController.html#Global_PlayerController_Attack
-  commentId: M:Global.PlayerController.Attack
-  fullName: PlayerController.Attack()
-  nameWithType: PlayerController.Attack()
-- uid: Global.PlayerController.Attack*
-  name: Attack
-  href: api/Global.PlayerController.html#Global_PlayerController_Attack_
-  commentId: Overload:Global.PlayerController.Attack
-  isSpec: "True"
-  fullName: PlayerController.Attack
-  nameWithType: PlayerController.Attack
-- uid: Global.PlayerController.Attack2
-  name: Attack2()
-  href: api/Global.PlayerController.html#Global_PlayerController_Attack2
-  commentId: M:Global.PlayerController.Attack2
-  fullName: PlayerController.Attack2()
-  nameWithType: PlayerController.Attack2()
-- uid: Global.PlayerController.Attack2*
-  name: Attack2
-  href: api/Global.PlayerController.html#Global_PlayerController_Attack2_
-  commentId: Overload:Global.PlayerController.Attack2
-  isSpec: "True"
-  fullName: PlayerController.Attack2
-  nameWithType: PlayerController.Attack2
 - uid: Global.PlayerController.Attack2Frames
   name: Attack2Frames
   href: api/Global.PlayerController.html#Global_PlayerController_Attack2Frames
@@ -491,6 +459,38 @@ references:
   commentId: F:Global.PlayerController.AttackFX
   fullName: PlayerController.AttackFX
   nameWithType: PlayerController.AttackFX
+- uid: Global.PlayerController.canDoubleJump
+  name: canDoubleJump
+  href: api/Global.PlayerController.html#Global_PlayerController_canDoubleJump
+  commentId: P:Global.PlayerController.canDoubleJump
+  fullName: PlayerController.canDoubleJump
+  nameWithType: PlayerController.canDoubleJump
+- uid: Global.PlayerController.canDoubleJump*
+  name: canDoubleJump
+  href: api/Global.PlayerController.html#Global_PlayerController_canDoubleJump_
+  commentId: Overload:Global.PlayerController.canDoubleJump
+  isSpec: "True"
+  fullName: PlayerController.canDoubleJump
+  nameWithType: PlayerController.canDoubleJump
+- uid: Global.PlayerController.canJump
+  name: canJump
+  href: api/Global.PlayerController.html#Global_PlayerController_canJump
+  commentId: P:Global.PlayerController.canJump
+  fullName: PlayerController.canJump
+  nameWithType: PlayerController.canJump
+- uid: Global.PlayerController.canJump*
+  name: canJump
+  href: api/Global.PlayerController.html#Global_PlayerController_canJump_
+  commentId: Overload:Global.PlayerController.canJump
+  isSpec: "True"
+  fullName: PlayerController.canJump
+  nameWithType: PlayerController.canJump
+- uid: Global.PlayerController.coyoteTimeDefault
+  name: coyoteTimeDefault
+  href: api/Global.PlayerController.html#Global_PlayerController_coyoteTimeDefault
+  commentId: F:Global.PlayerController.coyoteTimeDefault
+  fullName: PlayerController.coyoteTimeDefault
+  nameWithType: PlayerController.coyoteTimeDefault
 - uid: Global.PlayerController.FallFrames
   name: FallFrames
   href: api/Global.PlayerController.html#Global_PlayerController_FallFrames
@@ -559,12 +559,6 @@ references:
   commentId: F:Global.PlayerController.KnockbackSpeed
   fullName: PlayerController.KnockbackSpeed
   nameWithType: PlayerController.KnockbackSpeed
-- uid: Global.PlayerController.meshRenderer
-  name: meshRenderer
-  href: api/Global.PlayerController.html#Global_PlayerController_meshRenderer
-  commentId: F:Global.PlayerController.meshRenderer
-  fullName: PlayerController.meshRenderer
-  nameWithType: PlayerController.meshRenderer
 - uid: Global.PlayerController.OnDeath
   name: OnDeath()
   href: api/Global.PlayerController.html#Global_PlayerController_OnDeath
@@ -597,12 +591,12 @@ references:
   isSpec: "True"
   fullName: PlayerController.rb
   nameWithType: PlayerController.rb
-- uid: Global.PlayerController.ReceiveDamageKnockback
-  name: ReceiveDamageKnockback()
-  href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback
-  commentId: M:Global.PlayerController.ReceiveDamageKnockback
-  fullName: PlayerController.ReceiveDamageKnockback()
-  nameWithType: PlayerController.ReceiveDamageKnockback()
+- uid: Global.PlayerController.ReceiveDamageKnockback(System.Single)
+  name: ReceiveDamageKnockback(Single)
+  href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback_System_Single_
+  commentId: M:Global.PlayerController.ReceiveDamageKnockback(System.Single)
+  fullName: PlayerController.ReceiveDamageKnockback(System.Single)
+  nameWithType: PlayerController.ReceiveDamageKnockback(Single)
 - uid: Global.PlayerController.ReceiveDamageKnockback*
   name: ReceiveDamageKnockback
   href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback_
@@ -622,6 +616,12 @@ references:
   commentId: F:Global.PlayerController.SpeedAirbone
   fullName: PlayerController.SpeedAirbone
   nameWithType: PlayerController.SpeedAirbone
+- uid: Global.PlayerController.SpeedDoubleJump
+  name: SpeedDoubleJump
+  href: api/Global.PlayerController.html#Global_PlayerController_SpeedDoubleJump
+  commentId: F:Global.PlayerController.SpeedDoubleJump
+  fullName: PlayerController.SpeedDoubleJump
+  nameWithType: PlayerController.SpeedDoubleJump
 - uid: Global.PlayerController.SpeedGrounded
   name: SpeedGrounded
   href: api/Global.PlayerController.html#Global_PlayerController_SpeedGrounded
@@ -634,24 +634,25 @@ references:
   commentId: F:Global.PlayerController.SpeedJump
   fullName: PlayerController.SpeedJump
   nameWithType: PlayerController.SpeedJump
-- uid: Global.PlayerController.SpeedKickstart
-  name: SpeedKickstart
-  href: api/Global.PlayerController.html#Global_PlayerController_SpeedKickstart
-  commentId: F:Global.PlayerController.SpeedKickstart
-  fullName: PlayerController.SpeedKickstart
-  nameWithType: PlayerController.SpeedKickstart
-- uid: Global.PlayerController.StillJumpSpeedModifier
-  name: StillJumpSpeedModifier
-  href: api/Global.PlayerController.html#Global_PlayerController_StillJumpSpeedModifier
-  commentId: F:Global.PlayerController.StillJumpSpeedModifier
-  fullName: PlayerController.StillJumpSpeedModifier
-  nameWithType: PlayerController.StillJumpSpeedModifier
 - uid: Global.PlayerController.WalkFrames
   name: WalkFrames
   href: api/Global.PlayerController.html#Global_PlayerController_WalkFrames
   commentId: F:Global.PlayerController.WalkFrames
   fullName: PlayerController.WalkFrames
   nameWithType: PlayerController.WalkFrames
+- uid: Global.PlayerController.wasHit
+  name: wasHit
+  href: api/Global.PlayerController.html#Global_PlayerController_wasHit
+  commentId: P:Global.PlayerController.wasHit
+  fullName: PlayerController.wasHit
+  nameWithType: PlayerController.wasHit
+- uid: Global.PlayerController.wasHit*
+  name: wasHit
+  href: api/Global.PlayerController.html#Global_PlayerController_wasHit_
+  commentId: Overload:Global.PlayerController.wasHit
+  isSpec: "True"
+  fullName: PlayerController.wasHit
+  nameWithType: PlayerController.wasHit
 - uid: Global.PlayerTestingUI
   name: PlayerTestingUI
   href: api/Global.PlayerTestingUI.html
