@@ -14,6 +14,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Core.InteractOnCollision2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.InteractOnCollision2D.html",
+          "hash": "I5TjORnCqS24Z736VnPmUeokWRGkgroUE9eNR2nQ1KI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.InteractOnTrigger2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.InteractOnTrigger2D.html",
+          "hash": "CEfkrZXDPbkgaDCDtsqLzgQAmWmYF+frWty/A02pln4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.SetAnimatorBoolFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.SetAnimatorBoolFlag.html",
+          "hash": "hYXETQHDtyFtiTw44ABWQgBTuGVASt5mF7685CVh6tg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.html",
+          "hash": "5OQjzfHezhp9jUlePBJaL+R5gRFa9lSfdSWCF7EeaxI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Enemy.BaseEnemy.yml",
       "output": {
         ".html": {
@@ -186,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ItemController.html",
-          "hash": "HjEQQ1c6pFKN6PWSwZqlj7RoU9HON+e3yymcZS0XfhY="
+          "hash": "kA/HNQsWkFrLD0kV1X/FzNjgXsS7xdyEGSjFAE0At9E="
         }
       },
       "is_incremental": false,
@@ -326,6 +374,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.TestPowerupDrop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TestPowerupDrop.html",
+          "hash": "xo3y6Oyg0jN7ennKOco3eq+yP36JuMhcvQAjM8F17nI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.TimerController.yml",
       "output": {
         ".html": {
@@ -354,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "NdwxD7bbZQiA+yY9Oysz/cUe5xIDtXpeahIPn9lz0Ik="
+          "hash": "bwCejRP5AAq4PmF6F4vs/5kuIEhctGOLkS/0jGCxyQ4="
         }
       },
       "is_incremental": false,
@@ -498,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WO6u9QerM7RMGCYEM8tEaAUFubptzWIk+V9J9yGM1NY="
+          "hash": "ofIgj6IH8OdClaJ/wSMOheYsQquY7D7jRHGeFdE4vBc="
         }
       },
       "is_incremental": false,
@@ -641,7 +701,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 39,
+          "total_file_count": 44,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

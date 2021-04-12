@@ -1,4 +1,24 @@
 {
+  "api/Core.html": {
+    "href": "api/Core.html",
+    "title": "Namespace Core | PAdam Softworks",
+    "keywords": "Namespace Core Classes InteractOnCollision2D InteractOnTrigger2D SetAnimatorBoolFlag"
+  },
+  "api/Core.InteractOnCollision2D.html": {
+    "href": "api/Core.InteractOnCollision2D.html",
+    "title": "Class InteractOnCollision2D | PAdam Softworks",
+    "keywords": "Class InteractOnCollision2D Inheritance Object InteractOnCollision2D Namespace : Core Assembly : cs.temp.dll.dll Syntax public class InteractOnCollision2D : MonoBehaviour"
+  },
+  "api/Core.InteractOnTrigger2D.html": {
+    "href": "api/Core.InteractOnTrigger2D.html",
+    "title": "Class InteractOnTrigger2D | PAdam Softworks",
+    "keywords": "Class InteractOnTrigger2D Inheritance Object InteractOnTrigger2D Namespace : Core Assembly : cs.temp.dll.dll Syntax public class InteractOnTrigger2D : MonoBehaviour Fields _collider Declaration protected Collider2D _collider Field Value Type Description Collider2D"
+  },
+  "api/Core.SetAnimatorBoolFlag.html": {
+    "href": "api/Core.SetAnimatorBoolFlag.html",
+    "title": "Class SetAnimatorBoolFlag | PAdam Softworks",
+    "keywords": "Class SetAnimatorBoolFlag Inheritance Object SetAnimatorBoolFlag Namespace : Core Assembly : cs.temp.dll.dll Syntax public class SetAnimatorBoolFlag : MonoBehaviour Methods SetFlag() Ustawia zdefiniowaną flagę na animatorze z podaną wartością Declaration public void SetFlag()"
+  },
   "api/Enemy.BaseEnemy.html": {
     "href": "api/Enemy.BaseEnemy.html",
     "title": "Class BaseEnemy | PAdam Softworks",
@@ -47,7 +67,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController Inventory Bazowa klasa ekwipunku. Obs�uguje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa r�wnie� wystawia metody niezb�dne do obserwowania, czy co� si� zmieni�o w kolekcji przedmiot�w. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowa� przedmiot�w na mapie. MovingPlatformController Obstacle PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController Strings TestInventory Testuje klase Inventory TimerController TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
+    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner HoboController Inventory Bazowa klasa ekwipunku. Obs�uguje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa r�wnie� wystawia metody niezb�dne do obserwowania, czy co� si� zmieni�o w kolekcji przedmiot�w. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. MovingPlatformController Obstacle PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController Strings TestInventory Testuje klase Inventory TestPowerupDrop TimerController TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
   },
   "api/Global.IInventory.html": {
     "href": "api/Global.IInventory.html",
@@ -77,7 +97,7 @@
   "api/Global.ItemController.html": {
     "href": "api/Global.ItemController.html",
     "title": "Class ItemController | PAdam Softworks",
-    "keywords": "Class ItemController Kontroler zachowa� przedmiot�w na mapie. Inheritance Object ItemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemController : MonoBehaviour Fields ItemData Declaration public TextAsset ItemData Field Value Type Description TextAsset"
+    "keywords": "Class ItemController Kontroler zachowań przedmiotów na mapie. Inheritance Object ItemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemController : MonoBehaviour Fields ItemData Declaration public TextAsset ItemData Field Value Type Description TextAsset"
   },
   "api/Global.MovingPlatformController.html": {
     "href": "api/Global.MovingPlatformController.html",
@@ -133,6 +153,11 @@
     "href": "api/Global.TestInventory.html",
     "title": "Class TestInventory | PAdam Softworks",
     "keywords": "Class TestInventory Testuje klase Inventory Inheritance Object TestInventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TestInventory Methods AddItem_OnExistingItem_ItemQuantityIncreased() Jak item jest w EQ to podnosi jego ilo�� Declaration public void AddItem_OnExistingItem_ItemQuantityIncreased() AddItem_OnNewItem_CollectionCountIncreased() Sprawdza, czy jak nie ma itemu w inventory, to dodaje nowy item do EQ Declaration public void AddItem_OnNewItem_CollectionCountIncreased() RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() Sprawdza, czy ilo�� przedmiot�w w ekwipunku zostaje obni�ona, o ile r�nica przedmi�w jest wi�ksza ni� 0 Declaration public void RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() RemoveItem_OnQuantityBelowZero_ItemRemoved() Je�eli ilo�� przedmiot�w w eq jest mniejsza ni� 0, to powinen zosta� skasowany Declaration public void RemoveItem_OnQuantityBelowZero_ItemRemoved()"
+  },
+  "api/Global.TestPowerupDrop.html": {
+    "href": "api/Global.TestPowerupDrop.html",
+    "title": "Class TestPowerupDrop | PAdam Softworks",
+    "keywords": "Class TestPowerupDrop Inheritance Object TestPowerupDrop Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TestPowerupDrop : MonoBehaviour Methods DropItem() Testowa funkcja tworzaca drop przedmiotu Declaration public void DropItem()"
   },
   "api/Global.TimerController.html": {
     "href": "api/Global.TimerController.html",

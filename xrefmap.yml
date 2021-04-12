@@ -1,6 +1,49 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Core
+  name: Core
+  href: api/Core.html
+  commentId: N:Core
+  fullName: Core
+  nameWithType: Core
+- uid: Core.InteractOnCollision2D
+  name: InteractOnCollision2D
+  href: api/Core.InteractOnCollision2D.html
+  commentId: T:Core.InteractOnCollision2D
+  fullName: Core.InteractOnCollision2D
+  nameWithType: InteractOnCollision2D
+- uid: Core.InteractOnTrigger2D
+  name: InteractOnTrigger2D
+  href: api/Core.InteractOnTrigger2D.html
+  commentId: T:Core.InteractOnTrigger2D
+  fullName: Core.InteractOnTrigger2D
+  nameWithType: InteractOnTrigger2D
+- uid: Core.InteractOnTrigger2D._collider
+  name: _collider
+  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D__collider
+  commentId: F:Core.InteractOnTrigger2D._collider
+  fullName: Core.InteractOnTrigger2D._collider
+  nameWithType: InteractOnTrigger2D._collider
+- uid: Core.SetAnimatorBoolFlag
+  name: SetAnimatorBoolFlag
+  href: api/Core.SetAnimatorBoolFlag.html
+  commentId: T:Core.SetAnimatorBoolFlag
+  fullName: Core.SetAnimatorBoolFlag
+  nameWithType: SetAnimatorBoolFlag
+- uid: Core.SetAnimatorBoolFlag.SetFlag
+  name: SetFlag()
+  href: api/Core.SetAnimatorBoolFlag.html#Core_SetAnimatorBoolFlag_SetFlag
+  commentId: M:Core.SetAnimatorBoolFlag.SetFlag
+  fullName: Core.SetAnimatorBoolFlag.SetFlag()
+  nameWithType: SetAnimatorBoolFlag.SetFlag()
+- uid: Core.SetAnimatorBoolFlag.SetFlag*
+  name: SetFlag
+  href: api/Core.SetAnimatorBoolFlag.html#Core_SetAnimatorBoolFlag_SetFlag_
+  commentId: Overload:Core.SetAnimatorBoolFlag.SetFlag
+  isSpec: "True"
+  fullName: Core.SetAnimatorBoolFlag.SetFlag
+  nameWithType: SetAnimatorBoolFlag.SetFlag
 - uid: Enemy
   name: Enemy
   href: api/Enemy.html
@@ -957,6 +1000,25 @@ references:
   isSpec: "True"
   fullName: TestInventory.RemoveItem_OnQuantityBelowZero_ItemRemoved
   nameWithType: TestInventory.RemoveItem_OnQuantityBelowZero_ItemRemoved
+- uid: Global.TestPowerupDrop
+  name: TestPowerupDrop
+  href: api/Global.TestPowerupDrop.html
+  commentId: T:Global.TestPowerupDrop
+  fullName: TestPowerupDrop
+  nameWithType: TestPowerupDrop
+- uid: Global.TestPowerupDrop.DropItem
+  name: DropItem()
+  href: api/Global.TestPowerupDrop.html#Global_TestPowerupDrop_DropItem
+  commentId: M:Global.TestPowerupDrop.DropItem
+  fullName: TestPowerupDrop.DropItem()
+  nameWithType: TestPowerupDrop.DropItem()
+- uid: Global.TestPowerupDrop.DropItem*
+  name: DropItem
+  href: api/Global.TestPowerupDrop.html#Global_TestPowerupDrop_DropItem_
+  commentId: Overload:Global.TestPowerupDrop.DropItem
+  isSpec: "True"
+  fullName: TestPowerupDrop.DropItem
+  nameWithType: TestPowerupDrop.DropItem
 - uid: Global.TimerController
   name: TimerController
   href: api/Global.TimerController.html
