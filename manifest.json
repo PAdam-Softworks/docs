@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoboController.html",
-          "hash": "W6HO1jzkyyhU9EYpSTTNn9UDpiweCUz08XJBMzTs3GM="
+          "hash": "N5GErFhse5FKrymyOmFxx64LJer7YpWh+uZRzsdwkBo="
         }
       },
       "is_incremental": false,
@@ -199,6 +199,18 @@
         ".html": {
           "relative_path": "api/Global.MovingPlatformController.html",
           "hash": "6U2rj90/5y7DEMNERjBkVlVdBGuL49E+CwV2OfKgv58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Obstacle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Obstacle.html",
+          "hash": "SmHdPfHfvQQcpe0wxIpTMEGp+sNpej6ITvgkaTlNAy0="
         }
       },
       "is_incremental": false,
@@ -326,11 +338,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.TurretController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TurretController.html",
+          "hash": "QrIGzt+luV7pwBmgrE+UauL01dmn9yj28Qr445ZJ05o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "wzSTKgHdj02HWeHZgS7i5JvRVfX5Vw5oGDbRozjWwvg="
+          "hash": "NdwxD7bbZQiA+yY9Oysz/cUe5xIDtXpeahIPn9lz0Ik="
         }
       },
       "is_incremental": false,
@@ -474,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Frf9RohRIYUQoCz3TIeNufRGZ8uSwrxRakj+XMWV4gc="
+          "hash": "WO6u9QerM7RMGCYEM8tEaAUFubptzWIk+V9J9yGM1NY="
         }
       },
       "is_incremental": false,
@@ -617,7 +641,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 37,
+          "total_file_count": 39,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

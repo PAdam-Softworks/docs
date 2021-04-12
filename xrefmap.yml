@@ -143,6 +143,19 @@ references:
   commentId: F:Global.HoboController.moveDirection
   fullName: HoboController.moveDirection
   nameWithType: HoboController.moveDirection
+- uid: Global.HoboController.OnDamaged(System.Int32)
+  name: OnDamaged(Int32)
+  href: api/Global.HoboController.html#Global_HoboController_OnDamaged_System_Int32_
+  commentId: M:Global.HoboController.OnDamaged(System.Int32)
+  fullName: HoboController.OnDamaged(System.Int32)
+  nameWithType: HoboController.OnDamaged(Int32)
+- uid: Global.HoboController.OnDamaged*
+  name: OnDamaged
+  href: api/Global.HoboController.html#Global_HoboController_OnDamaged_
+  commentId: Overload:Global.HoboController.OnDamaged
+  isSpec: "True"
+  fullName: HoboController.OnDamaged
+  nameWithType: HoboController.OnDamaged
 - uid: Global.HoboController.OnDeath
   name: OnDeath()
   href: api/Global.HoboController.html#Global_HoboController_OnDeath
@@ -391,6 +404,24 @@ references:
   commentId: F:Global.MovingPlatformController.Speed
   fullName: MovingPlatformController.Speed
   nameWithType: MovingPlatformController.Speed
+- uid: Global.Obstacle
+  name: Obstacle
+  href: api/Global.Obstacle.html
+  commentId: T:Global.Obstacle
+  fullName: Obstacle
+  nameWithType: Obstacle
+- uid: Global.Obstacle.EnemyDamage
+  name: EnemyDamage
+  href: api/Global.Obstacle.html#Global_Obstacle_EnemyDamage
+  commentId: F:Global.Obstacle.EnemyDamage
+  fullName: Obstacle.EnemyDamage
+  nameWithType: Obstacle.EnemyDamage
+- uid: Global.Obstacle.PlayerDamage
+  name: PlayerDamage
+  href: api/Global.Obstacle.html#Global_Obstacle_PlayerDamage
+  commentId: F:Global.Obstacle.PlayerDamage
+  fullName: Obstacle.PlayerDamage
+  nameWithType: Obstacle.PlayerDamage
 - uid: Global.PauseMenu
   name: PauseMenu
   href: api/Global.PauseMenu.html
@@ -1009,6 +1040,116 @@ references:
   commentId: F:Global.TimerController.timeCounter
   fullName: TimerController.timeCounter
   nameWithType: TimerController.timeCounter
+- uid: Global.TurretController
+  name: TurretController
+  href: api/Global.TurretController.html
+  commentId: T:Global.TurretController
+  fullName: TurretController
+  nameWithType: TurretController
+- uid: Global.TurretController.BarrelPivot
+  name: BarrelPivot
+  href: api/Global.TurretController.html#Global_TurretController_BarrelPivot
+  commentId: F:Global.TurretController.BarrelPivot
+  fullName: TurretController.BarrelPivot
+  nameWithType: TurretController.BarrelPivot
+- uid: Global.TurretController.bloodSplashEffect
+  name: bloodSplashEffect
+  href: api/Global.TurretController.html#Global_TurretController_bloodSplashEffect
+  commentId: F:Global.TurretController.bloodSplashEffect
+  fullName: TurretController.bloodSplashEffect
+  nameWithType: TurretController.bloodSplashEffect
+- uid: Global.TurretController.IsAutoShoot
+  name: IsAutoShoot
+  href: api/Global.TurretController.html#Global_TurretController_IsAutoShoot
+  commentId: F:Global.TurretController.IsAutoShoot
+  fullName: TurretController.IsAutoShoot
+  nameWithType: TurretController.IsAutoShoot
+- uid: Global.TurretController.IsTrap
+  name: IsTrap
+  href: api/Global.TurretController.html#Global_TurretController_IsTrap
+  commentId: F:Global.TurretController.IsTrap
+  fullName: TurretController.IsTrap
+  nameWithType: TurretController.IsTrap
+- uid: Global.TurretController.MaxAngle
+  name: MaxAngle
+  href: api/Global.TurretController.html#Global_TurretController_MaxAngle
+  commentId: F:Global.TurretController.MaxAngle
+  fullName: TurretController.MaxAngle
+  nameWithType: TurretController.MaxAngle
+- uid: Global.TurretController.MaxRange
+  name: MaxRange
+  href: api/Global.TurretController.html#Global_TurretController_MaxRange
+  commentId: F:Global.TurretController.MaxRange
+  fullName: TurretController.MaxRange
+  nameWithType: TurretController.MaxRange
+- uid: Global.TurretController.OnDamaged(System.Int32)
+  name: OnDamaged(Int32)
+  href: api/Global.TurretController.html#Global_TurretController_OnDamaged_System_Int32_
+  commentId: M:Global.TurretController.OnDamaged(System.Int32)
+  fullName: TurretController.OnDamaged(System.Int32)
+  nameWithType: TurretController.OnDamaged(Int32)
+- uid: Global.TurretController.OnDamaged*
+  name: OnDamaged
+  href: api/Global.TurretController.html#Global_TurretController_OnDamaged_
+  commentId: Overload:Global.TurretController.OnDamaged
+  isSpec: "True"
+  fullName: TurretController.OnDamaged
+  nameWithType: TurretController.OnDamaged
+- uid: Global.TurretController.OnDeath
+  name: OnDeath()
+  href: api/Global.TurretController.html#Global_TurretController_OnDeath
+  commentId: M:Global.TurretController.OnDeath
+  fullName: TurretController.OnDeath()
+  nameWithType: TurretController.OnDeath()
+- uid: Global.TurretController.OnDeath*
+  name: OnDeath
+  href: api/Global.TurretController.html#Global_TurretController_OnDeath_
+  commentId: Overload:Global.TurretController.OnDeath
+  isSpec: "True"
+  fullName: TurretController.OnDeath
+  nameWithType: TurretController.OnDeath
+- uid: Global.TurretController.PlayerSpottedDelayDefault
+  name: PlayerSpottedDelayDefault
+  href: api/Global.TurretController.html#Global_TurretController_PlayerSpottedDelayDefault
+  commentId: F:Global.TurretController.PlayerSpottedDelayDefault
+  fullName: TurretController.PlayerSpottedDelayDefault
+  nameWithType: TurretController.PlayerSpottedDelayDefault
+- uid: Global.TurretController.PressurePlate
+  name: PressurePlate
+  href: api/Global.TurretController.html#Global_TurretController_PressurePlate
+  commentId: F:Global.TurretController.PressurePlate
+  fullName: TurretController.PressurePlate
+  nameWithType: TurretController.PressurePlate
+- uid: Global.TurretController.ProjectilePrefab
+  name: ProjectilePrefab
+  href: api/Global.TurretController.html#Global_TurretController_ProjectilePrefab
+  commentId: F:Global.TurretController.ProjectilePrefab
+  fullName: TurretController.ProjectilePrefab
+  nameWithType: TurretController.ProjectilePrefab
+- uid: Global.TurretController.ProjectileSpeed
+  name: ProjectileSpeed
+  href: api/Global.TurretController.html#Global_TurretController_ProjectileSpeed
+  commentId: F:Global.TurretController.ProjectileSpeed
+  fullName: TurretController.ProjectileSpeed
+  nameWithType: TurretController.ProjectileSpeed
+- uid: Global.TurretController.RaycastMask
+  name: RaycastMask
+  href: api/Global.TurretController.html#Global_TurretController_RaycastMask
+  commentId: F:Global.TurretController.RaycastMask
+  fullName: TurretController.RaycastMask
+  nameWithType: TurretController.RaycastMask
+- uid: Global.TurretController.ShotDelayDefault
+  name: ShotDelayDefault
+  href: api/Global.TurretController.html#Global_TurretController_ShotDelayDefault
+  commentId: F:Global.TurretController.ShotDelayDefault
+  fullName: TurretController.ShotDelayDefault
+  nameWithType: TurretController.ShotDelayDefault
+- uid: Global.TurretController.TrackPlayer
+  name: TrackPlayer
+  href: api/Global.TurretController.html#Global_TurretController_TrackPlayer
+  commentId: F:Global.TurretController.TrackPlayer
+  fullName: TurretController.TrackPlayer
+  nameWithType: TurretController.TrackPlayer
 - uid: Health
   name: Health
   href: api/Health.html
