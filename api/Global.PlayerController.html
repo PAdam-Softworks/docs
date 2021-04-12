@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PlayerController
    | PAdam Softworks ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -717,13 +717,13 @@
   
   
   <a id="Global_PlayerController_ReceiveDamageKnockback_" data-uid="Global.PlayerController.ReceiveDamageKnockback*"></a>
-  <h4 id="Global_PlayerController_ReceiveDamageKnockback_System_Single_" data-uid="Global.PlayerController.ReceiveDamageKnockback(System.Single)">ReceiveDamageKnockback(Single)</h4>
-  <div class="markdown level1 summary"><p>Gracz zostaje ogłuszony i popchnięty w kierunku odwrotnym do kierunku poruszania</p>
+  <h4 id="Global_PlayerController_ReceiveDamageKnockback_Vector3_System_Int32_System_Single_" data-uid="Global.PlayerController.ReceiveDamageKnockback(Vector3,System.Int32,System.Single)">ReceiveDamageKnockback(Vector3, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p>Gracz zostaje ogłuszony i popchnięty w kierunku odwrotnym do źródła obrażeń</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReceiveDamageKnockback(float recoveryTime = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReceiveDamageKnockback(Vector3 source, int damage = 1, float recoveryTime = 0.5F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -735,6 +735,16 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">recoveryTime</span></td>

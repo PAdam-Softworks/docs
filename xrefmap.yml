@@ -591,12 +591,12 @@ references:
   isSpec: "True"
   fullName: PlayerController.rb
   nameWithType: PlayerController.rb
-- uid: Global.PlayerController.ReceiveDamageKnockback(System.Single)
-  name: ReceiveDamageKnockback(Single)
-  href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback_System_Single_
-  commentId: M:Global.PlayerController.ReceiveDamageKnockback(System.Single)
-  fullName: PlayerController.ReceiveDamageKnockback(System.Single)
-  nameWithType: PlayerController.ReceiveDamageKnockback(Single)
+- uid: Global.PlayerController.ReceiveDamageKnockback(Vector3,System.Int32,System.Single)
+  name: ReceiveDamageKnockback(Vector3, Int32, Single)
+  href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback_Vector3_System_Int32_System_Single_
+  commentId: M:Global.PlayerController.ReceiveDamageKnockback(Vector3,System.Int32,System.Single)
+  fullName: PlayerController.ReceiveDamageKnockback(Vector3, System.Int32, System.Single)
+  nameWithType: PlayerController.ReceiveDamageKnockback(Vector3, Int32, Single)
 - uid: Global.PlayerController.ReceiveDamageKnockback*
   name: ReceiveDamageKnockback
   href: api/Global.PlayerController.html#Global_PlayerController_ReceiveDamageKnockback_
@@ -677,12 +677,30 @@ references:
   commentId: T:Global.ProjectileController
   fullName: ProjectileController
   nameWithType: ProjectileController
-- uid: Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single)
-  name: Shoot(Vector3, Single, Vector2, Single)
-  href: api/Global.ProjectileController.html#Global_ProjectileController_Shoot_Vector3_System_Single_Vector2_System_Single_
-  commentId: M:Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single)
-  fullName: ProjectileController.Shoot(Vector3, System.Single, Vector2, System.Single)
-  nameWithType: ProjectileController.Shoot(Vector3, Single, Vector2, Single)
+- uid: Global.ProjectileController.AnimSpeed
+  name: AnimSpeed
+  href: api/Global.ProjectileController.html#Global_ProjectileController_AnimSpeed
+  commentId: F:Global.ProjectileController.AnimSpeed
+  fullName: ProjectileController.AnimSpeed
+  nameWithType: ProjectileController.AnimSpeed
+- uid: Global.ProjectileController.FlipDirection
+  name: FlipDirection
+  href: api/Global.ProjectileController.html#Global_ProjectileController_FlipDirection
+  commentId: F:Global.ProjectileController.FlipDirection
+  fullName: ProjectileController.FlipDirection
+  nameWithType: ProjectileController.FlipDirection
+- uid: Global.ProjectileController.Frames
+  name: Frames
+  href: api/Global.ProjectileController.html#Global_ProjectileController_Frames
+  commentId: F:Global.ProjectileController.Frames
+  fullName: ProjectileController.Frames
+  nameWithType: ProjectileController.Frames
+- uid: Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single,System.Int32)
+  name: Shoot(Vector3, Single, Vector2, Single, Int32)
+  href: api/Global.ProjectileController.html#Global_ProjectileController_Shoot_Vector3_System_Single_Vector2_System_Single_System_Int32_
+  commentId: M:Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single,System.Int32)
+  fullName: ProjectileController.Shoot(Vector3, System.Single, Vector2, System.Single, System.Int32)
+  nameWithType: ProjectileController.Shoot(Vector3, Single, Vector2, Single, Int32)
 - uid: Global.ProjectileController.Shoot*
   name: Shoot
   href: api/Global.ProjectileController.html#Global_ProjectileController_Shoot_
@@ -808,6 +826,48 @@ references:
   commentId: F:Global.SpiderController.WalkFrames
   fullName: SpiderController.WalkFrames
   nameWithType: SpiderController.WalkFrames
+- uid: Global.Strings
+  name: Strings
+  href: api/Global.Strings.html
+  commentId: T:Global.Strings
+  fullName: Strings
+  nameWithType: Strings
+- uid: Global.Strings.EnemyProjectile
+  name: EnemyProjectile
+  href: api/Global.Strings.html#Global_Strings_EnemyProjectile
+  commentId: F:Global.Strings.EnemyProjectile
+  fullName: Strings.EnemyProjectile
+  nameWithType: Strings.EnemyProjectile
+- uid: Global.Strings.EnemyTag
+  name: EnemyTag
+  href: api/Global.Strings.html#Global_Strings_EnemyTag
+  commentId: F:Global.Strings.EnemyTag
+  fullName: Strings.EnemyTag
+  nameWithType: Strings.EnemyTag
+- uid: Global.Strings.HorizontalAxis
+  name: HorizontalAxis
+  href: api/Global.Strings.html#Global_Strings_HorizontalAxis
+  commentId: F:Global.Strings.HorizontalAxis
+  fullName: Strings.HorizontalAxis
+  nameWithType: Strings.HorizontalAxis
+- uid: Global.Strings.PlayerProjectile
+  name: PlayerProjectile
+  href: api/Global.Strings.html#Global_Strings_PlayerProjectile
+  commentId: F:Global.Strings.PlayerProjectile
+  fullName: Strings.PlayerProjectile
+  nameWithType: Strings.PlayerProjectile
+- uid: Global.Strings.PlayerTag
+  name: PlayerTag
+  href: api/Global.Strings.html#Global_Strings_PlayerTag
+  commentId: F:Global.Strings.PlayerTag
+  fullName: Strings.PlayerTag
+  nameWithType: Strings.PlayerTag
+- uid: Global.Strings.VerticalAxis
+  name: VerticalAxis
+  href: api/Global.Strings.html#Global_Strings_VerticalAxis
+  commentId: F:Global.Strings.VerticalAxis
+  fullName: Strings.VerticalAxis
+  nameWithType: Strings.VerticalAxis
 - uid: Global.TestInventory
   name: TestInventory
   href: api/Global.TestInventory.html

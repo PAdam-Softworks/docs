@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ProjectileController
    | PAdam Softworks ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -95,17 +95,95 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ProjectileController : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_ProjectileController_AnimSpeed" data-uid="Global.ProjectileController.AnimSpeed">AnimSpeed</h4>
+  <div class="markdown level1 summary"><p>Długość trwania animacji</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AnimSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ProjectileController_FlipDirection" data-uid="Global.ProjectileController.FlipDirection">FlipDirection</h4>
+  <div class="markdown level1 summary"><p>Jeżeli true, odwraca domyślny kierunek tekstury</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FlipDirection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_ProjectileController_Frames" data-uid="Global.ProjectileController.Frames">Frames</h4>
+  <div class="markdown level1 summary"><p>Klatki animacji</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Texture2D&gt; Frames</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Texture2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Global_ProjectileController_Shoot_" data-uid="Global.ProjectileController.Shoot*"></a>
-  <h4 id="Global_ProjectileController_Shoot_Vector3_System_Single_Vector2_System_Single_" data-uid="Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single)">Shoot(Vector3, Single, Vector2, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_ProjectileController_Shoot_Vector3_System_Single_Vector2_System_Single_System_Int32_" data-uid="Global.ProjectileController.Shoot(Vector3,System.Single,Vector2,System.Single,System.Int32)">Shoot(Vector3, Single, Vector2, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Nadaje pociskowi prędkość w określonym kierunku i czas trwania</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Shoot(Vector3 position, float speed, Vector2 direction, float lifeTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Shoot(Vector3 position, float speed, Vector2 direction, float lifeTime, int layer = 10)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,22 +198,32 @@
       <tr>
         <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><p>miejsce w którym pocisk się pojawia (world space)</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">speed</span></td>
-        <td></td>
+        <td><p>prędkość pocisku (stała)</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>kierunek</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">lifeTime</span></td>
-        <td></td>
+        <td><p>czas żywota</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">layer</span></td>
+        <td><p>warstwa fizyczna (domyślnie PhysicalProjectile)</p>
+</td>
       </tr>
     </tbody>
   </table>
