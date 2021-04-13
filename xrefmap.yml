@@ -1,6 +1,18 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Audio
+  name: Audio
+  href: api/Audio.html
+  commentId: N:Audio
+  fullName: Audio
+  nameWithType: Audio
+- uid: Audio.MixerSliderVolume
+  name: MixerSliderVolume
+  href: api/Audio.MixerSliderVolume.html
+  commentId: T:Audio.MixerSliderVolume
+  fullName: Audio.MixerSliderVolume
+  nameWithType: MixerSliderVolume
 - uid: Core
   name: Core
   href: api/Core.html
@@ -156,6 +168,51 @@ references:
   commentId: F:Global.EnemySpawner.SpawnPrefab
   fullName: EnemySpawner.SpawnPrefab
   nameWithType: EnemySpawner.SpawnPrefab
+- uid: Global.GraphicsSettingsMenu
+  name: GraphicsSettingsMenu
+  href: api/Global.GraphicsSettingsMenu.html
+  commentId: T:Global.GraphicsSettingsMenu
+  fullName: GraphicsSettingsMenu
+  nameWithType: GraphicsSettingsMenu
+- uid: Global.GraphicsSettingsMenu.SetFullscreen(System.Boolean)
+  name: SetFullscreen(Boolean)
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetFullscreen_System_Boolean_
+  commentId: M:Global.GraphicsSettingsMenu.SetFullscreen(System.Boolean)
+  fullName: GraphicsSettingsMenu.SetFullscreen(System.Boolean)
+  nameWithType: GraphicsSettingsMenu.SetFullscreen(Boolean)
+- uid: Global.GraphicsSettingsMenu.SetFullscreen*
+  name: SetFullscreen
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetFullscreen_
+  commentId: Overload:Global.GraphicsSettingsMenu.SetFullscreen
+  isSpec: "True"
+  fullName: GraphicsSettingsMenu.SetFullscreen
+  nameWithType: GraphicsSettingsMenu.SetFullscreen
+- uid: Global.GraphicsSettingsMenu.SetGraphicsQuality(System.Int32)
+  name: SetGraphicsQuality(Int32)
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetGraphicsQuality_System_Int32_
+  commentId: M:Global.GraphicsSettingsMenu.SetGraphicsQuality(System.Int32)
+  fullName: GraphicsSettingsMenu.SetGraphicsQuality(System.Int32)
+  nameWithType: GraphicsSettingsMenu.SetGraphicsQuality(Int32)
+- uid: Global.GraphicsSettingsMenu.SetGraphicsQuality*
+  name: SetGraphicsQuality
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetGraphicsQuality_
+  commentId: Overload:Global.GraphicsSettingsMenu.SetGraphicsQuality
+  isSpec: "True"
+  fullName: GraphicsSettingsMenu.SetGraphicsQuality
+  nameWithType: GraphicsSettingsMenu.SetGraphicsQuality
+- uid: Global.GraphicsSettingsMenu.SetResolution(System.Int32)
+  name: SetResolution(Int32)
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetResolution_System_Int32_
+  commentId: M:Global.GraphicsSettingsMenu.SetResolution(System.Int32)
+  fullName: GraphicsSettingsMenu.SetResolution(System.Int32)
+  nameWithType: GraphicsSettingsMenu.SetResolution(Int32)
+- uid: Global.GraphicsSettingsMenu.SetResolution*
+  name: SetResolution
+  href: api/Global.GraphicsSettingsMenu.html#Global_GraphicsSettingsMenu_SetResolution_
+  commentId: Overload:Global.GraphicsSettingsMenu.SetResolution
+  isSpec: "True"
+  fullName: GraphicsSettingsMenu.SetResolution
+  nameWithType: GraphicsSettingsMenu.SetResolution
 - uid: Global.HoboController
   name: HoboController
   href: api/Global.HoboController.html
@@ -423,6 +480,38 @@ references:
   commentId: F:Global.ItemController.ItemData
   fullName: ItemController.ItemData
   nameWithType: ItemController.ItemData
+- uid: Global.MainMenuController
+  name: MainMenuController
+  href: api/Global.MainMenuController.html
+  commentId: T:Global.MainMenuController
+  fullName: MainMenuController
+  nameWithType: MainMenuController
+- uid: Global.MainMenuController.QuitGame
+  name: QuitGame()
+  href: api/Global.MainMenuController.html#Global_MainMenuController_QuitGame
+  commentId: M:Global.MainMenuController.QuitGame
+  fullName: MainMenuController.QuitGame()
+  nameWithType: MainMenuController.QuitGame()
+- uid: Global.MainMenuController.QuitGame*
+  name: QuitGame
+  href: api/Global.MainMenuController.html#Global_MainMenuController_QuitGame_
+  commentId: Overload:Global.MainMenuController.QuitGame
+  isSpec: "True"
+  fullName: MainMenuController.QuitGame
+  nameWithType: MainMenuController.QuitGame
+- uid: Global.MainMenuController.StartGame
+  name: StartGame()
+  href: api/Global.MainMenuController.html#Global_MainMenuController_StartGame
+  commentId: M:Global.MainMenuController.StartGame
+  fullName: MainMenuController.StartGame()
+  nameWithType: MainMenuController.StartGame()
+- uid: Global.MainMenuController.StartGame*
+  name: StartGame
+  href: api/Global.MainMenuController.html#Global_MainMenuController_StartGame_
+  commentId: Overload:Global.MainMenuController.StartGame
+  isSpec: "True"
+  fullName: MainMenuController.StartGame
+  nameWithType: MainMenuController.StartGame
 - uid: Global.MovingPlatformController
   name: MovingPlatformController
   href: api/Global.MovingPlatformController.html
@@ -477,6 +566,19 @@ references:
   commentId: F:Global.PauseMenu.IsPaused
   fullName: PauseMenu.IsPaused
   nameWithType: PauseMenu.IsPaused
+- uid: Global.PauseMenu.OpenMenu
+  name: OpenMenu()
+  href: api/Global.PauseMenu.html#Global_PauseMenu_OpenMenu
+  commentId: M:Global.PauseMenu.OpenMenu
+  fullName: PauseMenu.OpenMenu()
+  nameWithType: PauseMenu.OpenMenu()
+- uid: Global.PauseMenu.OpenMenu*
+  name: OpenMenu
+  href: api/Global.PauseMenu.html#Global_PauseMenu_OpenMenu_
+  commentId: Overload:Global.PauseMenu.OpenMenu
+  isSpec: "True"
+  fullName: PauseMenu.OpenMenu
+  nameWithType: PauseMenu.OpenMenu
 - uid: Global.PauseMenu.pauseMenuUI
   name: pauseMenuUI
   href: api/Global.PauseMenu.html#Global_PauseMenu_pauseMenuUI
