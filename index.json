@@ -132,7 +132,7 @@
   "api/Global.PauseMenu.html": {
     "href": "api/Global.PauseMenu.html",
     "title": "Class PauseMenu | PAdam Softworks",
-    "keywords": "Class PauseMenu Inheritance Object PauseMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PauseMenu : MonoBehaviour Fields IsPaused Declaration public static bool IsPaused Field Value Type Description Boolean pauseMenuUI Declaration public GameObject pauseMenuUI Field Value Type Description GameObject Methods OpenMenu() Przejście do głównego menu Declaration public void OpenMenu() QuitGame() Declaration public void QuitGame() Resume() Declaration public void Resume()"
+    "keywords": "Class PauseMenu Inheritance Object PauseMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PauseMenu : MonoBehaviour Fields IsDeathMenu Declaration public bool IsDeathMenu Field Value Type Description Boolean IsPaused Declaration public static bool IsPaused Field Value Type Description Boolean pauseMenuUI Declaration public GameObject pauseMenuUI Field Value Type Description GameObject resumeButtonUi Declaration public GameObject resumeButtonUi Field Value Type Description GameObject Methods OpenMenu() Przej�cie do g��wnego menu Declaration public void OpenMenu() Pause(Boolean) Declaration public void Pause(bool OnPlayerDeath = false) Parameters Type Name Description Boolean OnPlayerDeath QuitGame() Declaration public void QuitGame() Restart() Declaration public void Restart() Resume() Declaration public void Resume()"
   },
   "api/Global.PlayerController.html": {
     "href": "api/Global.PlayerController.html",

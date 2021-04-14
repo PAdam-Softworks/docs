@@ -560,6 +560,12 @@ references:
   commentId: T:Global.PauseMenu
   fullName: PauseMenu
   nameWithType: PauseMenu
+- uid: Global.PauseMenu.IsDeathMenu
+  name: IsDeathMenu
+  href: api/Global.PauseMenu.html#Global_PauseMenu_IsDeathMenu
+  commentId: F:Global.PauseMenu.IsDeathMenu
+  fullName: PauseMenu.IsDeathMenu
+  nameWithType: PauseMenu.IsDeathMenu
 - uid: Global.PauseMenu.IsPaused
   name: IsPaused
   href: api/Global.PauseMenu.html#Global_PauseMenu_IsPaused
@@ -579,6 +585,19 @@ references:
   isSpec: "True"
   fullName: PauseMenu.OpenMenu
   nameWithType: PauseMenu.OpenMenu
+- uid: Global.PauseMenu.Pause(System.Boolean)
+  name: Pause(Boolean)
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Pause_System_Boolean_
+  commentId: M:Global.PauseMenu.Pause(System.Boolean)
+  fullName: PauseMenu.Pause(System.Boolean)
+  nameWithType: PauseMenu.Pause(Boolean)
+- uid: Global.PauseMenu.Pause*
+  name: Pause
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Pause_
+  commentId: Overload:Global.PauseMenu.Pause
+  isSpec: "True"
+  fullName: PauseMenu.Pause
+  nameWithType: PauseMenu.Pause
 - uid: Global.PauseMenu.pauseMenuUI
   name: pauseMenuUI
   href: api/Global.PauseMenu.html#Global_PauseMenu_pauseMenuUI
@@ -598,6 +617,19 @@ references:
   isSpec: "True"
   fullName: PauseMenu.QuitGame
   nameWithType: PauseMenu.QuitGame
+- uid: Global.PauseMenu.Restart
+  name: Restart()
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Restart
+  commentId: M:Global.PauseMenu.Restart
+  fullName: PauseMenu.Restart()
+  nameWithType: PauseMenu.Restart()
+- uid: Global.PauseMenu.Restart*
+  name: Restart
+  href: api/Global.PauseMenu.html#Global_PauseMenu_Restart_
+  commentId: Overload:Global.PauseMenu.Restart
+  isSpec: "True"
+  fullName: PauseMenu.Restart
+  nameWithType: PauseMenu.Restart
 - uid: Global.PauseMenu.Resume
   name: Resume()
   href: api/Global.PauseMenu.html#Global_PauseMenu_Resume
@@ -611,6 +643,12 @@ references:
   isSpec: "True"
   fullName: PauseMenu.Resume
   nameWithType: PauseMenu.Resume
+- uid: Global.PauseMenu.resumeButtonUi
+  name: resumeButtonUi
+  href: api/Global.PauseMenu.html#Global_PauseMenu_resumeButtonUi
+  commentId: F:Global.PauseMenu.resumeButtonUi
+  fullName: PauseMenu.resumeButtonUi
+  nameWithType: PauseMenu.resumeButtonUi
 - uid: Global.PlayerController
   name: PlayerController
   href: api/Global.PlayerController.html
