@@ -32,7 +32,7 @@
   "api/Enemy.BaseEnemy.html": {
     "href": "api/Enemy.BaseEnemy.html",
     "title": "Class BaseEnemy | PAdam Softworks",
-    "keywords": "Class BaseEnemy Inheritance Object BaseEnemy Implements IEnemy Namespace : Enemy Assembly : cs.temp.dll.dll Syntax public abstract class BaseEnemy : MonoBehaviour, IEnemy Fields scoreOnKill Ilość punktów jaką zdobędzie gracz po zabiciu przeciwnika Declaration public int scoreOnKill Field Value Type Description Int32 Implements IEnemy"
+    "keywords": "Class BaseEnemy Inheritance Object BaseEnemy RollingBallController Implements IEnemy Namespace : Enemy Assembly : cs.temp.dll.dll Syntax public abstract class BaseEnemy : MonoBehaviour, IEnemy Fields scoreOnKill Ilość punktów jaką zdobędzie gracz po zabiciu przeciwnika Declaration public int scoreOnKill Field Value Type Description Int32 Implements IEnemy"
   },
   "api/Enemy.Healthbar.html": {
     "href": "api/Enemy.Healthbar.html",
@@ -64,10 +64,20 @@
     "title": "Class DestroyAfterTime | PAdam Softworks",
     "keywords": "Class DestroyAfterTime Inheritance Object DestroyAfterTime Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DestroyAfterTime : MonoBehaviour"
   },
+  "api/Global.DisableRendererOnStart.html": {
+    "href": "api/Global.DisableRendererOnStart.html",
+    "title": "Class DisableRendererOnStart | PAdam Softworks",
+    "keywords": "Class DisableRendererOnStart Inheritance Object DisableRendererOnStart Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DisableRendererOnStart : MonoBehaviour"
+  },
   "api/Global.EnemySpawner.html": {
     "href": "api/Global.EnemySpawner.html",
     "title": "Class EnemySpawner | PAdam Softworks",
-    "keywords": "Class EnemySpawner Inheritance Object EnemySpawner Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EnemySpawner : MonoBehaviour Fields SpawnCount Declaration public int SpawnCount Field Value Type Description Int32 SpawnDelay Declaration public float SpawnDelay Field Value Type Description Single spawnDirection Declaration public Vector2 spawnDirection Field Value Type Description Vector2 SpawnPrefab Declaration public GameObject SpawnPrefab Field Value Type Description GameObject"
+    "keywords": "Class EnemySpawner Inheritance Object EnemySpawner Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EnemySpawner : MonoBehaviour Fields SpawnCount Ilość mobów jakie się pojawią (-1 = nieskończoność) Declaration public int SpawnCount Field Value Type Description Int32 SpawnDelay Czas w sekundach między respawnami Declaration public float SpawnDelay Field Value Type Description Single spawnDirection Kierunek w którym mob będzie się poruszał Declaration public Vector2 spawnDirection Field Value Type Description Vector2 SpawnPrefab Mob jaki zostanie zrespiony Declaration public GameObject SpawnPrefab Field Value Type Description GameObject"
+  },
+  "api/Global.GlobalLabels.html": {
+    "href": "api/Global.GlobalLabels.html",
+    "title": "Class GlobalLabels | PAdam Softworks",
+    "keywords": "Class GlobalLabels Inheritance Object GlobalLabels Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GlobalLabels Fields EnemyProjectile Declaration public static string EnemyProjectile Field Value Type Description String EnemyTag Declaration public static string EnemyTag Field Value Type Description String HorizontalAxis Declaration public static string HorizontalAxis Field Value Type Description String InvisibleWallLayer Declaration public static string InvisibleWallLayer Field Value Type Description String PlayerProjectile Declaration public static string PlayerProjectile Field Value Type Description String PlayerTag Declaration public static string PlayerTag Field Value Type Description String VerticalAxis Declaration public static string VerticalAxis Field Value Type Description String"
   },
   "api/Global.GraphicsSettingsMenu.html": {
     "href": "api/Global.GraphicsSettingsMenu.html",
@@ -82,7 +92,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime EnemySpawner GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. MainMenuController MovingPlatformController Obstacle PauseMenu PlayerController PlayerTestingUI ProjectileController ScoreManager ScrollingCameraController SpiderController Strings TestInventory Testuje klase Inventory TestPowerupDrop TimerController TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
+    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. MainMenuController MovingPlatformController Obstacle OrmBossController PauseMenu PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController TestInventory Testuje klase Inventory TestPowerupDrop TimerController TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
   },
   "api/Global.IInventory.html": {
     "href": "api/Global.IInventory.html",
@@ -129,6 +139,11 @@
     "title": "Class Obstacle | PAdam Softworks",
     "keywords": "Class Obstacle Inheritance Object Obstacle Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Obstacle : MonoBehaviour Fields EnemyDamage Obrażenia które otrzyma przeciwnik Declaration public int EnemyDamage Field Value Type Description Int32 PlayerDamage Obrażenia które otrzyma postać gracza Declaration public int PlayerDamage Field Value Type Description Int32"
   },
+  "api/Global.OrmBossController.html": {
+    "href": "api/Global.OrmBossController.html",
+    "title": "Class OrmBossController | PAdam Softworks",
+    "keywords": "Class OrmBossController Inheritance Object OrmBossController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class OrmBossController : BaseEnemy Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single Atk1AttackFrames Declaration public List<Texture2D> Atk1AttackFrames Field Value Type Description List < Texture2D > Atk1ProjectilePrefab Declaration public GameObject Atk1ProjectilePrefab Field Value Type Description GameObject Atk1WalkFrames Declaration public List<Texture2D> Atk1WalkFrames Field Value Type Description List < Texture2D > bloodSplashEffect Declaration public GameObject bloodSplashEffect Field Value Type Description GameObject IdleFrames Declaration public List<Texture2D> IdleFrames Field Value Type Description List < Texture2D > isMove Declaration public bool isMove Field Value Type Description Boolean moveDirection Declaration public Vector2 moveDirection Field Value Type Description Vector2 Speed Declaration public float Speed Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D > Methods OnDamaged() Declaration public void OnDamaged() OnDeath() Declaration public void OnDeath()"
+  },
   "api/Global.PauseMenu.html": {
     "href": "api/Global.PauseMenu.html",
     "title": "Class PauseMenu | PAdam Softworks",
@@ -149,6 +164,11 @@
     "title": "Class ProjectileController | PAdam Softworks",
     "keywords": "Class ProjectileController Inheritance Object ProjectileController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ProjectileController : MonoBehaviour Fields AnimSpeed Długość trwania animacji Declaration public int AnimSpeed Field Value Type Description Int32 FlipDirection Jeżeli true, odwraca domyślny kierunek tekstury Declaration public bool FlipDirection Field Value Type Description Boolean Frames Klatki animacji Declaration public List<Texture2D> Frames Field Value Type Description List < Texture2D > Methods Shoot(Vector3, Single, Vector2, Single, Int32) Nadaje pociskowi prędkość w określonym kierunku i czas trwania Declaration public void Shoot(Vector3 position, float speed, Vector2 direction, float lifeTime, int layer = 10) Parameters Type Name Description Vector3 position miejsce w którym pocisk się pojawia (world space) Single speed prędkość pocisku (stała) Vector2 direction kierunek Single lifeTime czas żywota Int32 layer warstwa fizyczna (domyślnie PhysicalProjectile)"
   },
+  "api/Global.RollingBallController.html": {
+    "href": "api/Global.RollingBallController.html",
+    "title": "Class RollingBallController | PAdam Softworks",
+    "keywords": "Class RollingBallController Inheritance Object BaseEnemy RollingBallController Implements IEnemy Inherited Members BaseEnemy.scoreOnKill Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RollingBallController : BaseEnemy, IEnemy Fields bloodSplashEffect Declaration public GameObject bloodSplashEffect Field Value Type Description GameObject RollingSpeed Prędkość toczenia się obiektu (i kierunek) Declaration public float RollingSpeed Field Value Type Description Single Methods OnDeath() Declaration public void OnDeath() Implements IEnemy"
+  },
   "api/Global.ScoreManager.html": {
     "href": "api/Global.ScoreManager.html",
     "title": "Class ScoreManager | PAdam Softworks",
@@ -163,11 +183,6 @@
     "href": "api/Global.SpiderController.html",
     "title": "Class SpiderController | PAdam Softworks",
     "keywords": "Class SpiderController Inheritance Object SpiderController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpiderController : MonoBehaviour Fields AnimationTimeScale Declaration public float AnimationTimeScale Field Value Type Description Single isMove Declaration public bool isMove Field Value Type Description Boolean Speed Declaration public float Speed Field Value Type Description Single WalkFrames Declaration public List<Texture2D> WalkFrames Field Value Type Description List < Texture2D >"
-  },
-  "api/Global.Strings.html": {
-    "href": "api/Global.Strings.html",
-    "title": "Class Strings | PAdam Softworks",
-    "keywords": "Class Strings Inheritance Object Strings Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Strings Fields EnemyProjectile Declaration public static string EnemyProjectile Field Value Type Description String EnemyTag Declaration public static string EnemyTag Field Value Type Description String HorizontalAxis Declaration public static string HorizontalAxis Field Value Type Description String PlayerProjectile Declaration public static string PlayerProjectile Field Value Type Description String PlayerTag Declaration public static string PlayerTag Field Value Type Description String VerticalAxis Declaration public static string VerticalAxis Field Value Type Description String"
   },
   "api/Global.TestInventory.html": {
     "href": "api/Global.TestInventory.html",

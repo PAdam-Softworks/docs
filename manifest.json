@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Enemy.BaseEnemy.html",
-          "hash": "rV8iy7kI4A9BoZWCbmMYdmEe63q8Y7aIBhzfQxejdmw="
+          "hash": "3Gpo5xngF2Wrp/HKj6GkB0zM44qLkB+3ccm6jdewe7k="
         }
       },
       "is_incremental": false,
@@ -170,11 +170,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.DisableRendererOnStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DisableRendererOnStart.html",
+          "hash": "9zJkk/Jdmnmu7mn3nS0HK2rxM9Vq910KXM2sDNmSYUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.EnemySpawner.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.EnemySpawner.html",
-          "hash": "iYg1eeJ/Cvc7w2GUbkvkMFCjIyeXqwBokbJoa1J5OrE="
+          "hash": "ompz2AZYoGwkT1OZ2J03TUZwN0ASqSDE8Nz+mA2Wwig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalLabels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalLabels.html",
+          "hash": "/DIJjYbRFzCj3oKHQTZwZJs4VSU79njEyljuaCgxnqc="
         }
       },
       "is_incremental": false,
@@ -314,6 +338,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.OrmBossController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.OrmBossController.html",
+          "hash": "/zgiSctYzSAUsT8WnidCU7z0t7/pHKyMitoa1JLtH/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.PauseMenu.yml",
       "output": {
         ".html": {
@@ -362,6 +398,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.RollingBallController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RollingBallController.html",
+          "hash": "OkzFTj5qnFrsHr3phbKjJCmZ6C2MsgTRmj+JwRL2Uuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.ScoreManager.yml",
       "output": {
         ".html": {
@@ -391,18 +439,6 @@
         ".html": {
           "relative_path": "api/Global.SpiderController.html",
           "hash": "YiC0zljYVom90vBX8s+1vRez6qMxf2cWDr0Dom77/Ps="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.Strings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.Strings.html",
-          "hash": "6XKQ1LN32d6D5+XpKos9ljTqu0WJGipkBuqVZ2Cr7qo="
         }
       },
       "is_incremental": false,
@@ -462,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "A6mWFHpfA7VCT5vjmqPxlq4SJiC5MdMq20dA0jubV9I="
+          "hash": "g88YOM9LlIY0oNEGdN0hbyiS5dcagPj09Z2Yk4UA2uA="
         }
       },
       "is_incremental": false,
@@ -606,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jXE96WgEjUOkyv7ntorGqdG8xrwnQfnow7jq62UQEIg="
+          "hash": "rG0w5IYTIuMIcWVIp2tsB9Dp+QFyjapPETUI8lTO+h8="
         }
       },
       "is_incremental": false,
@@ -749,7 +785,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 48,
+          "total_file_count": 51,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

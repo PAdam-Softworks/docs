@@ -138,6 +138,12 @@ references:
   commentId: T:Global.DestroyAfterTime
   fullName: DestroyAfterTime
   nameWithType: DestroyAfterTime
+- uid: Global.DisableRendererOnStart
+  name: DisableRendererOnStart
+  href: api/Global.DisableRendererOnStart.html
+  commentId: T:Global.DisableRendererOnStart
+  fullName: DisableRendererOnStart
+  nameWithType: DisableRendererOnStart
 - uid: Global.EnemySpawner
   name: EnemySpawner
   href: api/Global.EnemySpawner.html
@@ -168,6 +174,54 @@ references:
   commentId: F:Global.EnemySpawner.SpawnPrefab
   fullName: EnemySpawner.SpawnPrefab
   nameWithType: EnemySpawner.SpawnPrefab
+- uid: Global.GlobalLabels
+  name: GlobalLabels
+  href: api/Global.GlobalLabels.html
+  commentId: T:Global.GlobalLabels
+  fullName: GlobalLabels
+  nameWithType: GlobalLabels
+- uid: Global.GlobalLabels.EnemyProjectile
+  name: EnemyProjectile
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_EnemyProjectile
+  commentId: F:Global.GlobalLabels.EnemyProjectile
+  fullName: GlobalLabels.EnemyProjectile
+  nameWithType: GlobalLabels.EnemyProjectile
+- uid: Global.GlobalLabels.EnemyTag
+  name: EnemyTag
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_EnemyTag
+  commentId: F:Global.GlobalLabels.EnemyTag
+  fullName: GlobalLabels.EnemyTag
+  nameWithType: GlobalLabels.EnemyTag
+- uid: Global.GlobalLabels.HorizontalAxis
+  name: HorizontalAxis
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_HorizontalAxis
+  commentId: F:Global.GlobalLabels.HorizontalAxis
+  fullName: GlobalLabels.HorizontalAxis
+  nameWithType: GlobalLabels.HorizontalAxis
+- uid: Global.GlobalLabels.InvisibleWallLayer
+  name: InvisibleWallLayer
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_InvisibleWallLayer
+  commentId: F:Global.GlobalLabels.InvisibleWallLayer
+  fullName: GlobalLabels.InvisibleWallLayer
+  nameWithType: GlobalLabels.InvisibleWallLayer
+- uid: Global.GlobalLabels.PlayerProjectile
+  name: PlayerProjectile
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_PlayerProjectile
+  commentId: F:Global.GlobalLabels.PlayerProjectile
+  fullName: GlobalLabels.PlayerProjectile
+  nameWithType: GlobalLabels.PlayerProjectile
+- uid: Global.GlobalLabels.PlayerTag
+  name: PlayerTag
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_PlayerTag
+  commentId: F:Global.GlobalLabels.PlayerTag
+  fullName: GlobalLabels.PlayerTag
+  nameWithType: GlobalLabels.PlayerTag
+- uid: Global.GlobalLabels.VerticalAxis
+  name: VerticalAxis
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_VerticalAxis
+  commentId: F:Global.GlobalLabels.VerticalAxis
+  fullName: GlobalLabels.VerticalAxis
+  nameWithType: GlobalLabels.VerticalAxis
 - uid: Global.GraphicsSettingsMenu
   name: GraphicsSettingsMenu
   href: api/Global.GraphicsSettingsMenu.html
@@ -554,6 +608,98 @@ references:
   commentId: F:Global.Obstacle.PlayerDamage
   fullName: Obstacle.PlayerDamage
   nameWithType: Obstacle.PlayerDamage
+- uid: Global.OrmBossController
+  name: OrmBossController
+  href: api/Global.OrmBossController.html
+  commentId: T:Global.OrmBossController
+  fullName: OrmBossController
+  nameWithType: OrmBossController
+- uid: Global.OrmBossController.AnimationTimeScale
+  name: AnimationTimeScale
+  href: api/Global.OrmBossController.html#Global_OrmBossController_AnimationTimeScale
+  commentId: F:Global.OrmBossController.AnimationTimeScale
+  fullName: OrmBossController.AnimationTimeScale
+  nameWithType: OrmBossController.AnimationTimeScale
+- uid: Global.OrmBossController.Atk1AttackFrames
+  name: Atk1AttackFrames
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Atk1AttackFrames
+  commentId: F:Global.OrmBossController.Atk1AttackFrames
+  fullName: OrmBossController.Atk1AttackFrames
+  nameWithType: OrmBossController.Atk1AttackFrames
+- uid: Global.OrmBossController.Atk1ProjectilePrefab
+  name: Atk1ProjectilePrefab
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Atk1ProjectilePrefab
+  commentId: F:Global.OrmBossController.Atk1ProjectilePrefab
+  fullName: OrmBossController.Atk1ProjectilePrefab
+  nameWithType: OrmBossController.Atk1ProjectilePrefab
+- uid: Global.OrmBossController.Atk1WalkFrames
+  name: Atk1WalkFrames
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Atk1WalkFrames
+  commentId: F:Global.OrmBossController.Atk1WalkFrames
+  fullName: OrmBossController.Atk1WalkFrames
+  nameWithType: OrmBossController.Atk1WalkFrames
+- uid: Global.OrmBossController.bloodSplashEffect
+  name: bloodSplashEffect
+  href: api/Global.OrmBossController.html#Global_OrmBossController_bloodSplashEffect
+  commentId: F:Global.OrmBossController.bloodSplashEffect
+  fullName: OrmBossController.bloodSplashEffect
+  nameWithType: OrmBossController.bloodSplashEffect
+- uid: Global.OrmBossController.IdleFrames
+  name: IdleFrames
+  href: api/Global.OrmBossController.html#Global_OrmBossController_IdleFrames
+  commentId: F:Global.OrmBossController.IdleFrames
+  fullName: OrmBossController.IdleFrames
+  nameWithType: OrmBossController.IdleFrames
+- uid: Global.OrmBossController.isMove
+  name: isMove
+  href: api/Global.OrmBossController.html#Global_OrmBossController_isMove
+  commentId: F:Global.OrmBossController.isMove
+  fullName: OrmBossController.isMove
+  nameWithType: OrmBossController.isMove
+- uid: Global.OrmBossController.moveDirection
+  name: moveDirection
+  href: api/Global.OrmBossController.html#Global_OrmBossController_moveDirection
+  commentId: F:Global.OrmBossController.moveDirection
+  fullName: OrmBossController.moveDirection
+  nameWithType: OrmBossController.moveDirection
+- uid: Global.OrmBossController.OnDamaged
+  name: OnDamaged()
+  href: api/Global.OrmBossController.html#Global_OrmBossController_OnDamaged
+  commentId: M:Global.OrmBossController.OnDamaged
+  fullName: OrmBossController.OnDamaged()
+  nameWithType: OrmBossController.OnDamaged()
+- uid: Global.OrmBossController.OnDamaged*
+  name: OnDamaged
+  href: api/Global.OrmBossController.html#Global_OrmBossController_OnDamaged_
+  commentId: Overload:Global.OrmBossController.OnDamaged
+  isSpec: "True"
+  fullName: OrmBossController.OnDamaged
+  nameWithType: OrmBossController.OnDamaged
+- uid: Global.OrmBossController.OnDeath
+  name: OnDeath()
+  href: api/Global.OrmBossController.html#Global_OrmBossController_OnDeath
+  commentId: M:Global.OrmBossController.OnDeath
+  fullName: OrmBossController.OnDeath()
+  nameWithType: OrmBossController.OnDeath()
+- uid: Global.OrmBossController.OnDeath*
+  name: OnDeath
+  href: api/Global.OrmBossController.html#Global_OrmBossController_OnDeath_
+  commentId: Overload:Global.OrmBossController.OnDeath
+  isSpec: "True"
+  fullName: OrmBossController.OnDeath
+  nameWithType: OrmBossController.OnDeath
+- uid: Global.OrmBossController.Speed
+  name: Speed
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Speed
+  commentId: F:Global.OrmBossController.Speed
+  fullName: OrmBossController.Speed
+  nameWithType: OrmBossController.Speed
+- uid: Global.OrmBossController.WalkFrames
+  name: WalkFrames
+  href: api/Global.OrmBossController.html#Global_OrmBossController_WalkFrames
+  commentId: F:Global.OrmBossController.WalkFrames
+  fullName: OrmBossController.WalkFrames
+  nameWithType: OrmBossController.WalkFrames
 - uid: Global.PauseMenu
   name: PauseMenu
   href: api/Global.PauseMenu.html
@@ -922,6 +1068,37 @@ references:
   isSpec: "True"
   fullName: ProjectileController.Shoot
   nameWithType: ProjectileController.Shoot
+- uid: Global.RollingBallController
+  name: RollingBallController
+  href: api/Global.RollingBallController.html
+  commentId: T:Global.RollingBallController
+  fullName: RollingBallController
+  nameWithType: RollingBallController
+- uid: Global.RollingBallController.bloodSplashEffect
+  name: bloodSplashEffect
+  href: api/Global.RollingBallController.html#Global_RollingBallController_bloodSplashEffect
+  commentId: F:Global.RollingBallController.bloodSplashEffect
+  fullName: RollingBallController.bloodSplashEffect
+  nameWithType: RollingBallController.bloodSplashEffect
+- uid: Global.RollingBallController.OnDeath
+  name: OnDeath()
+  href: api/Global.RollingBallController.html#Global_RollingBallController_OnDeath
+  commentId: M:Global.RollingBallController.OnDeath
+  fullName: RollingBallController.OnDeath()
+  nameWithType: RollingBallController.OnDeath()
+- uid: Global.RollingBallController.OnDeath*
+  name: OnDeath
+  href: api/Global.RollingBallController.html#Global_RollingBallController_OnDeath_
+  commentId: Overload:Global.RollingBallController.OnDeath
+  isSpec: "True"
+  fullName: RollingBallController.OnDeath
+  nameWithType: RollingBallController.OnDeath
+- uid: Global.RollingBallController.RollingSpeed
+  name: RollingSpeed
+  href: api/Global.RollingBallController.html#Global_RollingBallController_RollingSpeed
+  commentId: F:Global.RollingBallController.RollingSpeed
+  fullName: RollingBallController.RollingSpeed
+  nameWithType: RollingBallController.RollingSpeed
 - uid: Global.ScoreManager
   name: ScoreManager
   href: api/Global.ScoreManager.html
@@ -1040,48 +1217,6 @@ references:
   commentId: F:Global.SpiderController.WalkFrames
   fullName: SpiderController.WalkFrames
   nameWithType: SpiderController.WalkFrames
-- uid: Global.Strings
-  name: Strings
-  href: api/Global.Strings.html
-  commentId: T:Global.Strings
-  fullName: Strings
-  nameWithType: Strings
-- uid: Global.Strings.EnemyProjectile
-  name: EnemyProjectile
-  href: api/Global.Strings.html#Global_Strings_EnemyProjectile
-  commentId: F:Global.Strings.EnemyProjectile
-  fullName: Strings.EnemyProjectile
-  nameWithType: Strings.EnemyProjectile
-- uid: Global.Strings.EnemyTag
-  name: EnemyTag
-  href: api/Global.Strings.html#Global_Strings_EnemyTag
-  commentId: F:Global.Strings.EnemyTag
-  fullName: Strings.EnemyTag
-  nameWithType: Strings.EnemyTag
-- uid: Global.Strings.HorizontalAxis
-  name: HorizontalAxis
-  href: api/Global.Strings.html#Global_Strings_HorizontalAxis
-  commentId: F:Global.Strings.HorizontalAxis
-  fullName: Strings.HorizontalAxis
-  nameWithType: Strings.HorizontalAxis
-- uid: Global.Strings.PlayerProjectile
-  name: PlayerProjectile
-  href: api/Global.Strings.html#Global_Strings_PlayerProjectile
-  commentId: F:Global.Strings.PlayerProjectile
-  fullName: Strings.PlayerProjectile
-  nameWithType: Strings.PlayerProjectile
-- uid: Global.Strings.PlayerTag
-  name: PlayerTag
-  href: api/Global.Strings.html#Global_Strings_PlayerTag
-  commentId: F:Global.Strings.PlayerTag
-  fullName: Strings.PlayerTag
-  nameWithType: Strings.PlayerTag
-- uid: Global.Strings.VerticalAxis
-  name: VerticalAxis
-  href: api/Global.Strings.html#Global_Strings_VerticalAxis
-  commentId: F:Global.Strings.VerticalAxis
-  fullName: Strings.VerticalAxis
-  nameWithType: Strings.VerticalAxis
 - uid: Global.TestInventory
   name: TestInventory
   href: api/Global.TestInventory.html
