@@ -9,10 +9,15 @@
     "title": "Class MixerSliderVolume | PAdam Softworks",
     "keywords": "Class MixerSliderVolume Klasa odpowiadająca za ustawienie odpowiednich ustawień dźwiękowych Inheritance Object MixerSliderVolume Namespace : Audio Assembly : cs.temp.dll.dll Syntax public class MixerSliderVolume : MonoBehaviour"
   },
+  "api/Core.DestroyGameObject.html": {
+    "href": "api/Core.DestroyGameObject.html",
+    "title": "Class DestroyGameObject | PAdam Softworks",
+    "keywords": "Class DestroyGameObject Inheritance Object DestroyGameObject Namespace : Core Assembly : cs.temp.dll.dll Syntax public class DestroyGameObject : MonoBehaviour Methods Destroy(Int32) Niszczy obiekt Declaration public void Destroy(int delay = 0) Parameters Type Name Description Int32 delay Opcjonalne opóźnienie w sekundach"
+  },
   "api/Core.html": {
     "href": "api/Core.html",
     "title": "Namespace Core | PAdam Softworks",
-    "keywords": "Namespace Core Classes InteractOnCollision2D InteractOnTrigger2D SetAnimatorBoolFlag"
+    "keywords": "Namespace Core Classes DestroyGameObject InteractOnCollision2D InteractOnTrigger2D SetAnimatorBoolFlag"
   },
   "api/Core.InteractOnCollision2D.html": {
     "href": "api/Core.InteractOnCollision2D.html",

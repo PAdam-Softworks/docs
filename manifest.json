@@ -38,6 +38,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Core.DestroyGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.DestroyGameObject.html",
+          "hash": "183X8DKxBoQqQ0m+tt+FIPqqeOm8n/7MxC5BcYdhcI8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Core.InteractOnCollision2D.yml",
       "output": {
         ".html": {
@@ -78,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Core.html",
-          "hash": "uVBvJbWRiKeZzBSHGUdlVKeuJsFW9gzU0VdNMXAofsM="
+          "hash": "aW0aNDtMQ+oriEbU01jJvFv0wn1LwT6jlDkD83ihG5Q="
         }
       },
       "is_incremental": false,
@@ -642,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rG0w5IYTIuMIcWVIp2tsB9Dp+QFyjapPETUI8lTO+h8="
+          "hash": "Nip9tu6sNcjxyzorEEsT4JpLF7aGqAoIOQaObns1ixs="
         }
       },
       "is_incremental": false,
@@ -785,7 +797,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 51,
+          "total_file_count": 52,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

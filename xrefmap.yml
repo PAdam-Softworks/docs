@@ -19,6 +19,25 @@ references:
   commentId: N:Core
   fullName: Core
   nameWithType: Core
+- uid: Core.DestroyGameObject
+  name: DestroyGameObject
+  href: api/Core.DestroyGameObject.html
+  commentId: T:Core.DestroyGameObject
+  fullName: Core.DestroyGameObject
+  nameWithType: DestroyGameObject
+- uid: Core.DestroyGameObject.Destroy(System.Int32)
+  name: Destroy(Int32)
+  href: api/Core.DestroyGameObject.html#Core_DestroyGameObject_Destroy_System_Int32_
+  commentId: M:Core.DestroyGameObject.Destroy(System.Int32)
+  fullName: Core.DestroyGameObject.Destroy(System.Int32)
+  nameWithType: DestroyGameObject.Destroy(Int32)
+- uid: Core.DestroyGameObject.Destroy*
+  name: Destroy
+  href: api/Core.DestroyGameObject.html#Core_DestroyGameObject_Destroy_
+  commentId: Overload:Core.DestroyGameObject.Destroy
+  isSpec: "True"
+  fullName: Core.DestroyGameObject.Destroy
+  nameWithType: DestroyGameObject.Destroy
 - uid: Core.InteractOnCollision2D
   name: InteractOnCollision2D
   href: api/Core.InteractOnCollision2D.html
