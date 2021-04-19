@@ -663,6 +663,12 @@ references:
   commentId: F:Global.OrmBossController.bloodSplashEffect
   fullName: OrmBossController.bloodSplashEffect
   nameWithType: OrmBossController.bloodSplashEffect
+- uid: Global.OrmBossController.HealthCanvas
+  name: HealthCanvas
+  href: api/Global.OrmBossController.html#Global_OrmBossController_HealthCanvas
+  commentId: F:Global.OrmBossController.HealthCanvas
+  fullName: OrmBossController.HealthCanvas
+  nameWithType: OrmBossController.HealthCanvas
 - uid: Global.OrmBossController.IdleFrames
   name: IdleFrames
   href: api/Global.OrmBossController.html#Global_OrmBossController_IdleFrames
@@ -719,6 +725,12 @@ references:
   commentId: F:Global.OrmBossController.WalkFrames
   fullName: OrmBossController.WalkFrames
   nameWithType: OrmBossController.WalkFrames
+- uid: Global.ParallaxBackground
+  name: ParallaxBackground
+  href: api/Global.ParallaxBackground.html
+  commentId: T:Global.ParallaxBackground
+  fullName: ParallaxBackground
+  nameWithType: ParallaxBackground
 - uid: Global.PauseMenu
   name: PauseMenu
   href: api/Global.PauseMenu.html
@@ -951,12 +963,24 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnDeath
   nameWithType: PlayerController.OnDeath
+- uid: Global.PlayerController.ProjectileLifetime
+  name: ProjectileLifetime
+  href: api/Global.PlayerController.html#Global_PlayerController_ProjectileLifetime
+  commentId: F:Global.PlayerController.ProjectileLifetime
+  fullName: PlayerController.ProjectileLifetime
+  nameWithType: PlayerController.ProjectileLifetime
 - uid: Global.PlayerController.ProjectilePrefab
   name: ProjectilePrefab
   href: api/Global.PlayerController.html#Global_PlayerController_ProjectilePrefab
   commentId: F:Global.PlayerController.ProjectilePrefab
   fullName: PlayerController.ProjectilePrefab
   nameWithType: PlayerController.ProjectilePrefab
+- uid: Global.PlayerController.ProjectileSpeed
+  name: ProjectileSpeed
+  href: api/Global.PlayerController.html#Global_PlayerController_ProjectileSpeed
+  commentId: F:Global.PlayerController.ProjectileSpeed
+  fullName: PlayerController.ProjectileSpeed
+  nameWithType: PlayerController.ProjectileSpeed
 - uid: Global.PlayerController.rb
   name: rb
   href: api/Global.PlayerController.html#Global_PlayerController_rb
@@ -1200,12 +1224,6 @@ references:
   commentId: F:Global.ScrollingCameraController.SmoothTime
   fullName: ScrollingCameraController.SmoothTime
   nameWithType: ScrollingCameraController.SmoothTime
-- uid: Global.ScrollingCameraController.target
-  name: target
-  href: api/Global.ScrollingCameraController.html#Global_ScrollingCameraController_target
-  commentId: F:Global.ScrollingCameraController.target
-  fullName: ScrollingCameraController.target
-  nameWithType: ScrollingCameraController.target
 - uid: Global.SpiderController
   name: SpiderController
   href: api/Global.SpiderController.html
@@ -1396,6 +1414,18 @@ references:
   commentId: F:Global.TimerController.timeCounter
   fullName: TimerController.timeCounter
   nameWithType: TimerController.timeCounter
+- uid: Global.ToggleGameobject
+  name: ToggleGameobject
+  href: api/Global.ToggleGameobject.html
+  commentId: T:Global.ToggleGameobject
+  fullName: ToggleGameobject
+  nameWithType: ToggleGameobject
+- uid: Global.ToggleGameobject.GameObjectsToToggle
+  name: GameObjectsToToggle
+  href: api/Global.ToggleGameobject.html#Global_ToggleGameobject_GameObjectsToToggle
+  commentId: F:Global.ToggleGameobject.GameObjectsToToggle
+  fullName: ToggleGameobject.GameObjectsToToggle
+  nameWithType: ToggleGameobject.GameObjectsToToggle
 - uid: Global.TurretController
   name: TurretController
   href: api/Global.TurretController.html
@@ -1476,6 +1506,12 @@ references:
   commentId: F:Global.TurretController.PressurePlate
   fullName: TurretController.PressurePlate
   nameWithType: TurretController.PressurePlate
+- uid: Global.TurretController.ProjectileLifetime
+  name: ProjectileLifetime
+  href: api/Global.TurretController.html#Global_TurretController_ProjectileLifetime
+  commentId: F:Global.TurretController.ProjectileLifetime
+  fullName: TurretController.ProjectileLifetime
+  nameWithType: TurretController.ProjectileLifetime
 - uid: Global.TurretController.ProjectilePrefab
   name: ProjectilePrefab
   href: api/Global.TurretController.html#Global_TurretController_ProjectilePrefab
