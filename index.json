@@ -9,6 +9,91 @@
     "title": "Class MixerSliderVolume | PAdam Softworks",
     "keywords": "Class MixerSliderVolume Klasa odpowiadająca za ustawienie odpowiednich ustawień dźwiękowych Inheritance Object MixerSliderVolume Namespace : Audio Assembly : cs.temp.dll.dll Syntax public class MixerSliderVolume : MonoBehaviour"
   },
+  "api/ClipperLib.Clipper.html": {
+    "href": "api/ClipperLib.Clipper.html",
+    "title": "Class Clipper | PAdam Softworks",
+    "keywords": "Class Clipper Inheritance Object ClipperBase Clipper Inherited Members ClipperBase.horizontal ClipperBase.Skip ClipperBase.Unassigned ClipperBase.tolerance ClipperBase.PreserveCollinear ClipperBase.SlopesEqual(IntPoint, IntPoint, IntPoint, Boolean) ClipperBase.SlopesEqual(IntPoint, IntPoint, IntPoint, IntPoint, Boolean) ClipperBase.Clear() ClipperBase.AddPath(List<IntPoint>, PolyType, Boolean) ClipperBase.AddPaths(List<List<IntPoint>>, PolyType, Boolean) ClipperBase.PopLocalMinima() ClipperBase.GetBounds(List<List<IntPoint>>) Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class Clipper : ClipperBase Constructors Clipper(Int32) Declaration public Clipper(int InitOptions = 0) Parameters Type Name Description Int32 InitOptions Fields ioPreserveCollinear Declaration public const int ioPreserveCollinear = 4 Field Value Type Description Int32 ioReverseSolution Declaration public const int ioReverseSolution = 1 Field Value Type Description Int32 ioStrictlySimple Declaration public const int ioStrictlySimple = 2 Field Value Type Description Int32 Properties ReverseSolution Declaration public bool ReverseSolution { get; set; } Property Value Type Description Boolean StrictlySimple Declaration public bool StrictlySimple { get; set; } Property Value Type Description Boolean Methods Area(List<IntPoint>) Declaration public static double Area(List<IntPoint> poly) Parameters Type Name Description List < IntPoint > poly Returns Type Description Double CleanPolygon(List<IntPoint>, Double) Declaration public static List<IntPoint> CleanPolygon(List<IntPoint> path, double distance = 1.415) Parameters Type Name Description List < IntPoint > path Double distance Returns Type Description List < IntPoint > CleanPolygons(List<List<IntPoint>>, Double) Declaration public static List<List<IntPoint>> CleanPolygons(List<List<IntPoint>> polys, double distance = 1.415) Parameters Type Name Description List < List < IntPoint >> polys Double distance Returns Type Description List < List < IntPoint >> ClosedPathsFromPolyTree(PolyTree) Declaration public static List<List<IntPoint>> ClosedPathsFromPolyTree(PolyTree polytree) Parameters Type Name Description PolyTree polytree Returns Type Description List < List < IntPoint >> Execute(ClipType, PolyTree) Declaration public bool Execute(ClipType clipType, PolyTree polytree) Parameters Type Name Description ClipType clipType PolyTree polytree Returns Type Description Boolean Execute(ClipType, PolyTree, PolyFillType, PolyFillType) Declaration public bool Execute(ClipType clipType, PolyTree polytree, PolyFillType subjFillType, PolyFillType clipFillType) Parameters Type Name Description ClipType clipType PolyTree polytree PolyFillType subjFillType PolyFillType clipFillType Returns Type Description Boolean Execute(ClipType, List<List<IntPoint>>) Declaration public bool Execute(ClipType clipType, List<List<IntPoint>> solution) Parameters Type Name Description ClipType clipType List < List < IntPoint >> solution Returns Type Description Boolean Execute(ClipType, List<List<IntPoint>>, PolyFillType, PolyFillType) Declaration public bool Execute(ClipType clipType, List<List<IntPoint>> solution, PolyFillType subjFillType, PolyFillType clipFillType) Parameters Type Name Description ClipType clipType List < List < IntPoint >> solution PolyFillType subjFillType PolyFillType clipFillType Returns Type Description Boolean MinkowskiDiff(List<IntPoint>, List<IntPoint>) Declaration public static List<List<IntPoint>> MinkowskiDiff(List<IntPoint> poly1, List<IntPoint> poly2) Parameters Type Name Description List < IntPoint > poly1 List < IntPoint > poly2 Returns Type Description List < List < IntPoint >> MinkowskiSum(List<IntPoint>, List<IntPoint>, Boolean) Declaration public static List<List<IntPoint>> MinkowskiSum(List<IntPoint> pattern, List<IntPoint> path, bool pathIsClosed) Parameters Type Name Description List < IntPoint > pattern List < IntPoint > path Boolean pathIsClosed Returns Type Description List < List < IntPoint >> MinkowskiSum(List<IntPoint>, List<List<IntPoint>>, PolyFillType, Boolean) Declaration public static List<List<IntPoint>> MinkowskiSum(List<IntPoint> pattern, List<List<IntPoint>> paths, PolyFillType pathFillType, bool pathIsClosed) Parameters Type Name Description List < IntPoint > pattern List < List < IntPoint >> paths PolyFillType pathFillType Boolean pathIsClosed Returns Type Description List < List < IntPoint >> OffsetPaths(List<List<IntPoint>>, Double, JoinType, EndType_, Double) Declaration public static List<List<IntPoint>> OffsetPaths(List<List<IntPoint>> polys, double delta, JoinType jointype, EndType_ endtype, double MiterLimit) Parameters Type Name Description List < List < IntPoint >> polys Double delta JoinType jointype EndType_ endtype Double MiterLimit Returns Type Description List < List < IntPoint >> OpenPathsFromPolyTree(PolyTree) Declaration public static List<List<IntPoint>> OpenPathsFromPolyTree(PolyTree polytree) Parameters Type Name Description PolyTree polytree Returns Type Description List < List < IntPoint >> Orientation(List<IntPoint>) Declaration public static bool Orientation(List<IntPoint> poly) Parameters Type Name Description List < IntPoint > poly Returns Type Description Boolean PointInPolygon(IntPoint, List<IntPoint>) Declaration public static int PointInPolygon(IntPoint pt, List<IntPoint> path) Parameters Type Name Description IntPoint pt List < IntPoint > path Returns Type Description Int32 PolyTreeToPaths(PolyTree) Declaration public static List<List<IntPoint>> PolyTreeToPaths(PolyTree polytree) Parameters Type Name Description PolyTree polytree Returns Type Description List < List < IntPoint >> Reset() Declaration protected override void Reset() Overrides ClipperBase.Reset() ReversePaths(List<List<IntPoint>>) Declaration public static void ReversePaths(List<List<IntPoint>> polys) Parameters Type Name Description List < List < IntPoint >> polys SimplifyPolygon(List<IntPoint>, PolyFillType) Declaration public static List<List<IntPoint>> SimplifyPolygon(List<IntPoint> poly, PolyFillType fillType = PolyFillType.pftEvenOdd) Parameters Type Name Description List < IntPoint > poly PolyFillType fillType Returns Type Description List < List < IntPoint >> SimplifyPolygons(List<List<IntPoint>>, PolyFillType) Declaration public static List<List<IntPoint>> SimplifyPolygons(List<List<IntPoint>> polys, PolyFillType fillType = PolyFillType.pftEvenOdd) Parameters Type Name Description List < List < IntPoint >> polys PolyFillType fillType Returns Type Description List < List < IntPoint >>"
+  },
+  "api/ClipperLib.ClipperBase.html": {
+    "href": "api/ClipperLib.ClipperBase.html",
+    "title": "Class ClipperBase | PAdam Softworks",
+    "keywords": "Class ClipperBase Inheritance Object ClipperBase Clipper Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class ClipperBase Fields horizontal Declaration protected const double horizontal = -3.4E+38 Field Value Type Description Double Skip Declaration protected const int Skip = -2 Field Value Type Description Int32 tolerance Declaration protected const double tolerance = 1E-20 Field Value Type Description Double Unassigned Declaration protected const int Unassigned = -1 Field Value Type Description Int32 Properties PreserveCollinear Declaration public bool PreserveCollinear { get; set; } Property Value Type Description Boolean Methods AddPath(List<IntPoint>, PolyType, Boolean) Declaration public bool AddPath(List<IntPoint> pg, PolyType polyType, bool Closed) Parameters Type Name Description List < IntPoint > pg PolyType polyType Boolean Closed Returns Type Description Boolean AddPaths(List<List<IntPoint>>, PolyType, Boolean) Declaration public bool AddPaths(List<List<IntPoint>> ppg, PolyType polyType, bool closed) Parameters Type Name Description List < List < IntPoint >> ppg PolyType polyType Boolean closed Returns Type Description Boolean Clear() Declaration public virtual void Clear() GetBounds(List<List<IntPoint>>) Declaration public static IntRect GetBounds(List<List<IntPoint>> paths) Parameters Type Name Description List < List < IntPoint >> paths Returns Type Description IntRect PopLocalMinima() Declaration protected void PopLocalMinima() Reset() Declaration protected virtual void Reset() SlopesEqual(IntPoint, IntPoint, IntPoint, IntPoint, Boolean) Declaration protected static bool SlopesEqual(IntPoint pt1, IntPoint pt2, IntPoint pt3, IntPoint pt4, bool UseFullRange) Parameters Type Name Description IntPoint pt1 IntPoint pt2 IntPoint pt3 IntPoint pt4 Boolean UseFullRange Returns Type Description Boolean SlopesEqual(IntPoint, IntPoint, IntPoint, Boolean) Declaration protected static bool SlopesEqual(IntPoint pt1, IntPoint pt2, IntPoint pt3, bool UseFullRange) Parameters Type Name Description IntPoint pt1 IntPoint pt2 IntPoint pt3 Boolean UseFullRange Returns Type Description Boolean"
+  },
+  "api/ClipperLib.ClipperOffset.html": {
+    "href": "api/ClipperLib.ClipperOffset.html",
+    "title": "Class ClipperOffset | PAdam Softworks",
+    "keywords": "Class ClipperOffset Inheritance Object ClipperOffset Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class ClipperOffset Constructors ClipperOffset(Double, Double) Declaration public ClipperOffset(double miterLimit = 2, double arcTolerance = 0.25) Parameters Type Name Description Double miterLimit Double arcTolerance Properties ArcTolerance Declaration public double ArcTolerance { get; set; } Property Value Type Description Double MiterLimit Declaration public double MiterLimit { get; set; } Property Value Type Description Double Methods AddPath(List<IntPoint>, JoinType, EndType) Declaration public void AddPath(List<IntPoint> path, JoinType joinType, EndType endType) Parameters Type Name Description List < IntPoint > path JoinType joinType EndType endType AddPaths(List<List<IntPoint>>, JoinType, EndType) Declaration public void AddPaths(List<List<IntPoint>> paths, JoinType joinType, EndType endType) Parameters Type Name Description List < List < IntPoint >> paths JoinType joinType EndType endType Clear() Declaration public void Clear() Execute(ref PolyTree, Double) Declaration public void Execute(ref PolyTree solution, double delta) Parameters Type Name Description PolyTree solution Double delta Execute(ref List<List<IntPoint>>, Double) Declaration public void Execute(ref List<List<IntPoint>> solution, double delta) Parameters Type Name Description List < List < IntPoint >> solution Double delta"
+  },
+  "api/ClipperLib.ClipType.html": {
+    "href": "api/ClipperLib.ClipType.html",
+    "title": "Enum ClipType | PAdam Softworks",
+    "keywords": "Enum ClipType Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum ClipType Fields Name Description ctDifference ctIntersection ctUnion ctXor"
+  },
+  "api/ClipperLib.DoublePoint.html": {
+    "href": "api/ClipperLib.DoublePoint.html",
+    "title": "Struct DoublePoint | PAdam Softworks",
+    "keywords": "Struct DoublePoint Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public struct DoublePoint Constructors DoublePoint(DoublePoint) Declaration public DoublePoint(DoublePoint dp) Parameters Type Name Description DoublePoint dp DoublePoint(IntPoint) Declaration public DoublePoint(IntPoint ip) Parameters Type Name Description IntPoint ip DoublePoint(Double, Double) Declaration public DoublePoint(double x = 0, double y = 0) Parameters Type Name Description Double x Double y Fields X Declaration public double X Field Value Type Description Double Y Declaration public double Y Field Value Type Description Double"
+  },
+  "api/ClipperLib.EndType.html": {
+    "href": "api/ClipperLib.EndType.html",
+    "title": "Enum EndType | PAdam Softworks",
+    "keywords": "Enum EndType Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum EndType Fields Name Description etClosedLine etClosedPolygon etOpenButt etOpenRound etOpenSquare"
+  },
+  "api/ClipperLib.EndType_.html": {
+    "href": "api/ClipperLib.EndType_.html",
+    "title": "Enum EndType_ | PAdam Softworks",
+    "keywords": "Enum EndType_ Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum EndType_ Fields Name Description etButt etClosed etRound etSquare"
+  },
+  "api/ClipperLib.html": {
+    "href": "api/ClipperLib.html",
+    "title": "Namespace ClipperLib | PAdam Softworks",
+    "keywords": "Namespace ClipperLib Classes Clipper ClipperBase ClipperOffset IntersectNode MyIntersectNodeSort PolyNode PolyTree Structs DoublePoint IntPoint IntRect Enums ClipType EndType EndType_ JoinType PolyFillType PolyType"
+  },
+  "api/ClipperLib.IntersectNode.html": {
+    "href": "api/ClipperLib.IntersectNode.html",
+    "title": "Class IntersectNode | PAdam Softworks",
+    "keywords": "Class IntersectNode Inheritance Object IntersectNode Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class IntersectNode"
+  },
+  "api/ClipperLib.IntPoint.html": {
+    "href": "api/ClipperLib.IntPoint.html",
+    "title": "Struct IntPoint | PAdam Softworks",
+    "keywords": "Struct IntPoint Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public struct IntPoint Constructors IntPoint(IntPoint) Declaration public IntPoint(IntPoint pt) Parameters Type Name Description IntPoint pt IntPoint(Int64, Int64) Declaration public IntPoint(Int64 X, Int64 Y) Parameters Type Name Description Int64 X Int64 Y IntPoint(Double, Double) Declaration public IntPoint(double x, double y) Parameters Type Name Description Double x Double y Fields X Declaration public Int64 X Field Value Type Description Int64 Y Declaration public Int64 Y Field Value Type Description Int64 Methods Equals(Object) Declaration public override bool Equals(object obj) Parameters Type Name Description Object obj Returns Type Description Boolean Overrides ValueType.Equals(Object) GetHashCode() Declaration public override int GetHashCode() Returns Type Description Int32 Overrides ValueType.GetHashCode() Operators Equality(IntPoint, IntPoint) Declaration public static bool operator ==(IntPoint a, IntPoint b) Parameters Type Name Description IntPoint a IntPoint b Returns Type Description Boolean Inequality(IntPoint, IntPoint) Declaration public static bool operator !=(IntPoint a, IntPoint b) Parameters Type Name Description IntPoint a IntPoint b Returns Type Description Boolean"
+  },
+  "api/ClipperLib.IntRect.html": {
+    "href": "api/ClipperLib.IntRect.html",
+    "title": "Struct IntRect | PAdam Softworks",
+    "keywords": "Struct IntRect Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public struct IntRect Constructors IntRect(IntRect) Declaration public IntRect(IntRect ir) Parameters Type Name Description IntRect ir IntRect(Int64, Int64, Int64, Int64) Declaration public IntRect(Int64 l, Int64 t, Int64 r, Int64 b) Parameters Type Name Description Int64 l Int64 t Int64 r Int64 b Fields bottom Declaration public Int64 bottom Field Value Type Description Int64 left Declaration public Int64 left Field Value Type Description Int64 right Declaration public Int64 right Field Value Type Description Int64 top Declaration public Int64 top Field Value Type Description Int64"
+  },
+  "api/ClipperLib.JoinType.html": {
+    "href": "api/ClipperLib.JoinType.html",
+    "title": "Enum JoinType | PAdam Softworks",
+    "keywords": "Enum JoinType Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum JoinType Fields Name Description jtMiter jtRound jtSquare"
+  },
+  "api/ClipperLib.MyIntersectNodeSort.html": {
+    "href": "api/ClipperLib.MyIntersectNodeSort.html",
+    "title": "Class MyIntersectNodeSort | PAdam Softworks",
+    "keywords": "Class MyIntersectNodeSort Inheritance Object MyIntersectNodeSort Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class MyIntersectNodeSort : IComparer<IntersectNode> Methods Compare(IntersectNode, IntersectNode) Declaration public int Compare(IntersectNode node1, IntersectNode node2) Parameters Type Name Description IntersectNode node1 IntersectNode node2 Returns Type Description Int32"
+  },
+  "api/ClipperLib.PolyFillType.html": {
+    "href": "api/ClipperLib.PolyFillType.html",
+    "title": "Enum PolyFillType | PAdam Softworks",
+    "keywords": "Enum PolyFillType Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum PolyFillType Fields Name Description pftEvenOdd pftNegative pftNonZero pftPositive"
+  },
+  "api/ClipperLib.PolyNode.html": {
+    "href": "api/ClipperLib.PolyNode.html",
+    "title": "Class PolyNode | PAdam Softworks",
+    "keywords": "Class PolyNode Inheritance Object PolyNode PolyTree Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class PolyNode Properties ChildCount Declaration public int ChildCount { get; } Property Value Type Description Int32 Childs Declaration public List<PolyNode> Childs { get; } Property Value Type Description List < PolyNode > Contour Declaration public List<IntPoint> Contour { get; } Property Value Type Description List < IntPoint > IsHole Declaration public bool IsHole { get; } Property Value Type Description Boolean IsOpen Declaration public bool IsOpen { get; set; } Property Value Type Description Boolean Parent Declaration public PolyNode Parent { get; } Property Value Type Description PolyNode Methods GetNext() Declaration public PolyNode GetNext() Returns Type Description PolyNode"
+  },
+  "api/ClipperLib.PolyTree.html": {
+    "href": "api/ClipperLib.PolyTree.html",
+    "title": "Class PolyTree | PAdam Softworks",
+    "keywords": "Class PolyTree Inheritance Object PolyNode PolyTree Inherited Members PolyNode.ChildCount PolyNode.Contour PolyNode.GetNext() PolyNode.Childs PolyNode.Parent PolyNode.IsHole PolyNode.IsOpen Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public class PolyTree : PolyNode Properties Total Declaration public int Total { get; } Property Value Type Description Int32 Methods Clear() Declaration public void Clear() Finalize() Declaration protected void Finalize() GetFirst() Declaration public PolyNode GetFirst() Returns Type Description PolyNode"
+  },
+  "api/ClipperLib.PolyType.html": {
+    "href": "api/ClipperLib.PolyType.html",
+    "title": "Enum PolyType | PAdam Softworks",
+    "keywords": "Enum PolyType Namespace : ClipperLib Assembly : cs.temp.dll.dll Syntax public enum PolyType Fields Name Description ptClip ptSubject"
+  },
   "api/Core.DestroyGameObject.html": {
     "href": "api/Core.DestroyGameObject.html",
     "title": "Class DestroyGameObject | PAdam Softworks",
@@ -34,6 +119,131 @@
     "title": "Class SetAnimatorBoolFlag | PAdam Softworks",
     "keywords": "Class SetAnimatorBoolFlag Inheritance Object SetAnimatorBoolFlag Namespace : Core Assembly : cs.temp.dll.dll Syntax public class SetAnimatorBoolFlag : MonoBehaviour Methods SetFlag() Ustawia zdefiniowaną flagę na animatorze z podaną wartością Declaration public void SetFlag()"
   },
+  "api/Delaunay.DelaunayHelpers.html": {
+    "href": "api/Delaunay.DelaunayHelpers.html",
+    "title": "Class DelaunayHelpers | PAdam Softworks",
+    "keywords": "Class DelaunayHelpers Inheritance Object DelaunayHelpers Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public static class DelaunayHelpers Methods DelaunayLinesForEdges(List<Edge>) Declaration public static List<LineSegment> DelaunayLinesForEdges(List<Edge> edges) Parameters Type Name Description List < Edge > edges Returns Type Description List < LineSegment > Kruskal(List<LineSegment>, KruskalType) Declaration public static List<LineSegment> Kruskal(List<LineSegment> lineSegments, KruskalType type = KruskalType.MINIMUM) Parameters Type Name Description List < LineSegment > lineSegments KruskalType type Returns Type Description List < LineSegment > SelectEdgesForSitePoint(Vector2, List<Edge>) Declaration public static List<Edge> SelectEdgesForSitePoint(Vector2 coord, List<Edge> edgesToTest) Parameters Type Name Description Vector2 coord List < Edge > edgesToTest Returns Type Description List < Edge > SelectNonIntersectingEdges(List<Edge>) Declaration public static List<Edge> SelectNonIntersectingEdges(List<Edge> edgesToTest) Parameters Type Name Description List < Edge > edgesToTest Returns Type Description List < Edge > VisibleLineSegments(List<Edge>) Declaration public static List<LineSegment> VisibleLineSegments(List<Edge> edges) Parameters Type Name Description List < Edge > edges Returns Type Description List < LineSegment >"
+  },
+  "api/Delaunay.Edge.html": {
+    "href": "api/Delaunay.Edge.html",
+    "title": "Class Edge | PAdam Softworks",
+    "keywords": "Class Edge Inheritance Object Edge Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Edge Fields a Declaration public float a Field Value Type Description Single b Declaration public float b Field Value Type Description Single c Declaration public float c Field Value Type Description Single DELETED Declaration public static readonly Edge DELETED Field Value Type Description Edge Properties clippedEnds Declaration public Dictionary<Side, Nullable<Vector2>> clippedEnds { get; } Property Value Type Description Dictionary < Side , Nullable < Vector2 >> leftSite Declaration public Site leftSite { get; set; } Property Value Type Description Site leftVertex Declaration public Vertex leftVertex { get; } Property Value Type Description Vertex rightSite Declaration public Site rightSite { get; set; } Property Value Type Description Site rightVertex Declaration public Vertex rightVertex { get; } Property Value Type Description Vertex visible Declaration public bool visible { get; } Property Value Type Description Boolean Methods ClipVertices(Rect) Declaration public void ClipVertices(Rect bounds) Parameters Type Name Description Rect bounds CompareSitesDistances(Edge, Edge) Declaration public static int CompareSitesDistances(Edge edge0, Edge edge1) Parameters Type Name Description Edge edge0 Edge edge1 Returns Type Description Int32 CompareSitesDistances_MAX(Edge, Edge) Declaration public static int CompareSitesDistances_MAX(Edge edge0, Edge edge1) Parameters Type Name Description Edge edge0 Edge edge1 Returns Type Description Int32 CreateBisectingEdge(Site, Site) Declaration public static Edge CreateBisectingEdge(Site site0, Site site1) Parameters Type Name Description Site site0 Site site1 Returns Type Description Edge DelaunayLine() Declaration public LineSegment DelaunayLine() Returns Type Description LineSegment Dispose() Declaration public void Dispose() IsPartOfConvexHull() Declaration public bool IsPartOfConvexHull() Returns Type Description Boolean SetVertex(Side, Vertex) Declaration public void SetVertex(Side leftRight, Vertex v) Parameters Type Name Description Side leftRight Vertex v Site(Side) Declaration public Site Site(Side leftRight) Parameters Type Name Description Side leftRight Returns Type Description Site SitesDistance() Declaration public float SitesDistance() Returns Type Description Single ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString() Vertex(Side) Declaration public Vertex Vertex(Side leftRight) Parameters Type Name Description Side leftRight Returns Type Description Vertex VoronoiEdge() Declaration public LineSegment VoronoiEdge() Returns Type Description LineSegment"
+  },
+  "api/Delaunay.Geo.Circle.html": {
+    "href": "api/Delaunay.Geo.Circle.html",
+    "title": "Class Circle | PAdam Softworks",
+    "keywords": "Class Circle Inheritance Object Circle Namespace : Delaunay.Geo Assembly : cs.temp.dll.dll Syntax public sealed class Circle Constructors Circle(Single, Single, Single) Declaration public Circle(float centerX, float centerY, float radius) Parameters Type Name Description Single centerX Single centerY Single radius Fields center Declaration public Vector2 center Field Value Type Description Vector2 radius Declaration public float radius Field Value Type Description Single Methods ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString()"
+  },
+  "api/Delaunay.Geo.html": {
+    "href": "api/Delaunay.Geo.html",
+    "title": "Namespace Delaunay.Geo | PAdam Softworks",
+    "keywords": "Namespace Delaunay.Geo Classes Circle LineSegment Polygon Enums Winding"
+  },
+  "api/Delaunay.Geo.LineSegment.html": {
+    "href": "api/Delaunay.Geo.LineSegment.html",
+    "title": "Class LineSegment | PAdam Softworks",
+    "keywords": "Class LineSegment Inheritance Object LineSegment Namespace : Delaunay.Geo Assembly : cs.temp.dll.dll Syntax public sealed class LineSegment Constructors LineSegment(Nullable<Vector2>, Nullable<Vector2>) Declaration public LineSegment(Nullable<Vector2> p0, Nullable<Vector2> p1) Parameters Type Name Description Nullable < Vector2 > p0 Nullable < Vector2 > p1 Fields p0 Declaration public Nullable<Vector2> p0 Field Value Type Description Nullable < Vector2 > p1 Declaration public Nullable<Vector2> p1 Field Value Type Description Nullable < Vector2 > Methods CompareLengths(LineSegment, LineSegment) Declaration public static int CompareLengths(LineSegment edge0, LineSegment edge1) Parameters Type Name Description LineSegment edge0 LineSegment edge1 Returns Type Description Int32 CompareLengths_MAX(LineSegment, LineSegment) Declaration public static int CompareLengths_MAX(LineSegment segment0, LineSegment segment1) Parameters Type Name Description LineSegment segment0 LineSegment segment1 Returns Type Description Int32"
+  },
+  "api/Delaunay.Geo.Polygon.html": {
+    "href": "api/Delaunay.Geo.Polygon.html",
+    "title": "Class Polygon | PAdam Softworks",
+    "keywords": "Class Polygon Inheritance Object Polygon Namespace : Delaunay.Geo Assembly : cs.temp.dll.dll Syntax public sealed class Polygon Constructors Polygon(List<Vector2>) Declaration public Polygon(List<Vector2> vertices) Parameters Type Name Description List < Vector2 > vertices Methods Area() Declaration public float Area() Returns Type Description Single Winding() Declaration public Winding Winding() Returns Type Description Winding"
+  },
+  "api/Delaunay.Geo.Winding.html": {
+    "href": "api/Delaunay.Geo.Winding.html",
+    "title": "Enum Winding | PAdam Softworks",
+    "keywords": "Enum Winding Namespace : Delaunay.Geo Assembly : cs.temp.dll.dll Syntax public enum Winding Fields Name Description CLOCKWISE COUNTERCLOCKWISE NONE"
+  },
+  "api/Delaunay.Halfedge.html": {
+    "href": "api/Delaunay.Halfedge.html",
+    "title": "Class Halfedge | PAdam Softworks",
+    "keywords": "Class Halfedge Inheritance Object Halfedge Implements IDisposable Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Halfedge : IDisposable Constructors Halfedge(Edge, Nullable<Side>) Declaration public Halfedge(Edge edge = null, Nullable<Side> lr = null) Parameters Type Name Description Edge edge Nullable < Side > lr Fields edge Declaration public Edge edge Field Value Type Description Edge edgeListLeftNeighbor Declaration public Halfedge edgeListLeftNeighbor Field Value Type Description Halfedge edgeListRightNeighbor Declaration public Halfedge edgeListRightNeighbor Field Value Type Description Halfedge leftRight Declaration public Nullable<Side> leftRight Field Value Type Description Nullable < Side > nextInPriorityQueue Declaration public Halfedge nextInPriorityQueue Field Value Type Description Halfedge vertex Declaration public Vertex vertex Field Value Type Description Vertex ystar Declaration public float ystar Field Value Type Description Single Methods Create(Edge, Nullable<Side>) Declaration public static Halfedge Create(Edge edge, Nullable<Side> lr) Parameters Type Name Description Edge edge Nullable < Side > lr Returns Type Description Halfedge CreateDummy() Declaration public static Halfedge CreateDummy() Returns Type Description Halfedge Dispose() Declaration public void Dispose() ReallyDispose() Declaration public void ReallyDispose() ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString() Implements IDisposable"
+  },
+  "api/Delaunay.html": {
+    "href": "api/Delaunay.html",
+    "title": "Namespace Delaunay | PAdam Softworks",
+    "keywords": "Namespace Delaunay Classes DelaunayHelpers Edge Halfedge Node Site SiteList Triangle Vertex Voronoi Interfaces ICoord Enums KruskalType VertexOrSite"
+  },
+  "api/Delaunay.ICoord.html": {
+    "href": "api/Delaunay.ICoord.html",
+    "title": "Interface ICoord | PAdam Softworks",
+    "keywords": "Interface ICoord Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public interface ICoord Properties Coord Declaration Vector2 Coord { get; } Property Value Type Description Vector2"
+  },
+  "api/Delaunay.KruskalType.html": {
+    "href": "api/Delaunay.KruskalType.html",
+    "title": "Enum KruskalType | PAdam Softworks",
+    "keywords": "Enum KruskalType Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public enum KruskalType Fields Name Description MAXIMUM MINIMUM"
+  },
+  "api/Delaunay.LR.html": {
+    "href": "api/Delaunay.LR.html",
+    "title": "Namespace Delaunay.LR | PAdam Softworks",
+    "keywords": "Namespace Delaunay.LR Classes SideHelper Enums Side"
+  },
+  "api/Delaunay.LR.Side.html": {
+    "href": "api/Delaunay.LR.Side.html",
+    "title": "Enum Side | PAdam Softworks",
+    "keywords": "Enum Side Namespace : Delaunay.LR Assembly : cs.temp.dll.dll Syntax public enum Side Fields Name Description LEFT RIGHT"
+  },
+  "api/Delaunay.LR.SideHelper.html": {
+    "href": "api/Delaunay.LR.SideHelper.html",
+    "title": "Class SideHelper | PAdam Softworks",
+    "keywords": "Class SideHelper Inheritance Object SideHelper Namespace : Delaunay.LR Assembly : cs.temp.dll.dll Syntax public class SideHelper Methods Other(Side) Declaration public static Side Other(Side leftRight) Parameters Type Name Description Side leftRight Returns Type Description Side"
+  },
+  "api/Delaunay.Node.html": {
+    "href": "api/Delaunay.Node.html",
+    "title": "Class Node | PAdam Softworks",
+    "keywords": "Class Node Inheritance Object Node Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public class Node Fields parent Declaration public Node parent Field Value Type Description Node pool Declaration public static Stack<Node> pool Field Value Type Description Stack < Node > treeSize Declaration public int treeSize Field Value Type Description Int32"
+  },
+  "api/Delaunay.Site.html": {
+    "href": "api/Delaunay.Site.html",
+    "title": "Class Site | PAdam Softworks",
+    "keywords": "Class Site Inheritance Object Site Implements ICoord IComparable Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Site : ICoord, IComparable Fields color Declaration public uint color Field Value Type Description UInt32 weight Declaration public float weight Field Value Type Description Single Properties Coord Declaration public Vector2 Coord { get; } Property Value Type Description Vector2 edgeOrientations Declaration public List<Side> edgeOrientations { get; } Property Value Type Description List < Side > x Declaration public float x { get; } Property Value Type Description Single Methods AddEdge(Edge) Declaration public void AddEdge(Edge edge) Parameters Type Name Description Edge edge CloseEnough(Vector2, Vector2) Declaration public static bool CloseEnough(Vector2 p0, Vector2 p1) Parameters Type Name Description Vector2 p0 Vector2 p1 Returns Type Description Boolean CompareTo(Object) Declaration public int CompareTo(object obj) Parameters Type Name Description Object obj Returns Type Description Int32 Create(Vector2, UInt32, Single, UInt32) Declaration public static Site Create(Vector2 p, uint index, float weight, uint color) Parameters Type Name Description Vector2 p UInt32 index Single weight UInt32 color Returns Type Description Site Dispose() Declaration public void Dispose() Dist(ICoord) Declaration public float Dist(ICoord p) Parameters Type Name Description ICoord p Returns Type Description Single NearestEdge() Declaration public Edge NearestEdge() Returns Type Description Edge NeighborSites() Declaration public List<Site> NeighborSites() Returns Type Description List < Site > ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString() Implements ICoord IComparable"
+  },
+  "api/Delaunay.SiteList.html": {
+    "href": "api/Delaunay.SiteList.html",
+    "title": "Class SiteList | PAdam Softworks",
+    "keywords": "Class SiteList Inheritance Object SiteList Implements IDisposable Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class SiteList : IDisposable Constructors SiteList() Declaration public SiteList() Fields _sites Declaration public List<Site> _sites Field Value Type Description List < Site > Properties Count Declaration public int Count { get; } Property Value Type Description Int32 Methods Add(Site) Declaration public int Add(Site site) Parameters Type Name Description Site site Returns Type Description Int32 Circles() Declaration public List<Circle> Circles() Returns Type Description List < Circle > Dispose() Declaration public void Dispose() NearestSitePoint(Single, Single) Declaration public Nullable<Vector2> NearestSitePoint(float x, float y) Parameters Type Name Description Single x Single y Returns Type Description Nullable < Vector2 > Next() Declaration public Site Next() Returns Type Description Site Regions(Rect) Declaration public List<List<Vector2>> Regions(Rect plotBounds) Parameters Type Name Description Rect plotBounds Returns Type Description List < List < Vector2 >> SiteColors() Declaration public List<uint> SiteColors() Returns Type Description List < UInt32 > SiteCoords() Declaration public List<Vector2> SiteCoords() Returns Type Description List < Vector2 > Implements IDisposable"
+  },
+  "api/Delaunay.Triangle.html": {
+    "href": "api/Delaunay.Triangle.html",
+    "title": "Class Triangle | PAdam Softworks",
+    "keywords": "Class Triangle Inheritance Object Triangle Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Triangle : IDisposable Constructors Triangle(Site, Site, Site) Declaration public Triangle(Site a, Site b, Site c) Parameters Type Name Description Site a Site b Site c Properties sites Declaration public List<Site> sites { get; } Property Value Type Description List < Site > Methods Dispose() Declaration public void Dispose()"
+  },
+  "api/Delaunay.Utils.html": {
+    "href": "api/Delaunay.Utils.html",
+    "title": "Namespace Delaunay.Utils | PAdam Softworks",
+    "keywords": "Namespace Delaunay.Utils Interfaces IDisposable"
+  },
+  "api/Delaunay.Utils.IDisposable.html": {
+    "href": "api/Delaunay.Utils.IDisposable.html",
+    "title": "Interface IDisposable | PAdam Softworks",
+    "keywords": "Interface IDisposable Namespace : Delaunay.Utils Assembly : cs.temp.dll.dll Syntax public interface IDisposable Methods Dispose() Declaration void Dispose()"
+  },
+  "api/Delaunay.Vertex.html": {
+    "href": "api/Delaunay.Vertex.html",
+    "title": "Class Vertex | PAdam Softworks",
+    "keywords": "Class Vertex Inheritance Object Vertex Implements ICoord Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Vertex : ICoord Constructors Vertex(Single, Single) Declaration public Vertex(float x, float y) Parameters Type Name Description Single x Single y Fields VERTEX_AT_INFINITY Declaration public static readonly Vertex VERTEX_AT_INFINITY Field Value Type Description Vertex Properties Coord Declaration public Vector2 Coord { get; } Property Value Type Description Vector2 vertexIndex Declaration public int vertexIndex { get; } Property Value Type Description Int32 x Declaration public float x { get; } Property Value Type Description Single y Declaration public float y { get; } Property Value Type Description Single Methods Dispose() Declaration public void Dispose() Intersect(Halfedge, Halfedge) Declaration public static Vertex Intersect(Halfedge halfedge0, Halfedge halfedge1) Parameters Type Name Description Halfedge halfedge0 Halfedge halfedge1 Returns Type Description Vertex SetIndex() Declaration public void SetIndex() ToString() Declaration public override string ToString() Returns Type Description String Overrides Object.ToString() Implements ICoord"
+  },
+  "api/Delaunay.VertexOrSite.html": {
+    "href": "api/Delaunay.VertexOrSite.html",
+    "title": "Enum VertexOrSite | PAdam Softworks",
+    "keywords": "Enum VertexOrSite Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public enum VertexOrSite Fields Name Description SITE VERTEX"
+  },
+  "api/Delaunay.Voronoi.html": {
+    "href": "api/Delaunay.Voronoi.html",
+    "title": "Class Voronoi | PAdam Softworks",
+    "keywords": "Class Voronoi Inheritance Object Voronoi Implements IDisposable Namespace : Delaunay Assembly : cs.temp.dll.dll Syntax public sealed class Voronoi : IDisposable Constructors Voronoi(List<Vector2>, List<UInt32>, Rect) Declaration public Voronoi(List<Vector2> points, List<uint> colors, Rect plotBounds) Parameters Type Name Description List < Vector2 > points List < UInt32 > colors Rect plotBounds Properties plotBounds Declaration public Rect plotBounds { get; } Property Value Type Description Rect Methods Circles() Declaration public List<Circle> Circles() Returns Type Description List < Circle > CompareByYThenX(Site, Site) Declaration public static int CompareByYThenX(Site s1, Site s2) Parameters Type Name Description Site s1 Site s2 Returns Type Description Int32 CompareByYThenX(Site, Vector2) Declaration public static int CompareByYThenX(Site s1, Vector2 s2) Parameters Type Name Description Site s1 Vector2 s2 Returns Type Description Int32 DelaunayLinesForSite(Vector2) Declaration public List<LineSegment> DelaunayLinesForSite(Vector2 coord) Parameters Type Name Description Vector2 coord Returns Type Description List < LineSegment > DelaunayTriangulation() Declaration public List<LineSegment> DelaunayTriangulation() Returns Type Description List < LineSegment > Dispose() Declaration public void Dispose() Edges() Declaration public List<Edge> Edges() Returns Type Description List < Edge > Hull() Declaration public List<LineSegment> Hull() Returns Type Description List < LineSegment > HullPointsInOrder() Declaration public List<Vector2> HullPointsInOrder() Returns Type Description List < Vector2 > NearestSitePoint(Single, Single) Declaration public Nullable<Vector2> NearestSitePoint(float x, float y) Parameters Type Name Description Single x Single y Returns Type Description Nullable < Vector2 > NeighborSitesForSite(Vector2) Declaration public List<Vector2> NeighborSitesForSite(Vector2 coord) Parameters Type Name Description Vector2 coord Returns Type Description List < Vector2 > Region(Vector2) Declaration public List<Vector2> Region(Vector2 p) Parameters Type Name Description Vector2 p Returns Type Description List < Vector2 > Regions() Declaration public List<List<Vector2>> Regions() Returns Type Description List < List < Vector2 >> SiteColors() Declaration public List<uint> SiteColors() Returns Type Description List < UInt32 > SiteCoords() Declaration public List<Vector2> SiteCoords() Returns Type Description List < Vector2 > Sites() Declaration public SiteList Sites() Returns Type Description SiteList SpanningTree(KruskalType) Declaration public List<LineSegment> SpanningTree(KruskalType type = KruskalType.MINIMUM) Parameters Type Name Description KruskalType type Returns Type Description List < LineSegment > Triangles() Declaration public List<Triangle> Triangles() Returns Type Description List < Triangle > VoronoiBoundaryForSite(Vector2) Declaration public List<LineSegment> VoronoiBoundaryForSite(Vector2 coord) Parameters Type Name Description Vector2 coord Returns Type Description List < LineSegment > VoronoiDiagram() Declaration public List<LineSegment> VoronoiDiagram() Returns Type Description List < LineSegment > Implements IDisposable"
+  },
+  "api/Editor.ExplodableEditor.html": {
+    "href": "api/Editor.ExplodableEditor.html",
+    "title": "Class ExplodableEditor | PAdam Softworks",
+    "keywords": "Class ExplodableEditor Inheritance Object ExplodableEditor Namespace : Editor Assembly : cs.temp.dll.dll Syntax public class ExplodableEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Editor.html": {
+    "href": "api/Editor.html",
+    "title": "Namespace Editor | PAdam Softworks",
+    "keywords": "Namespace Editor Classes ExplodableEditor"
+  },
   "api/Enemy.BaseEnemy.html": {
     "href": "api/Enemy.BaseEnemy.html",
     "title": "Class BaseEnemy | PAdam Softworks",
@@ -53,6 +263,41 @@
     "href": "api/Enemy.IEnemy.html",
     "title": "Interface IEnemy | PAdam Softworks",
     "keywords": "Interface IEnemy Interfejs określający przeciwnika Namespace : Enemy Assembly : cs.temp.dll.dll Syntax public interface IEnemy"
+  },
+  "api/Explodable.ClipperHelper.html": {
+    "href": "api/Explodable.ClipperHelper.html",
+    "title": "Class ClipperHelper | PAdam Softworks",
+    "keywords": "Class ClipperHelper Inheritance Object ClipperHelper Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public static class ClipperHelper Methods Clip(List<Vector2>, List<Vector2>) Declaration public static List<List<Vector2>> Clip(List<Vector2> boundary, List<Vector2> region) Parameters Type Name Description List < Vector2 > boundary List < Vector2 > region Returns Type Description List < List < Vector2 >> Clip(List<Vector2>, Triangle) Declaration public static List<List<Vector2>> Clip(List<Vector2> boundary, Triangle piece) Parameters Type Name Description List < Vector2 > boundary Triangle piece Returns Type Description List < List < Vector2 >>"
+  },
+  "api/Explodable.Explodable.html": {
+    "href": "api/Explodable.Explodable.html",
+    "title": "Class Explodable | PAdam Softworks",
+    "keywords": "Class Explodable Inheritance Object Explodable Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public class Explodable : MonoBehaviour Fields allowRuntimeFragmentation Generowanie fragmentów podczas rozgrywki Declaration public bool allowRuntimeFragmentation Field Value Type Description Boolean extraPoints Ilość losowo rozmieszczonych dodatkowych punktów na obiekcie Declaration public int extraPoints Field Value Type Description Int32 fragmentLayer Warstwa fragmentów którą będą posiadały nowo stworzone fragmenty Declaration public string fragmentLayer Field Value Type Description String fragmentLifetime Czas jaki fragmenty będą na planszy. 0 = nieskończoność Declaration public float fragmentLifetime Field Value Type Description Single fragments List stworzonych obiektów Declaration public List<GameObject> fragments Field Value Type Description List < GameObject > ignoreFragmentsCollision Ignorowanie kolizji stworzonych fragmentów pomiędzy graczem a fragmentem Declaration public bool ignoreFragmentsCollision Field Value Type Description Boolean orderInLayer Kolejność w warstwie stworzonych fragmentów Declaration public int orderInLayer Field Value Type Description Int32 shatterType Rodzaj fragmentów Declaration public ShatterType shatterType Field Value Type Description ShatterType sortingLayerName Warstwa sortująca którą będą posiadały nowo stworzone fragmenty Declaration public string sortingLayerName Field Value Type Description String subshatterSteps Ile razy pętla generująca fragmenty będzie używa Declaration public int subshatterSteps Field Value Type Description Int32 Methods DeleteFragments() Usuwa wszystkie stworzone framgenty Declaration public void DeleteFragments() Explode() Tworzy nowe fragmenty Declaration public void Explode() FragmentInEditor() Tworzy nowe fragmenty i ustawia je jako nieaktywne Declaration public void FragmentInEditor()"
+  },
+  "api/Explodable.ExplodeOnClick.html": {
+    "href": "api/Explodable.ExplodeOnClick.html",
+    "title": "Class ExplodeOnClick | PAdam Softworks",
+    "keywords": "Class ExplodeOnClick Klasa pomocnicza do eksplozji obiektu na kliknięciu myszką Inheritance Object ExplodeOnClick Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public class ExplodeOnClick : MonoBehaviour"
+  },
+  "api/Explodable.ExplosionForce.html": {
+    "href": "api/Explodable.ExplosionForce.html",
+    "title": "Class ExplosionForce | PAdam Softworks",
+    "keywords": "Class ExplosionForce Inheritance Object ExplosionForce Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public class ExplosionForce : MonoBehaviour Methods DoExplosion(Vector3) Stworzenie eksplozji na danej pozycji Declaration public void DoExplosion(Vector3 position) Parameters Type Name Description Vector3 position Pozycja eksplozji"
+  },
+  "api/Explodable.html": {
+    "href": "api/Explodable.html",
+    "title": "Namespace Explodable | PAdam Softworks",
+    "keywords": "Namespace Explodable Classes ClipperHelper Explodable ExplodeOnClick Klasa pomocnicza do eksplozji obiektu na kliknięciu myszką ExplosionForce SpriteExploder Enums ShatterType Typ rozwalenia"
+  },
+  "api/Explodable.ShatterType.html": {
+    "href": "api/Explodable.ShatterType.html",
+    "title": "Enum ShatterType | PAdam Softworks",
+    "keywords": "Enum ShatterType Typ rozwalenia Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public enum ShatterType Fields Name Description Triangle Voronoi"
+  },
+  "api/Explodable.SpriteExploder.html": {
+    "href": "api/Explodable.SpriteExploder.html",
+    "title": "Class SpriteExploder | PAdam Softworks",
+    "keywords": "Class SpriteExploder Inheritance Object SpriteExploder Namespace : Explodable Assembly : cs.temp.dll.dll Syntax public static class SpriteExploder Methods GenerateTriangularPieces(GameObject, Int32, Int32, Material) Generowanie fragmentów na podstawie trójkątów Declaration public static List<GameObject> GenerateTriangularPieces(GameObject source, int extraPoints = 0, int subshatterSteps = 0, Material mat = null) Parameters Type Name Description GameObject source Rodzic z którego będą tworzone fragmenty Int32 extraPoints Dodatkowe ilość losowo rozmieszczonych punkty Int32 subshatterSteps Dodatkowo ilość przejścia pętli generującej fragmenty Material mat Opcjonalny material inny niż rodzica Returns Type Description List < GameObject > Zwraca listę obiektów GenerateVoronoiPieces(GameObject, Int32, Int32, Material) Generowanie fragmentów na podstawie voronai Declaration public static List<GameObject> GenerateVoronoiPieces(GameObject source, int extraPoints = 0, int subshatterSteps = 0, Material mat = null) Parameters Type Name Description GameObject source Rodzic z którego będą tworzone fragmenty Int32 extraPoints Dodatkowe ilość losowo rozmieszczonych punkty Int32 subshatterSteps Dodatkowo ilość przejścia pętli generującej fragmenty Material mat Opcjonalny material inny niż rodzica Returns Type Description List < GameObject > Zwraca listę obiektów"
   },
   "api/Global.AttackController.html": {
     "href": "api/Global.AttackController.html",
@@ -97,7 +342,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController TestInventory Testuje klase Inventory TestPowerupDrop TimerController ToggleGameobject TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
+    "keywords": "Namespace Global Classes AttackController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. LootTable LootTableItem MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController TestInventory Testuje klase Inventory TestPowerupDrop TimerController ToggleGameobject TurretController Interfaces IInventory Inerfejs dostarczaj�cy podstawowe operacje na ekwipunku Enums Item.ItemType"
   },
   "api/Global.IInventory.html": {
     "href": "api/Global.IInventory.html",
@@ -128,6 +373,16 @@
     "href": "api/Global.ItemController.html",
     "title": "Class ItemController | PAdam Softworks",
     "keywords": "Class ItemController Kontroler zachowań przedmiotów na mapie. Inheritance Object ItemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemController : MonoBehaviour Fields ItemData Declaration public TextAsset ItemData Field Value Type Description TextAsset"
+  },
+  "api/Global.LootTable.html": {
+    "href": "api/Global.LootTable.html",
+    "title": "Class LootTable | PAdam Softworks",
+    "keywords": "Class LootTable Inheritance Object LootTable Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LootTable : MonoBehaviour Fields lootTable Declaration public List<LootTableItem> lootTable Field Value Type Description List < LootTableItem > Methods ChooseItem() Wybranie jednego przedmiotu z loot table Declaration public LootTableItem ChooseItem() Returns Type Description LootTableItem Zwraca jeden LootTableItem SpawnItem() Wybiera jeden przedmiot z loot table i tworzy go Declaration public void SpawnItem()"
+  },
+  "api/Global.LootTableItem.html": {
+    "href": "api/Global.LootTableItem.html",
+    "title": "Class LootTableItem | PAdam Softworks",
+    "keywords": "Class LootTableItem Inheritance Object LootTableItem Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LootTableItem Properties Item Declaration public GameObject Item { get; } Property Value Type Description GameObject Weight Declaration public int Weight { get; } Property Value Type Description Int32"
   },
   "api/Global.MainMenuController.html": {
     "href": "api/Global.MainMenuController.html",
@@ -274,10 +529,25 @@
     "title": "Dokumentacja API | PAdam Softworks",
     "keywords": "Dokumentacja API"
   },
+  "api/Utilities.FadeObjectColor.html": {
+    "href": "api/Utilities.FadeObjectColor.html",
+    "title": "Class FadeObjectColor | PAdam Softworks",
+    "keywords": "Class FadeObjectColor Inheritance Object FadeObjectColor Namespace : Utilities Assembly : cs.temp.dll.dll Syntax public class FadeObjectColor : MonoBehaviour Fields delay Declaration public float delay Field Value Type Description Single destroyObject Declaration public bool destroyObject Field Value Type Description Boolean"
+  },
+  "api/Utilities.html": {
+    "href": "api/Utilities.html",
+    "title": "Namespace Utilities | PAdam Softworks",
+    "keywords": "Namespace Utilities Classes FadeObjectColor"
+  },
   "articles/creatingItems.html": {
     "href": "articles/creatingItems.html",
     "title": "Obsługa przedmiotów | PAdam Softworks",
     "keywords": "Obsługa przedmiotów Dodawanie przedmiotu na mapę Dodając przedmiot mamy dwie drogi postępowania - stworzenie przedmiotu od początku i podmienienie pliku metadanych, lub skopiowanie już istniejącej instancji. W przypadku drugiej ścieżki należy umieścić prefab \"ItemBase\" w świecie gry. Znajduje się on w katalogu Resources/Items/ . Po utworzeniu i wybraniu z hierarchii ItemBase, w inspektorze powinien się pojawić taki widok: Dobrym nawykiem przy pracy z przedmiotami będzie zablokowanie podglądu inspektora po przez naciśnięcie ikony kłódki (patrz AD. 1). Zablokuje to zmianę widoku w przypadku, gdy klikniemy na inny obiekt w drzewku projektu. Drugim polem (AD. 2) jest miejsce, gdzie podajemy plik z metadanymi danego przedmiotu. Pliki metadanowe powinny znajdować się pod ścieżką Resources/Items/<Nazwa przedmiotu>/<Nazwa przedmiotu>.json . Po wybraniu pliku z danymi, żeby zobaczyć zmiany w edytorze należy chociaż raz uruchomić \"Play mode\". Deklarowanie nowego przedmiotu Deklaracja przedmiotu jest dość prosta. W ścieżce Resources/Items/ należy stworzyć podkatalog z nazwą przedmiotu, a w nim plik .json . Jeśli przedmiot nazywa się xyz wtedy jego ścieżka powinna przybrać formę: Resources/Items/xyz/xyz.json . W pliku JSON, zadeklarować następującą strukturę pliku: { \"IsStackable\": true, // Określa czy przedmiot łączy się z innymi przedmiotami tego samego rodzaju. \"Type\": 0, // Typ przedmiotu - niestety musi być podawany liczbowo. Wymagane, aby API wiedziało jak obsłużyć dany przedmiot. \"Quantity\": 1, // Ilość przedmiotu, który zostanie dodany do ekwipunku. \"Texture\": \"Items/xyz/xyz.png\", // Tekstura, która zostanie ustawiona na przedmiocie. \"Name\": \"xyz\" // Nazwa przedmiotu - przydatne, gdy API potrzebuje sprawdzić jaki przedmiot wpadł do ekwipunku. Jeśli nazwa przedmiotu nie zostanie podana, zostanie ustawiona nazwa pliku, skąd były pobierane metadane. } W obecnej wersji gry rozrózniamy 4 typy przedmiotów: - Money - ID: 0 - PowerUp - ID: 1 - Ammunition - ID: 2 - Health - ID: 3 Ostatnim krokiem jest dodanie tekstury xyz.png do katalogu Items/xyz ."
+  },
+  "articles/explodableObjects.html": {
+    "href": "articles/explodableObjects.html",
+    "title": "Rozstrzaskiwanie obiektów | PAdam Softworks",
+    "keywords": "Rozstrzaskiwanie obiektów Dodawanie skrypty Aby dodać umiejętność rozstrzaskania się przedmiotu należy dodać skrypt Explodable . W celu działania skryptu na obiekcie potrzebny jest kolider - PolygonCollider2D albo BoxCollider2D . Skrypt może być używany na spriteach i mesh renderach. Opis poszczególnych parametrów można znaleźć w dokumentacji Explodable . Prefab Podczas tworzenie prefabu należy usunąć wszystkie wygenerowane fragmenty. Dopiero po przeniesieniu prefabu na scene, należy wygenerować fragmenty klikając przycisk Generate Fragements ."
   },
   "articles/howToAddNewDocument.html": {
     "href": "articles/howToAddNewDocument.html",
