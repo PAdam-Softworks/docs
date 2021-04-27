@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDamageable
+    <title>Class DoorController
    | PAdam Softworks </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDamageable
+    <meta name="title" content="Class DoorController
    | PAdam Softworks ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -77,62 +77,65 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Health.IDamageable">
+            <article class="content wrap" id="_content" data-uid="Interactable.DoorController">
   
   
-  <h1 id="Health_IDamageable" data-uid="Health.IDamageable" class="text-break">Interface IDamageable
+  <h1 id="Interactable_DoorController" data-uid="Interactable.DoorController" class="text-break">Class DoorController
   </h1>
-  <div class="markdown level0 summary"><p>Interfejs implementowany na obiektach które mogą otrzymać obrażenia</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Health.html">Health</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Health_IDamageable_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDamageable</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">DoorController</span></div>
   </div>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="Interactable.html">Interactable</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Interactable_DoorController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DoorController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Health_IDamageable_Kill_" data-uid="Health.IDamageable.Kill*"></a>
-  <h4 id="Health_IDamageable_Kill" data-uid="Health.IDamageable.Kill">Kill()</h4>
-  <div class="markdown level1 summary"><p>Otrzymanie śmiertelnych obrażeń</p>
+  <a id="Interactable_DoorController_DoorType_" data-uid="Interactable.DoorController.DoorType*"></a>
+  <h4 id="Interactable_DoorController_DoorType" data-uid="Interactable.DoorController.DoorType">DoorType</h4>
+  <div class="markdown level1 summary"><p>Typ drzwi <a class="xref" href="Interactable.DoorClass.html">DoorClass</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Kill()</code></pre>
+    <pre><code class="lang-csharp hljs">public DoorClass DoorType { get; }</code></pre>
   </div>
-  
-  
-  <a id="Health_IDamageable_TakeDamage_" data-uid="Health.IDamageable.TakeDamage*"></a>
-  <h4 id="Health_IDamageable_TakeDamage_System_Int32_" data-uid="Health.IDamageable.TakeDamage(System.Int32)">TakeDamage(Int32)</h4>
-  <div class="markdown level1 summary"><p>Otrzymanie określonej ilości obrażeń</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void TakeDamage(int damage)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">damage</span></td>
-        <td><p>Ilość życia do zabrania</p>
-</td>
+        <td><a class="xref" href="Interactable.DoorClass.html">DoorClass</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Interactable_DoorController_OpenDoor_" data-uid="Interactable.DoorController.OpenDoor*"></a>
+  <h4 id="Interactable_DoorController_OpenDoor" data-uid="Interactable.DoorController.OpenDoor">OpenDoor()</h4>
+  <div class="markdown level1 summary"><p>Otworzenie drzwi. Otworzenie czyli inaczej zniszczenie ich, ustawienie ich hp na zero</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenDoor()</code></pre>
+  </div>
 </article>
           </div>
           

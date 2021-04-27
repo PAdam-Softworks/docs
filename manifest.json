@@ -242,6 +242,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Core.BaseInteractOnTrigger2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.BaseInteractOnTrigger2D.html",
+          "hash": "xI5S6/B6+CCINabZXD+myEZwvS+hWRWaAnTpcpsL4tE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Core.DestroyGameObject.yml",
       "output": {
         ".html": {
@@ -270,7 +282,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Core.InteractOnTrigger2D.html",
-          "hash": "wT+YedxyE8RK5bvu/tqnQtQJSluwVaEJB5nWIjfokTo="
+          "hash": "apcz8hFtsrQxyUK3RYPn0EQTeRyoRKEnFUO4VpjvfL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.InteractOnTrigger2DTimed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.InteractOnTrigger2DTimed.html",
+          "hash": "AfHMoIzUFT48uSYCM+UVjVHuYiLUXlsL7u7UbU04X2E="
         }
       },
       "is_incremental": false,
@@ -294,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Core.html",
-          "hash": "qmjam3A7+HTEHdshe26DWJCa1WXGlz9y8lfPKhWedXE="
+          "hash": "6otVyijlruv4DTS+pp82yBAjen4QW0/zNo69AZU/SIc="
         }
       },
       "is_incremental": false,
@@ -798,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GlobalLabels.html",
-          "hash": "7cxKgMbEYRh0wfAYnntyu+dxloRKIGTCtIaAQ8x65Ug="
+          "hash": "bIoqxKBXz8T73maFiQQxh2gCP98atRhxl2k1/MF3TJo="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Health.BaseHealthSystem.html",
-          "hash": "1CpmsiTkF4jpdXBQyXFyZ0dWZ9+ugmalvNTDKrXTrR8="
+          "hash": "dq8LlyWQZ/lQpHgqKTS6Hr8vRfQlKdZtoAqYEHWioeo="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Health.EntityHealthSystem.html",
-          "hash": "KqE6mnMUwYKy21ETJTZA7p9MVOToJTR8UNOR71vwniI="
+          "hash": "TZjQ5QivPQZUdFxtpMGxPdLGTvt6gHMFdN7OAhNJwbQ="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Health.IDamageable.html",
-          "hash": "J8O25Rfbc0Mkp65Eg52LsXrGQI4XR0LuDcbPac8mQeA="
+          "hash": "tkktYa7ogVIFDL7wJI/sTJqyjAtND7uXKlOn0zqv864="
         }
       },
       "is_incremental": false,
@@ -1274,6 +1298,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Interactable.DoorClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Interactable.DoorClass.html",
+          "hash": "lPFr05ARjxmmYWXj2pyls9ZSMvGBloOjRKlzm/Ij4r4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Interactable.DoorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Interactable.DoorController.html",
+          "hash": "ZHHrz5MzM4z4NQk5mU2jFKNjD6wvRyL/35aSDoWxG4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Interactable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Interactable.html",
+          "hash": "bPQSok5Ip8vIDwX3S+jaqkaNhQFBEDZ026U42MRfhuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Utilities.FadeObjectColor.yml",
       "output": {
         ".html": {
@@ -1314,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oA+A4JkuWMxxsOFqmHnwpl6pPnc6XpLM/tKPZDzstpg="
+          "hash": "iIsUSP5Tz0pArYW1bSgUStSDGNfUE8Wdk7RtM6fz3Ps="
         }
       },
       "is_incremental": false,
@@ -1491,7 +1551,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 107,
+          "total_file_count": 112,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

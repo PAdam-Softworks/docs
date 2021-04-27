@@ -82,45 +82,96 @@
   
   <h1 id="Core_InteractOnTrigger2D" data-uid="Core.InteractOnTrigger2D" class="text-break">Class InteractOnTrigger2D
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Klasa pomocniczy wowyłująca eventy po ztriggerowaniu collidera 2d</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">InteractOnTrigger2D</span></div>
+    <div class="level1"><a class="xref" href="Core.BaseInteractOnTrigger2D.html">BaseInteractOnTrigger2D</a></div>
+    <div class="level2"><span class="xref">InteractOnTrigger2D</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_tags">BaseInteractOnTrigger2D.tags</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_onEnter">BaseInteractOnTrigger2D.onEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_onExit">BaseInteractOnTrigger2D.onExit</a>
+    </div>
+    <div>
+      <a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_Reset">BaseInteractOnTrigger2D.Reset()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Core.html">Core</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Core_InteractOnTrigger2D_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InteractOnTrigger2D : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class InteractOnTrigger2D : BaseInteractOnTrigger2D</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="Core_InteractOnTrigger2D__collider" data-uid="Core.InteractOnTrigger2D._collider">_collider</h4>
+  <a id="Core_InteractOnTrigger2D_OnTriggerEnter2D_" data-uid="Core.InteractOnTrigger2D.OnTriggerEnter2D*"></a>
+  <h4 id="Core_InteractOnTrigger2D_OnTriggerEnter2D_Collider2D_" data-uid="Core.InteractOnTrigger2D.OnTriggerEnter2D(Collider2D)">OnTriggerEnter2D(Collider2D)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Collider2D _collider</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnTriggerEnter2D(Collider2D other)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">Collider2D</span></td>
+        <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerEnter2D_Collider2D_">BaseInteractOnTrigger2D.OnTriggerEnter2D(Collider2D)</a></div>
+  
+  
+  <a id="Core_InteractOnTrigger2D_OnTriggerExit2D_" data-uid="Core.InteractOnTrigger2D.OnTriggerExit2D*"></a>
+  <h4 id="Core_InteractOnTrigger2D_OnTriggerExit2D_Collider2D_" data-uid="Core.InteractOnTrigger2D.OnTriggerExit2D(Collider2D)">OnTriggerExit2D(Collider2D)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnTriggerExit2D(Collider2D other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider2D</span></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerExit2D_Collider2D_">BaseInteractOnTrigger2D.OnTriggerExit2D(Collider2D)</a></div>
 </article>
           </div>
           

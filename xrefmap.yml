@@ -1161,6 +1161,69 @@ references:
   commentId: N:Core
   fullName: Core
   nameWithType: Core
+- uid: Core.BaseInteractOnTrigger2D
+  name: BaseInteractOnTrigger2D
+  href: api/Core.BaseInteractOnTrigger2D.html
+  commentId: T:Core.BaseInteractOnTrigger2D
+  fullName: Core.BaseInteractOnTrigger2D
+  nameWithType: BaseInteractOnTrigger2D
+- uid: Core.BaseInteractOnTrigger2D.onEnter
+  name: onEnter
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_onEnter
+  commentId: F:Core.BaseInteractOnTrigger2D.onEnter
+  fullName: Core.BaseInteractOnTrigger2D.onEnter
+  nameWithType: BaseInteractOnTrigger2D.onEnter
+- uid: Core.BaseInteractOnTrigger2D.onExit
+  name: onExit
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_onExit
+  commentId: F:Core.BaseInteractOnTrigger2D.onExit
+  fullName: Core.BaseInteractOnTrigger2D.onExit
+  nameWithType: BaseInteractOnTrigger2D.onExit
+- uid: Core.BaseInteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerEnter2D_Collider2D_
+  commentId: M:Core.BaseInteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  fullName: Core.BaseInteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  nameWithType: BaseInteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+- uid: Core.BaseInteractOnTrigger2D.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerEnter2D_
+  commentId: Overload:Core.BaseInteractOnTrigger2D.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: Core.BaseInteractOnTrigger2D.OnTriggerEnter2D
+  nameWithType: BaseInteractOnTrigger2D.OnTriggerEnter2D
+- uid: Core.BaseInteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  name: OnTriggerExit2D(Collider2D)
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerExit2D_Collider2D_
+  commentId: M:Core.BaseInteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  fullName: Core.BaseInteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  nameWithType: BaseInteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+- uid: Core.BaseInteractOnTrigger2D.OnTriggerExit2D*
+  name: OnTriggerExit2D
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_OnTriggerExit2D_
+  commentId: Overload:Core.BaseInteractOnTrigger2D.OnTriggerExit2D
+  isSpec: "True"
+  fullName: Core.BaseInteractOnTrigger2D.OnTriggerExit2D
+  nameWithType: BaseInteractOnTrigger2D.OnTriggerExit2D
+- uid: Core.BaseInteractOnTrigger2D.Reset
+  name: Reset()
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_Reset
+  commentId: M:Core.BaseInteractOnTrigger2D.Reset
+  fullName: Core.BaseInteractOnTrigger2D.Reset()
+  nameWithType: BaseInteractOnTrigger2D.Reset()
+- uid: Core.BaseInteractOnTrigger2D.Reset*
+  name: Reset
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_Reset_
+  commentId: Overload:Core.BaseInteractOnTrigger2D.Reset
+  isSpec: "True"
+  fullName: Core.BaseInteractOnTrigger2D.Reset
+  nameWithType: BaseInteractOnTrigger2D.Reset
+- uid: Core.BaseInteractOnTrigger2D.tags
+  name: tags
+  href: api/Core.BaseInteractOnTrigger2D.html#Core_BaseInteractOnTrigger2D_tags
+  commentId: F:Core.BaseInteractOnTrigger2D.tags
+  fullName: Core.BaseInteractOnTrigger2D.tags
+  nameWithType: BaseInteractOnTrigger2D.tags
 - uid: Core.DestroyGameObject
   name: DestroyGameObject
   href: api/Core.DestroyGameObject.html
@@ -1192,12 +1255,90 @@ references:
   commentId: T:Core.InteractOnTrigger2D
   fullName: Core.InteractOnTrigger2D
   nameWithType: InteractOnTrigger2D
-- uid: Core.InteractOnTrigger2D._collider
-  name: _collider
-  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D__collider
-  commentId: F:Core.InteractOnTrigger2D._collider
-  fullName: Core.InteractOnTrigger2D._collider
-  nameWithType: InteractOnTrigger2D._collider
+- uid: Core.InteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D_OnTriggerEnter2D_Collider2D_
+  commentId: M:Core.InteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  fullName: Core.InteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+  nameWithType: InteractOnTrigger2D.OnTriggerEnter2D(Collider2D)
+- uid: Core.InteractOnTrigger2D.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D_OnTriggerEnter2D_
+  commentId: Overload:Core.InteractOnTrigger2D.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2D.OnTriggerEnter2D
+  nameWithType: InteractOnTrigger2D.OnTriggerEnter2D
+- uid: Core.InteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  name: OnTriggerExit2D(Collider2D)
+  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D_OnTriggerExit2D_Collider2D_
+  commentId: M:Core.InteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  fullName: Core.InteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+  nameWithType: InteractOnTrigger2D.OnTriggerExit2D(Collider2D)
+- uid: Core.InteractOnTrigger2D.OnTriggerExit2D*
+  name: OnTriggerExit2D
+  href: api/Core.InteractOnTrigger2D.html#Core_InteractOnTrigger2D_OnTriggerExit2D_
+  commentId: Overload:Core.InteractOnTrigger2D.OnTriggerExit2D
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2D.OnTriggerExit2D
+  nameWithType: InteractOnTrigger2D.OnTriggerExit2D
+- uid: Core.InteractOnTrigger2DTimed
+  name: InteractOnTrigger2DTimed
+  href: api/Core.InteractOnTrigger2DTimed.html
+  commentId: T:Core.InteractOnTrigger2DTimed
+  fullName: Core.InteractOnTrigger2DTimed
+  nameWithType: InteractOnTrigger2DTimed
+- uid: Core.InteractOnTrigger2DTimed.Completed
+  name: Completed
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_Completed
+  commentId: P:Core.InteractOnTrigger2DTimed.Completed
+  fullName: Core.InteractOnTrigger2DTimed.Completed
+  nameWithType: InteractOnTrigger2DTimed.Completed
+- uid: Core.InteractOnTrigger2DTimed.Completed*
+  name: Completed
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_Completed_
+  commentId: Overload:Core.InteractOnTrigger2DTimed.Completed
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2DTimed.Completed
+  nameWithType: InteractOnTrigger2DTimed.Completed
+- uid: Core.InteractOnTrigger2DTimed.OnTriggerEnter2D(Collider2D)
+  name: OnTriggerEnter2D(Collider2D)
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_OnTriggerEnter2D_Collider2D_
+  commentId: M:Core.InteractOnTrigger2DTimed.OnTriggerEnter2D(Collider2D)
+  fullName: Core.InteractOnTrigger2DTimed.OnTriggerEnter2D(Collider2D)
+  nameWithType: InteractOnTrigger2DTimed.OnTriggerEnter2D(Collider2D)
+- uid: Core.InteractOnTrigger2DTimed.OnTriggerEnter2D*
+  name: OnTriggerEnter2D
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_OnTriggerEnter2D_
+  commentId: Overload:Core.InteractOnTrigger2DTimed.OnTriggerEnter2D
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2DTimed.OnTriggerEnter2D
+  nameWithType: InteractOnTrigger2DTimed.OnTriggerEnter2D
+- uid: Core.InteractOnTrigger2DTimed.OnTriggerExit2D(Collider2D)
+  name: OnTriggerExit2D(Collider2D)
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_OnTriggerExit2D_Collider2D_
+  commentId: M:Core.InteractOnTrigger2DTimed.OnTriggerExit2D(Collider2D)
+  fullName: Core.InteractOnTrigger2DTimed.OnTriggerExit2D(Collider2D)
+  nameWithType: InteractOnTrigger2DTimed.OnTriggerExit2D(Collider2D)
+- uid: Core.InteractOnTrigger2DTimed.OnTriggerExit2D*
+  name: OnTriggerExit2D
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_OnTriggerExit2D_
+  commentId: Overload:Core.InteractOnTrigger2DTimed.OnTriggerExit2D
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2DTimed.OnTriggerExit2D
+  nameWithType: InteractOnTrigger2DTimed.OnTriggerExit2D
+- uid: Core.InteractOnTrigger2DTimed.Reset
+  name: Reset()
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_Reset
+  commentId: M:Core.InteractOnTrigger2DTimed.Reset
+  fullName: Core.InteractOnTrigger2DTimed.Reset()
+  nameWithType: InteractOnTrigger2DTimed.Reset()
+- uid: Core.InteractOnTrigger2DTimed.Reset*
+  name: Reset
+  href: api/Core.InteractOnTrigger2DTimed.html#Core_InteractOnTrigger2DTimed_Reset_
+  commentId: Overload:Core.InteractOnTrigger2DTimed.Reset
+  isSpec: "True"
+  fullName: Core.InteractOnTrigger2DTimed.Reset
+  nameWithType: InteractOnTrigger2DTimed.Reset
 - uid: Core.SetAnimatorBoolFlag
   name: SetAnimatorBoolFlag
   href: api/Core.SetAnimatorBoolFlag.html
@@ -3191,6 +3332,12 @@ references:
   commentId: T:Global.GlobalLabels
   fullName: GlobalLabels
   nameWithType: GlobalLabels
+- uid: Global.GlobalLabels.Door
+  name: Door
+  href: api/Global.GlobalLabels.html#Global_GlobalLabels_Door
+  commentId: F:Global.GlobalLabels.Door
+  fullName: GlobalLabels.Door
+  nameWithType: GlobalLabels.Door
 - uid: Global.GlobalLabels.EnemyProjectile
   name: EnemyProjectile
   href: api/Global.GlobalLabels.html#Global_GlobalLabels_EnemyProjectile
@@ -4744,6 +4891,19 @@ references:
   isSpec: "True"
   fullName: Health.BaseHealthSystem.IsDead
   nameWithType: BaseHealthSystem.IsDead
+- uid: Health.BaseHealthSystem.Kill
+  name: Kill()
+  href: api/Health.BaseHealthSystem.html#Health_BaseHealthSystem_Kill
+  commentId: M:Health.BaseHealthSystem.Kill
+  fullName: Health.BaseHealthSystem.Kill()
+  nameWithType: BaseHealthSystem.Kill()
+- uid: Health.BaseHealthSystem.Kill*
+  name: Kill
+  href: api/Health.BaseHealthSystem.html#Health_BaseHealthSystem_Kill_
+  commentId: Overload:Health.BaseHealthSystem.Kill
+  isSpec: "True"
+  fullName: Health.BaseHealthSystem.Kill
+  nameWithType: BaseHealthSystem.Kill
 - uid: Health.BaseHealthSystem.MaxHealth
   name: MaxHealth
   href: api/Health.BaseHealthSystem.html#Health_BaseHealthSystem_MaxHealth
@@ -4919,6 +5079,19 @@ references:
   commentId: T:Health.IDamageable
   fullName: Health.IDamageable
   nameWithType: IDamageable
+- uid: Health.IDamageable.Kill
+  name: Kill()
+  href: api/Health.IDamageable.html#Health_IDamageable_Kill
+  commentId: M:Health.IDamageable.Kill
+  fullName: Health.IDamageable.Kill()
+  nameWithType: IDamageable.Kill()
+- uid: Health.IDamageable.Kill*
+  name: Kill
+  href: api/Health.IDamageable.html#Health_IDamageable_Kill_
+  commentId: Overload:Health.IDamageable.Kill
+  isSpec: "True"
+  fullName: Health.IDamageable.Kill
+  nameWithType: IDamageable.Kill
 - uid: Health.IDamageable.TakeDamage(System.Int32)
   name: TakeDamage(Int32)
   href: api/Health.IDamageable.html#Health_IDamageable_TakeDamage_System_Int32_
@@ -5073,6 +5246,62 @@ references:
   isSpec: "True"
   fullName: Health.IRevivable.Revive
   nameWithType: IRevivable.Revive
+- uid: Interactable
+  name: Interactable
+  href: api/Interactable.html
+  commentId: N:Interactable
+  fullName: Interactable
+  nameWithType: Interactable
+- uid: Interactable.DoorClass
+  name: DoorClass
+  href: api/Interactable.DoorClass.html
+  commentId: T:Interactable.DoorClass
+  fullName: Interactable.DoorClass
+  nameWithType: DoorClass
+- uid: Interactable.DoorClass.SteelDoor
+  name: SteelDoor
+  href: api/Interactable.DoorClass.html#Interactable_DoorClass_SteelDoor
+  commentId: F:Interactable.DoorClass.SteelDoor
+  fullName: Interactable.DoorClass.SteelDoor
+  nameWithType: DoorClass.SteelDoor
+- uid: Interactable.DoorClass.WoodenDoor
+  name: WoodenDoor
+  href: api/Interactable.DoorClass.html#Interactable_DoorClass_WoodenDoor
+  commentId: F:Interactable.DoorClass.WoodenDoor
+  fullName: Interactable.DoorClass.WoodenDoor
+  nameWithType: DoorClass.WoodenDoor
+- uid: Interactable.DoorController
+  name: DoorController
+  href: api/Interactable.DoorController.html
+  commentId: T:Interactable.DoorController
+  fullName: Interactable.DoorController
+  nameWithType: DoorController
+- uid: Interactable.DoorController.DoorType
+  name: DoorType
+  href: api/Interactable.DoorController.html#Interactable_DoorController_DoorType
+  commentId: P:Interactable.DoorController.DoorType
+  fullName: Interactable.DoorController.DoorType
+  nameWithType: DoorController.DoorType
+- uid: Interactable.DoorController.DoorType*
+  name: DoorType
+  href: api/Interactable.DoorController.html#Interactable_DoorController_DoorType_
+  commentId: Overload:Interactable.DoorController.DoorType
+  isSpec: "True"
+  fullName: Interactable.DoorController.DoorType
+  nameWithType: DoorController.DoorType
+- uid: Interactable.DoorController.OpenDoor
+  name: OpenDoor()
+  href: api/Interactable.DoorController.html#Interactable_DoorController_OpenDoor
+  commentId: M:Interactable.DoorController.OpenDoor
+  fullName: Interactable.DoorController.OpenDoor()
+  nameWithType: DoorController.OpenDoor()
+- uid: Interactable.DoorController.OpenDoor*
+  name: OpenDoor
+  href: api/Interactable.DoorController.html#Interactable_DoorController_OpenDoor_
+  commentId: Overload:Interactable.DoorController.OpenDoor
+  isSpec: "True"
+  fullName: Interactable.DoorController.OpenDoor
+  nameWithType: DoorController.OpenDoor
 - uid: Utilities
   name: Utilities
   href: api/Utilities.html
