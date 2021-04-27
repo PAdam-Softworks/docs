@@ -1166,11 +1166,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.Tutorial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Tutorial.html",
+          "hash": "tHWJtKPutbax5B1JWD3O1XLNcUXNQj9wOIJ4lFkaQmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "sMLis7DG3MOC5vEyNhIqoYCNGMSVmAbM0XgzpwVigCQ="
+          "hash": "1OsQGH+sWCl+flvaid77VXM96qP5tcXDS0IfKnAohiw="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iIsUSP5Tz0pArYW1bSgUStSDGNfUE8Wdk7RtM6fz3Ps="
+          "hash": "+RDcdQQ4jJktce0zvt5qdJzjq9Do6VVe+ZM3paaEK48="
         }
       },
       "is_incremental": false,
@@ -1551,7 +1563,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 112,
+          "total_file_count": 113,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

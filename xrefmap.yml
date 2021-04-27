@@ -4751,6 +4751,30 @@ references:
   commentId: F:Global.TurretController.TrackPlayer
   fullName: TurretController.TrackPlayer
   nameWithType: TurretController.TrackPlayer
+- uid: Global.Tutorial
+  name: Tutorial
+  href: api/Global.Tutorial.html
+  commentId: T:Global.Tutorial
+  fullName: Tutorial
+  nameWithType: Tutorial
+- uid: Global.Tutorial.tutorialFirst
+  name: tutorialFirst
+  href: api/Global.Tutorial.html#Global_Tutorial_tutorialFirst
+  commentId: F:Global.Tutorial.tutorialFirst
+  fullName: Tutorial.tutorialFirst
+  nameWithType: Tutorial.tutorialFirst
+- uid: Global.Tutorial.tutorialSecond
+  name: tutorialSecond
+  href: api/Global.Tutorial.html#Global_Tutorial_tutorialSecond
+  commentId: F:Global.Tutorial.tutorialSecond
+  fullName: Tutorial.tutorialSecond
+  nameWithType: Tutorial.tutorialSecond
+- uid: Global.Tutorial.tutorialThird
+  name: tutorialThird
+  href: api/Global.Tutorial.html#Global_Tutorial_tutorialThird
+  commentId: F:Global.Tutorial.tutorialThird
+  fullName: Tutorial.tutorialThird
+  nameWithType: Tutorial.tutorialThird
 - uid: Health
   name: Health
   href: api/Health.html
