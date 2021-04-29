@@ -3278,6 +3278,44 @@ references:
   commentId: T:Global.AttackController
   fullName: AttackController
   nameWithType: AttackController
+- uid: Global.CoinsController
+  name: CoinsController
+  href: api/Global.CoinsController.html
+  commentId: T:Global.CoinsController
+  fullName: CoinsController
+  nameWithType: CoinsController
+- uid: Global.CoinsController.CoinsCount
+  name: CoinsCount
+  href: api/Global.CoinsController.html#Global_CoinsController_CoinsCount
+  commentId: P:Global.CoinsController.CoinsCount
+  fullName: CoinsController.CoinsCount
+  nameWithType: CoinsController.CoinsCount
+- uid: Global.CoinsController.CoinsCount*
+  name: CoinsCount
+  href: api/Global.CoinsController.html#Global_CoinsController_CoinsCount_
+  commentId: Overload:Global.CoinsController.CoinsCount
+  isSpec: "True"
+  fullName: CoinsController.CoinsCount
+  nameWithType: CoinsController.CoinsCount
+- uid: Global.CoinsController.coinsText
+  name: coinsText
+  href: api/Global.CoinsController.html#Global_CoinsController_coinsText
+  commentId: F:Global.CoinsController.coinsText
+  fullName: CoinsController.coinsText
+  nameWithType: CoinsController.coinsText
+- uid: Global.CoinsController.SetCoinsCount(System.Int32)
+  name: SetCoinsCount(Int32)
+  href: api/Global.CoinsController.html#Global_CoinsController_SetCoinsCount_System_Int32_
+  commentId: M:Global.CoinsController.SetCoinsCount(System.Int32)
+  fullName: CoinsController.SetCoinsCount(System.Int32)
+  nameWithType: CoinsController.SetCoinsCount(Int32)
+- uid: Global.CoinsController.SetCoinsCount*
+  name: SetCoinsCount
+  href: api/Global.CoinsController.html#Global_CoinsController_SetCoinsCount_
+  commentId: Overload:Global.CoinsController.SetCoinsCount
+  isSpec: "True"
+  fullName: CoinsController.SetCoinsCount
+  nameWithType: CoinsController.SetCoinsCount
 - uid: Global.DeathZone
   name: DeathZone
   href: api/Global.DeathZone.html
@@ -3595,6 +3633,19 @@ references:
   isSpec: "True"
   fullName: InventoryController.AddItem
   nameWithType: InventoryController.AddItem
+- uid: Global.InventoryController.Inventory
+  name: Inventory
+  href: api/Global.InventoryController.html#Global_InventoryController_Inventory
+  commentId: P:Global.InventoryController.Inventory
+  fullName: InventoryController.Inventory
+  nameWithType: InventoryController.Inventory
+- uid: Global.InventoryController.Inventory*
+  name: Inventory
+  href: api/Global.InventoryController.html#Global_InventoryController_Inventory_
+  commentId: Overload:Global.InventoryController.Inventory
+  isSpec: "True"
+  fullName: InventoryController.Inventory
+  nameWithType: InventoryController.Inventory
 - uid: Global.InventoryController.RemoveItem(Item)
   name: RemoveItem(Item)
   href: api/Global.InventoryController.html#Global_InventoryController_RemoveItem_Item_
@@ -4159,6 +4210,19 @@ references:
   commentId: F:Global.PlayerController.KnockbackSpeed
   fullName: PlayerController.KnockbackSpeed
   nameWithType: PlayerController.KnockbackSpeed
+- uid: Global.PlayerController.OnDamageTaken(System.Int32)
+  name: OnDamageTaken(Int32)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnDamageTaken_System_Int32_
+  commentId: M:Global.PlayerController.OnDamageTaken(System.Int32)
+  fullName: PlayerController.OnDamageTaken(System.Int32)
+  nameWithType: PlayerController.OnDamageTaken(Int32)
+- uid: Global.PlayerController.OnDamageTaken*
+  name: OnDamageTaken
+  href: api/Global.PlayerController.html#Global_PlayerController_OnDamageTaken_
+  commentId: Overload:Global.PlayerController.OnDamageTaken
+  isSpec: "True"
+  fullName: PlayerController.OnDamageTaken
+  nameWithType: PlayerController.OnDamageTaken
 - uid: Global.PlayerController.OnDeath
   name: OnDeath()
   href: api/Global.PlayerController.html#Global_PlayerController_OnDeath
@@ -4463,6 +4527,168 @@ references:
   commentId: F:Global.SpiderController.WalkFrames
   fullName: SpiderController.WalkFrames
   nameWithType: SpiderController.WalkFrames
+- uid: Global.StatisticsManager
+  name: StatisticsManager
+  href: api/Global.StatisticsManager.html
+  commentId: T:Global.StatisticsManager
+  fullName: StatisticsManager
+  nameWithType: StatisticsManager
+- uid: Global.StatisticsManager.BossesKilled
+  name: BossesKilled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_BossesKilled
+  commentId: P:Global.StatisticsManager.BossesKilled
+  fullName: StatisticsManager.BossesKilled
+  nameWithType: StatisticsManager.BossesKilled
+- uid: Global.StatisticsManager.BossesKilled*
+  name: BossesKilled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_BossesKilled_
+  commentId: Overload:Global.StatisticsManager.BossesKilled
+  isSpec: "True"
+  fullName: StatisticsManager.BossesKilled
+  nameWithType: StatisticsManager.BossesKilled
+- uid: Global.StatisticsManager.DamageTaken
+  name: DamageTaken
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_DamageTaken
+  commentId: P:Global.StatisticsManager.DamageTaken
+  fullName: StatisticsManager.DamageTaken
+  nameWithType: StatisticsManager.DamageTaken
+- uid: Global.StatisticsManager.DamageTaken*
+  name: DamageTaken
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_DamageTaken_
+  commentId: Overload:Global.StatisticsManager.DamageTaken
+  isSpec: "True"
+  fullName: StatisticsManager.DamageTaken
+  nameWithType: StatisticsManager.DamageTaken
+- uid: Global.StatisticsManager.Deaths
+  name: Deaths
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_Deaths
+  commentId: P:Global.StatisticsManager.Deaths
+  fullName: StatisticsManager.Deaths
+  nameWithType: StatisticsManager.Deaths
+- uid: Global.StatisticsManager.Deaths*
+  name: Deaths
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_Deaths_
+  commentId: Overload:Global.StatisticsManager.Deaths
+  isSpec: "True"
+  fullName: StatisticsManager.Deaths
+  nameWithType: StatisticsManager.Deaths
+- uid: Global.StatisticsManager.DistanceTraveled
+  name: DistanceTraveled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_DistanceTraveled
+  commentId: P:Global.StatisticsManager.DistanceTraveled
+  fullName: StatisticsManager.DistanceTraveled
+  nameWithType: StatisticsManager.DistanceTraveled
+- uid: Global.StatisticsManager.DistanceTraveled*
+  name: DistanceTraveled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_DistanceTraveled_
+  commentId: Overload:Global.StatisticsManager.DistanceTraveled
+  isSpec: "True"
+  fullName: StatisticsManager.DistanceTraveled
+  nameWithType: StatisticsManager.DistanceTraveled
+- uid: Global.StatisticsManager.HighestCoin
+  name: HighestCoin
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_HighestCoin
+  commentId: P:Global.StatisticsManager.HighestCoin
+  fullName: StatisticsManager.HighestCoin
+  nameWithType: StatisticsManager.HighestCoin
+- uid: Global.StatisticsManager.HighestCoin*
+  name: HighestCoin
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_HighestCoin_
+  commentId: Overload:Global.StatisticsManager.HighestCoin
+  isSpec: "True"
+  fullName: StatisticsManager.HighestCoin
+  nameWithType: StatisticsManager.HighestCoin
+- uid: Global.StatisticsManager.HighestScore
+  name: HighestScore
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_HighestScore
+  commentId: P:Global.StatisticsManager.HighestScore
+  fullName: StatisticsManager.HighestScore
+  nameWithType: StatisticsManager.HighestScore
+- uid: Global.StatisticsManager.HighestScore*
+  name: HighestScore
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_HighestScore_
+  commentId: Overload:Global.StatisticsManager.HighestScore
+  isSpec: "True"
+  fullName: StatisticsManager.HighestScore
+  nameWithType: StatisticsManager.HighestScore
+- uid: Global.StatisticsManager.ItemsPickedUp
+  name: ItemsPickedUp
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_ItemsPickedUp
+  commentId: P:Global.StatisticsManager.ItemsPickedUp
+  fullName: StatisticsManager.ItemsPickedUp
+  nameWithType: StatisticsManager.ItemsPickedUp
+- uid: Global.StatisticsManager.ItemsPickedUp*
+  name: ItemsPickedUp
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_ItemsPickedUp_
+  commentId: Overload:Global.StatisticsManager.ItemsPickedUp
+  isSpec: "True"
+  fullName: StatisticsManager.ItemsPickedUp
+  nameWithType: StatisticsManager.ItemsPickedUp
+- uid: Global.StatisticsManager.MonstersKilled
+  name: MonstersKilled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_MonstersKilled
+  commentId: P:Global.StatisticsManager.MonstersKilled
+  fullName: StatisticsManager.MonstersKilled
+  nameWithType: StatisticsManager.MonstersKilled
+- uid: Global.StatisticsManager.MonstersKilled*
+  name: MonstersKilled
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_MonstersKilled_
+  commentId: Overload:Global.StatisticsManager.MonstersKilled
+  isSpec: "True"
+  fullName: StatisticsManager.MonstersKilled
+  nameWithType: StatisticsManager.MonstersKilled
+- uid: Global.StatisticsManager.PowerupsPickedUp
+  name: PowerupsPickedUp
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_PowerupsPickedUp
+  commentId: P:Global.StatisticsManager.PowerupsPickedUp
+  fullName: StatisticsManager.PowerupsPickedUp
+  nameWithType: StatisticsManager.PowerupsPickedUp
+- uid: Global.StatisticsManager.PowerupsPickedUp*
+  name: PowerupsPickedUp
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_PowerupsPickedUp_
+  commentId: Overload:Global.StatisticsManager.PowerupsPickedUp
+  isSpec: "True"
+  fullName: StatisticsManager.PowerupsPickedUp
+  nameWithType: StatisticsManager.PowerupsPickedUp
+- uid: Global.StatisticsManager.RestartStatistics
+  name: RestartStatistics()
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_RestartStatistics
+  commentId: M:Global.StatisticsManager.RestartStatistics
+  fullName: StatisticsManager.RestartStatistics()
+  nameWithType: StatisticsManager.RestartStatistics()
+- uid: Global.StatisticsManager.RestartStatistics*
+  name: RestartStatistics
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_RestartStatistics_
+  commentId: Overload:Global.StatisticsManager.RestartStatistics
+  isSpec: "True"
+  fullName: StatisticsManager.RestartStatistics
+  nameWithType: StatisticsManager.RestartStatistics
+- uid: Global.StatisticsManager.StartedGames
+  name: StartedGames
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_StartedGames
+  commentId: P:Global.StatisticsManager.StartedGames
+  fullName: StatisticsManager.StartedGames
+  nameWithType: StatisticsManager.StartedGames
+- uid: Global.StatisticsManager.StartedGames*
+  name: StartedGames
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_StartedGames_
+  commentId: Overload:Global.StatisticsManager.StartedGames
+  isSpec: "True"
+  fullName: StatisticsManager.StartedGames
+  nameWithType: StatisticsManager.StartedGames
+- uid: Global.StatisticsManager.TimePlayed
+  name: TimePlayed
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_TimePlayed
+  commentId: P:Global.StatisticsManager.TimePlayed
+  fullName: StatisticsManager.TimePlayed
+  nameWithType: StatisticsManager.TimePlayed
+- uid: Global.StatisticsManager.TimePlayed*
+  name: TimePlayed
+  href: api/Global.StatisticsManager.html#Global_StatisticsManager_TimePlayed_
+  commentId: Overload:Global.StatisticsManager.TimePlayed
+  isSpec: "True"
+  fullName: StatisticsManager.TimePlayed
+  nameWithType: StatisticsManager.TimePlayed
 - uid: Global.TestInventory
   name: TestInventory
   href: api/Global.TestInventory.html
@@ -5326,6 +5552,18 @@ references:
   isSpec: "True"
   fullName: Interactable.DoorController.OpenDoor
   nameWithType: DoorController.OpenDoor
+- uid: UI
+  name: UI
+  href: api/UI.html
+  commentId: N:UI
+  fullName: UI
+  nameWithType: UI
+- uid: UI.PlayerStatsMenu
+  name: PlayerStatsMenu
+  href: api/UI.PlayerStatsMenu.html
+  commentId: T:UI.PlayerStatsMenu
+  fullName: UI.PlayerStatsMenu
+  nameWithType: PlayerStatsMenu
 - uid: Utilities
   name: Utilities
   href: api/Utilities.html
@@ -5350,3 +5588,29 @@ references:
   commentId: F:Utilities.FadeObjectColor.destroyObject
   fullName: Utilities.FadeObjectColor.destroyObject
   nameWithType: FadeObjectColor.destroyObject
+- uid: Utilities.Singleton`1
+  name: Singleton<T>
+  href: api/Utilities.Singleton-1.html
+  commentId: T:Utilities.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: Utilities.Singleton<T>
+  fullName.vb: Utilities.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: Utilities.Singleton`1.Instance
+  name: Instance
+  href: api/Utilities.Singleton-1.html#Utilities_Singleton_1_Instance
+  commentId: P:Utilities.Singleton`1.Instance
+  fullName: Utilities.Singleton<T>.Instance
+  fullName.vb: Utilities.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: Utilities.Singleton`1.Instance*
+  name: Instance
+  href: api/Utilities.Singleton-1.html#Utilities_Singleton_1_Instance_
+  commentId: Overload:Utilities.Singleton`1.Instance
+  isSpec: "True"
+  fullName: Utilities.Singleton<T>.Instance
+  fullName.vb: Utilities.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
