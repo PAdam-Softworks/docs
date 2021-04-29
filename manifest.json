@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClipperLib.Clipper.html",
-          "hash": "Oup0lr0Tptk4snbUV1YF3NYkpK3ZhLpda9sYIzGw8n4="
+          "hash": "upPg0TRaFBY2VTNmuiXFkNmlr2rgWyT55gdczE2hcDg="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClipperLib.ClipperBase.html",
-          "hash": "tH4g4UXLW1LE/pBJu9pxAc+L3nDEUSSEG8kikdtyprY="
+          "hash": "C8U/M+jU46hAcoa2IfcZpXjR6itDcZzRX/MX+SX23H8="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClipperLib.ClipperOffset.html",
-          "hash": "WC90oPvDeaZuUjy1LSna/4s/P6urtXmsQgtCJiPBMsg="
+          "hash": "9GY78OgIjo9jX29ociw87tFeIKuMDoP+PxQnyuGAnEk="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClipperLib.PolyNode.html",
-          "hash": "wQuWQOmUo70jruIuQUZupqxuye5xeuISzXpS5pmDlc8="
+          "hash": "6huphfZFUJONdEpx7GcVxnnVW6y0nBWgGg/Qa4SWAPs="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Core.BaseInteractOnTrigger2D.html",
-          "hash": "xI5S6/B6+CCINabZXD+myEZwvS+hWRWaAnTpcpsL4tE="
+          "hash": "cM7FCS1CudReMCPV+upFmY5W1AOGjzMfgm7I2qqv2AE="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.DelaunayHelpers.html",
-          "hash": "sbmWzQU2AoJPC+aX1ZvwVyi041xaLSGGBp0k3VTEcqY="
+          "hash": "ccM7pgDh9ckTKhAg3tMUoObSTYwfzIS9LWk5QyEit4U="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Edge.html",
-          "hash": "0TdyyK7iXPW14VL3wWNR8tTC193i/PYcj1DqKv0FLsI="
+          "hash": "GyMd2cs1cfTatVNCo9OKSYUGMaoQo7zXtPYC30jJMsE="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Geo.Polygon.html",
-          "hash": "3RFMkN9MyOUotOUlWY/SKEXuHTEqFDKE0qZCAYV8wjE="
+          "hash": "MKvUp/dfJHvaE90yp+mDlb3bxgxfy2W3mNSIbOeGCJE="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Node.html",
-          "hash": "Rj8g4rpYRIEnleRIfIyqL7H3nZrBKEgVTE7Ziv9ItTo="
+          "hash": "IYQwSnJegUUcaDQrNGc/4P9KNxEf7cMlsvMysGa1gw8="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Site.html",
-          "hash": "YggD6pDD6CNplYco48FsFd06f4grJ1kWahmxYgcOsZk="
+          "hash": "XXIJdiXuY/HI26kYOjla7V8GLKih0mKUtp2rzH3PBgw="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.SiteList.html",
-          "hash": "RDL0+zx+LyICUvSVkIg0myRO06cGHFd65Bmk7TsbNqo="
+          "hash": "/d43KEp3qr+prKsmYYcs4NBSPzj49RIZFmYmfdLviJA="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Triangle.html",
-          "hash": "Qk3wQpb9BoEvICZijy8U4S+Yw/JziE0GyHoTWFyT2mY="
+          "hash": "k0KDRuctNDirNC9imTrD0e145nvjmtDVbXDouhFlbhc="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Delaunay.Voronoi.html",
-          "hash": "QWZwMDL8WbOsYiuDOYP1DH/S0IF73dIu5QgRqbgkGpE="
+          "hash": "eCXrf5Pq+JCltyCkenvfHTfraUhlHMtZJMXcZbYsgDI="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Explodable.ClipperHelper.html",
-          "hash": "8+TCfKv02al+MUrBnaDMVjyZjzg8wnhhK53HCmfT5Vg="
+          "hash": "QveQCrm6b9adRWv6v2KLPqIMqEqFH9YqDSiemVuJmFQ="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Explodable.Explodable.html",
-          "hash": "Q2SafAQ8RmqnzRzAtFTIjEzOAmLnG1JG6gHDfkfZjNI="
+          "hash": "kmJDJZx+mRQr30sQI8cuOsiJ7hKwwWJtTEcSxJ1yX84="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Explodable.SpriteExploder.html",
-          "hash": "JkS3NOD3VBFj7uL1QzClWTPxGjmpVB2h1y8hhAKtj88="
+          "hash": "i1c4MhoofxKoKKhuRtV/Ats1PXL67rnyEnYEKhAgioo="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoboController.html",
-          "hash": "KwLLsowihcLs5sSBRarUel1wx6W3TOVGZGueyRxD+mw="
+          "hash": "S5TorNq+h8eaAuxiOv8NAFSH3qyiwDguGwQWZ7hurSA="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LootTable.html",
-          "hash": "6d3kc0nE/Ab2oqMW1XuXESjYEtU746SoK2+vyg4rE0U="
+          "hash": "Sw06D7bXzDQdaSKnhqureSpy0pLBYmlTqA2xnoQ9M08="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.OrmBossController.html",
-          "hash": "YjFl4X1XoaWlITx3ZdRW9Y9IL77GLKGDKfVs9SYm84Q="
+          "hash": "Zy41JXToh90wGJf+rMP4ybOd9dHSbWaErN0VyOXZ4fY="
         }
       },
       "is_incremental": false,
@@ -1034,11 +1034,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayAudioOnTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayAudioOnTrigger.html",
+          "hash": "iL/g8XWf8bw72Kzvk5Bi2q6dTs0J0y5yrdCBGjJ1pZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.PlayerController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "Sc2SGzgi/16RWumsvXc/1ve3IxV9gDDIh2fmQ5srCCk="
+          "hash": "7GuPB8Rt2VvSmSCJs/VBZU0a5Z8IjOeTqkcykv4Dj7Q="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ProjectileController.html",
-          "hash": "wPvSRX4puujebx+UaTmz+VEXDBY8/g6yim0PlbKjKQQ="
+          "hash": "ZiFLs8cFPSIcx/vAKgwk0b35YI8mgyPdsh0t6J74TWQ="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SpiderController.html",
-          "hash": "j4d2Aad986vAK0nEpm5vHG+0TnKsfT+MDsdnPCUi03s="
+          "hash": "a+ih7YCAF6fvuO7qK7JpvuA5tsLrdai8We+AqWMnojA="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ToggleGameobject.html",
-          "hash": "cYJFpiJIEz1TGz+1MPz+TV2Z56zlOgyYAVEsRZ27zsI="
+          "hash": "mdXYaAHUGBkmF5+NcMQ9BJ2kNizRCRN9/47uT3ITFwE="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TurretController.html",
-          "hash": "kBVxiXMGOcGxG/s+KwvRWiMAw7RCkkT+CUe2Q0z+hG8="
+          "hash": "D/+EHuCUPNE7oQTmroI/jvpyFpwTKgVBwPk3XliaMg4="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "TQ4mNuFbsRynFOvGtPgS3Va7/6L4YixhNlA2LXaxsBE="
+          "hash": "HSAWKZk8V1AJ04gxN8AqIViN9jCFofPh2nr49XzorSM="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "UQoxFOljlkEnNd4jWEHhseBbclyY7TiNlFAfdHgLXmU="
+          "hash": "0dbSrUKeXN9/ftn02JFLVi39xLu3kY5U9VB5JGhNFQI="
         }
       },
       "is_incremental": false,
@@ -1623,7 +1635,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 118,
+          "total_file_count": 119,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
