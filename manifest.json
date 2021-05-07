@@ -1154,18 +1154,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.TestPowerupDrop.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.TestPowerupDrop.html",
-          "hash": "hp8sMplrOED7BEr/amMVU5t9Pt+p7cYiiDaJG9MM1Aw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Global.TimerController.yml",
       "output": {
         ".html": {
@@ -1218,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "HSAWKZk8V1AJ04gxN8AqIViN9jCFofPh2nr49XzorSM="
+          "hash": "go4R48QkbPHwRRvlGy8W3rfMnQuAo/2JTbz8NK/Rgvg="
         }
       },
       "is_incremental": false,
@@ -1382,6 +1370,114 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.DoctorMonsterPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.DoctorMonsterPowerUp.html",
+          "hash": "r04pBZqEq/xRpVuBiA3dbHCPb00cJkWcnFqs+PvUcVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.GreenMonsterPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.GreenMonsterPowerUp.html",
+          "hash": "14dPDsBHOFpjftBWptcyHa/7zYf1A8NMhSi1UpfRG+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.HamiltonMonsterPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.HamiltonMonsterPowerUp.html",
+          "hash": "f9b3uTRa919uqL87FnOCQF67tVmeXcQvxPNNJzq3m04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.IPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.IPowerUp.html",
+          "hash": "BKfPNREkWIwsFU1gOXZpoQQ9e2DpGbJ/0BKeJ43APP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.ITimedPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.ITimedPowerUp.html",
+          "hash": "csLgdjJtOyM0wvBkrIEx0Tb4aSyXcnyooLLs5z9iB/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.PowerUpController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.PowerUpController.html",
+          "hash": "mNJzf/3dgZqN8Zy04nczdbPRn7jQsVKjBvcEIijPF1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.PowerUpDrop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.PowerUpDrop.html",
+          "hash": "hG00BpiJB+7MqOCqQPmRfsVA6NCsANJzLgZ3YXCzhhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.WhiteMonsterPowerUp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.WhiteMonsterPowerUp.html",
+          "hash": "e7hID2KUV7VCDScnoM/ereTdtGUt/+3YM4+3cABbkBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PowerUps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PowerUps.html",
+          "hash": "UhyPw3kkMIYRj8Sztap4NMqXVs/Uj7FYw7brnCcXtwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UI.PlayerStatsMenu.yml",
       "output": {
         ".html": {
@@ -1458,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0dbSrUKeXN9/ftn02JFLVi39xLu3kY5U9VB5JGhNFQI="
+          "hash": "qsHDzkrRgu21vRksMYL5UUBcJpz4zgibn/0gtyj4vrw="
         }
       },
       "is_incremental": false,
@@ -1635,7 +1731,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 119,
+          "total_file_count": 127,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

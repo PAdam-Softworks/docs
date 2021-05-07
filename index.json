@@ -357,7 +357,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController CoinsController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. LootTable LootTableItem MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayAudioOnTrigger PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController StatisticsManager TestInventory Testuje klase Inventory TestPowerupDrop TimerController ToggleGameobject TurretController Tutorial Interfaces IInventory Inerfejs dostarczający podstawowe operacje na ekwipunku Enums Item.ItemType"
+    "keywords": "Namespace Global Classes AttackController CoinsController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. LootTable LootTableItem MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayAudioOnTrigger PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController StatisticsManager TestInventory Testuje klase Inventory TimerController ToggleGameobject TurretController Tutorial Interfaces IInventory Inerfejs dostarczający podstawowe operacje na ekwipunku Enums Item.ItemType"
   },
   "api/Global.IInventory.html": {
     "href": "api/Global.IInventory.html",
@@ -479,11 +479,6 @@
     "title": "Class TestInventory | PAdam Softworks",
     "keywords": "Class TestInventory Testuje klase Inventory Inheritance Object TestInventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TestInventory Methods AddItem_OnExistingItem_ItemQuantityIncreased() Jak item jest w EQ to podnosi jego ilość Declaration public void AddItem_OnExistingItem_ItemQuantityIncreased() AddItem_OnNewItem_CollectionCountIncreased() Sprawdza, czy jak nie ma itemu w inventory, to dodaje nowy item do EQ Declaration public void AddItem_OnNewItem_CollectionCountIncreased() RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() Sprawdza, czy ilość przedmiotów w ekwipunku zostaje obniżona, o ile różnica przedmiów jest większa niż 0 Declaration public void RemoveItem_OnQuantityAboveZero_ItemQuantityDecreased() RemoveItem_OnQuantityBelowZero_ItemRemoved() Jeżeli ilość przedmiotów w eq jest mniejsza niż 0, to powinen zostać skasowany Declaration public void RemoveItem_OnQuantityBelowZero_ItemRemoved()"
   },
-  "api/Global.TestPowerupDrop.html": {
-    "href": "api/Global.TestPowerupDrop.html",
-    "title": "Class TestPowerupDrop | PAdam Softworks",
-    "keywords": "Class TestPowerupDrop Inheritance Object TestPowerupDrop Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TestPowerupDrop : MonoBehaviour Methods DropItem() Testowa funkcja tworzaca drop przedmiotu Declaration public void DropItem()"
-  },
   "api/Global.TimerController.html": {
     "href": "api/Global.TimerController.html",
     "title": "Class TimerController | PAdam Softworks",
@@ -573,6 +568,51 @@
     "href": "api/Interactable.html",
     "title": "Namespace Interactable | PAdam Softworks",
     "keywords": "Namespace Interactable Classes DoorController Enums DoorClass Dostępne typy drzwi"
+  },
+  "api/PowerUps.DoctorMonsterPowerUp.html": {
+    "href": "api/PowerUps.DoctorMonsterPowerUp.html",
+    "title": "Class DoctorMonsterPowerUp | PAdam Softworks",
+    "keywords": "Class DoctorMonsterPowerUp Doctor monster. Regeneruje całe zdrowie bohatera. Inheritance Object DoctorMonsterPowerUp Implements IPowerUp Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class DoctorMonsterPowerUp : IPowerUp Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration public void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza Implements IPowerUp"
+  },
+  "api/PowerUps.GreenMonsterPowerUp.html": {
+    "href": "api/PowerUps.GreenMonsterPowerUp.html",
+    "title": "Class GreenMonsterPowerUp | PAdam Softworks",
+    "keywords": "Class GreenMonsterPowerUp PowerUp zielonego monstera. Tymczasowo zwiększa prędkość bohatera. Inheritance Object GreenMonsterPowerUp Implements ITimedPowerUp IPowerUp Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class GreenMonsterPowerUp : ITimedPowerUp, IPowerUp Properties PowerUpDuration Czas przez jaki działa powerup Declaration public float PowerUpDuration { get; } Property Value Type Description Single PowerUpTimer Czas pozostały do końca powerupu Declaration public float PowerUpTimer { get; } Property Value Type Description Single Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration public void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza UpdateTimer() Aktualizuje czas powerupu Declaration public void UpdateTimer() Implements ITimedPowerUp IPowerUp"
+  },
+  "api/PowerUps.HamiltonMonsterPowerUp.html": {
+    "href": "api/PowerUps.HamiltonMonsterPowerUp.html",
+    "title": "Class HamiltonMonsterPowerUp | PAdam Softworks",
+    "keywords": "Class HamiltonMonsterPowerUp Regeneruje jeden punkt życia bohatera Inheritance Object HamiltonMonsterPowerUp Implements IPowerUp Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class HamiltonMonsterPowerUp : IPowerUp Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration public void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza Implements IPowerUp"
+  },
+  "api/PowerUps.html": {
+    "href": "api/PowerUps.html",
+    "title": "Namespace PowerUps | PAdam Softworks",
+    "keywords": "Namespace PowerUps Classes DoctorMonsterPowerUp Doctor monster. Regeneruje całe zdrowie bohatera. GreenMonsterPowerUp PowerUp zielonego monstera. Tymczasowo zwiększa prędkość bohatera. HamiltonMonsterPowerUp Regeneruje jeden punkt życia bohatera PowerUpController Kontroler powerupów PowerUpDrop WhiteMonsterPowerUp PowerUp białego monstera. Zwiększa siłę ataku bohatera Interfaces IPowerUp Bazowy interfejs dla powerupów ITimedPowerUp Interfejs dla powerupów, które działają przez określony czas"
+  },
+  "api/PowerUps.IPowerUp.html": {
+    "href": "api/PowerUps.IPowerUp.html",
+    "title": "Interface IPowerUp | PAdam Softworks",
+    "keywords": "Interface IPowerUp Bazowy interfejs dla powerupów Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public interface IPowerUp Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza"
+  },
+  "api/PowerUps.ITimedPowerUp.html": {
+    "href": "api/PowerUps.ITimedPowerUp.html",
+    "title": "Interface ITimedPowerUp | PAdam Softworks",
+    "keywords": "Interface ITimedPowerUp Interfejs dla powerupów, które działają przez określony czas Inherited Members IPowerUp.ApplyPowerUp(PlayerController) Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public interface ITimedPowerUp : IPowerUp Properties PowerUpDuration Czas przez jaki działa powerup Declaration float PowerUpDuration { get; } Property Value Type Description Single PowerUpTimer Czas pozostały do końca powerupu Declaration float PowerUpTimer { get; } Property Value Type Description Single Methods UpdateTimer() Aktualizuje czas powerupu Declaration void UpdateTimer()"
+  },
+  "api/PowerUps.PowerUpController.html": {
+    "href": "api/PowerUps.PowerUpController.html",
+    "title": "Class PowerUpController | PAdam Softworks",
+    "keywords": "Class PowerUpController Kontroler powerupów Inheritance Object PowerUpController Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class PowerUpController Constructors PowerUpController(PlayerController, InventoryController) Domyślny ctor Declaration public PowerUpController(PlayerController playerController, InventoryController inventoryController) Parameters Type Name Description PlayerController playerController Instancja player controllera InventoryController inventoryController Instancja inventoryControllera Methods UpdatePowerUpTimers() Odświeża zegary powerupów Declaration public void UpdatePowerUpTimers()"
+  },
+  "api/PowerUps.PowerUpDrop.html": {
+    "href": "api/PowerUps.PowerUpDrop.html",
+    "title": "Class PowerUpDrop | PAdam Softworks",
+    "keywords": "Class PowerUpDrop Inheritance Object PowerUpDrop Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class PowerUpDrop : MonoBehaviour Methods DropItem() Tworzy drop przedmiotu na podstawie loottable Declaration public void DropItem()"
+  },
+  "api/PowerUps.WhiteMonsterPowerUp.html": {
+    "href": "api/PowerUps.WhiteMonsterPowerUp.html",
+    "title": "Class WhiteMonsterPowerUp | PAdam Softworks",
+    "keywords": "Class WhiteMonsterPowerUp PowerUp białego monstera. Zwiększa siłę ataku bohatera Inheritance Object WhiteMonsterPowerUp Implements ITimedPowerUp IPowerUp Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class WhiteMonsterPowerUp : ITimedPowerUp, IPowerUp Remarks ten power up to lepsza wersja green monstera, bo nie ma prostego sposobu na zwiększenie dps Properties PowerUpDuration Czas przez jaki działa powerup Declaration public float PowerUpDuration { get; } Property Value Type Description Single PowerUpTimer Czas pozostały do końca powerupu Declaration public float PowerUpTimer { get; } Property Value Type Description Single Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration public void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza UpdateTimer() Aktualizuje czas powerupu Declaration public void UpdateTimer() Implements ITimedPowerUp IPowerUp"
   },
   "api/UI.html": {
     "href": "api/UI.html",
