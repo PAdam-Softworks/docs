@@ -402,7 +402,7 @@
   "api/Global.MainMenuController.html": {
     "href": "api/Global.MainMenuController.html",
     "title": "Class MainMenuController | PAdam Softworks",
-    "keywords": "Class MainMenuController Inheritance Object MainMenuController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MainMenuController : MonoBehaviour Methods QuitGame() Wychodzi całkowicie z gry Declaration public void QuitGame() StartGame() Startuje rozgrywkę Declaration public void StartGame()"
+    "keywords": "Class MainMenuController Inheritance Object MainMenuController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MainMenuController : MonoBehaviour Methods QuitGame() Wychodzi całkowicie z gry Declaration public void QuitGame() StartGame(String) Startuje rozgrywkę Declaration public void StartGame(string sceneName) Parameters Type Name Description String sceneName"
   },
   "api/Global.MovingPlatformController.html": {
     "href": "api/Global.MovingPlatformController.html",

@@ -3838,12 +3838,12 @@ references:
   isSpec: "True"
   fullName: MainMenuController.QuitGame
   nameWithType: MainMenuController.QuitGame
-- uid: Global.MainMenuController.StartGame
-  name: StartGame()
-  href: api/Global.MainMenuController.html#Global_MainMenuController_StartGame
-  commentId: M:Global.MainMenuController.StartGame
-  fullName: MainMenuController.StartGame()
-  nameWithType: MainMenuController.StartGame()
+- uid: Global.MainMenuController.StartGame(System.String)
+  name: StartGame(String)
+  href: api/Global.MainMenuController.html#Global_MainMenuController_StartGame_System_String_
+  commentId: M:Global.MainMenuController.StartGame(System.String)
+  fullName: MainMenuController.StartGame(System.String)
+  nameWithType: MainMenuController.StartGame(String)
 - uid: Global.MainMenuController.StartGame*
   name: StartGame
   href: api/Global.MainMenuController.html#Global_MainMenuController_StartGame_
