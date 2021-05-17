@@ -4027,6 +4027,19 @@ references:
   commentId: F:Global.PauseMenu.IsPaused
   fullName: PauseMenu.IsPaused
   nameWithType: PauseMenu.IsPaused
+- uid: Global.PauseMenu.NextLevel(System.String)
+  name: NextLevel(String)
+  href: api/Global.PauseMenu.html#Global_PauseMenu_NextLevel_System_String_
+  commentId: M:Global.PauseMenu.NextLevel(System.String)
+  fullName: PauseMenu.NextLevel(System.String)
+  nameWithType: PauseMenu.NextLevel(String)
+- uid: Global.PauseMenu.NextLevel*
+  name: NextLevel
+  href: api/Global.PauseMenu.html#Global_PauseMenu_NextLevel_
+  commentId: Overload:Global.PauseMenu.NextLevel
+  isSpec: "True"
+  fullName: PauseMenu.NextLevel
+  nameWithType: PauseMenu.NextLevel
 - uid: Global.PauseMenu.OpenMenu
   name: OpenMenu()
   href: api/Global.PauseMenu.html#Global_PauseMenu_OpenMenu
