@@ -38,13 +38,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.Clipper
   nameWithType: Clipper.Clipper
-- uid: ClipperLib.Clipper.Area(List{ClipperLib.IntPoint})
+- uid: ClipperLib.Clipper.Area(System.Collections.Generic.List{ClipperLib.IntPoint})
   name: Area(List<IntPoint>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Area_List_ClipperLib_IntPoint__
-  commentId: M:ClipperLib.Clipper.Area(List{ClipperLib.IntPoint})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Area_System_Collections_Generic_List_ClipperLib_IntPoint__
+  commentId: M:ClipperLib.Clipper.Area(System.Collections.Generic.List{ClipperLib.IntPoint})
   name.vb: Area(List(Of IntPoint))
-  fullName: ClipperLib.Clipper.Area(List<ClipperLib.IntPoint>)
-  fullName.vb: ClipperLib.Clipper.Area(List(Of ClipperLib.IntPoint))
+  fullName: ClipperLib.Clipper.Area(System.Collections.Generic.List<ClipperLib.IntPoint>)
+  fullName.vb: ClipperLib.Clipper.Area(System.Collections.Generic.List(Of ClipperLib.IntPoint))
   nameWithType: Clipper.Area(List<IntPoint>)
   nameWithType.vb: Clipper.Area(List(Of IntPoint))
 - uid: ClipperLib.Clipper.Area*
@@ -54,13 +54,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.Area
   nameWithType: Clipper.Area
-- uid: ClipperLib.Clipper.CleanPolygon(List{ClipperLib.IntPoint},System.Double)
+- uid: ClipperLib.Clipper.CleanPolygon(System.Collections.Generic.List{ClipperLib.IntPoint},System.Double)
   name: CleanPolygon(List<IntPoint>, Double)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_CleanPolygon_List_ClipperLib_IntPoint__System_Double_
-  commentId: M:ClipperLib.Clipper.CleanPolygon(List{ClipperLib.IntPoint},System.Double)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_CleanPolygon_System_Collections_Generic_List_ClipperLib_IntPoint__System_Double_
+  commentId: M:ClipperLib.Clipper.CleanPolygon(System.Collections.Generic.List{ClipperLib.IntPoint},System.Double)
   name.vb: CleanPolygon(List(Of IntPoint), Double)
-  fullName: ClipperLib.Clipper.CleanPolygon(List<ClipperLib.IntPoint>, System.Double)
-  fullName.vb: ClipperLib.Clipper.CleanPolygon(List(Of ClipperLib.IntPoint), System.Double)
+  fullName: ClipperLib.Clipper.CleanPolygon(System.Collections.Generic.List<ClipperLib.IntPoint>, System.Double)
+  fullName.vb: ClipperLib.Clipper.CleanPolygon(System.Collections.Generic.List(Of ClipperLib.IntPoint), System.Double)
   nameWithType: Clipper.CleanPolygon(List<IntPoint>, Double)
   nameWithType.vb: Clipper.CleanPolygon(List(Of IntPoint), Double)
 - uid: ClipperLib.Clipper.CleanPolygon*
@@ -70,13 +70,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.CleanPolygon
   nameWithType: Clipper.CleanPolygon
-- uid: ClipperLib.Clipper.CleanPolygons(List{List{ClipperLib.IntPoint}},System.Double)
+- uid: ClipperLib.Clipper.CleanPolygons(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},System.Double)
   name: CleanPolygons(List<List<IntPoint>>, Double)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_CleanPolygons_List_List_ClipperLib_IntPoint___System_Double_
-  commentId: M:ClipperLib.Clipper.CleanPolygons(List{List{ClipperLib.IntPoint}},System.Double)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_CleanPolygons_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___System_Double_
+  commentId: M:ClipperLib.Clipper.CleanPolygons(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},System.Double)
   name.vb: CleanPolygons(List(Of List(Of IntPoint)), Double)
-  fullName: ClipperLib.Clipper.CleanPolygons(List<List<ClipperLib.IntPoint>>, System.Double)
-  fullName.vb: ClipperLib.Clipper.CleanPolygons(List(Of List(Of ClipperLib.IntPoint)), System.Double)
+  fullName: ClipperLib.Clipper.CleanPolygons(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, System.Double)
+  fullName.vb: ClipperLib.Clipper.CleanPolygons(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), System.Double)
   nameWithType: Clipper.CleanPolygons(List<List<IntPoint>>, Double)
   nameWithType.vb: Clipper.CleanPolygons(List(Of List(Of IntPoint)), Double)
 - uid: ClipperLib.Clipper.CleanPolygons*
@@ -111,22 +111,22 @@ references:
   commentId: M:ClipperLib.Clipper.Execute(ClipperLib.ClipType,ClipperLib.PolyTree,ClipperLib.PolyFillType,ClipperLib.PolyFillType)
   fullName: ClipperLib.Clipper.Execute(ClipperLib.ClipType, ClipperLib.PolyTree, ClipperLib.PolyFillType, ClipperLib.PolyFillType)
   nameWithType: Clipper.Execute(ClipType, PolyTree, PolyFillType, PolyFillType)
-- uid: ClipperLib.Clipper.Execute(ClipperLib.ClipType,List{List{ClipperLib.IntPoint}})
+- uid: ClipperLib.Clipper.Execute(ClipperLib.ClipType,System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name: Execute(ClipType, List<List<IntPoint>>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Execute_ClipperLib_ClipType_List_List_ClipperLib_IntPoint___
-  commentId: M:ClipperLib.Clipper.Execute(ClipperLib.ClipType,List{List{ClipperLib.IntPoint}})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Execute_ClipperLib_ClipType_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___
+  commentId: M:ClipperLib.Clipper.Execute(ClipperLib.ClipType,System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name.vb: Execute(ClipType, List(Of List(Of IntPoint)))
-  fullName: ClipperLib.Clipper.Execute(ClipperLib.ClipType, List<List<ClipperLib.IntPoint>>)
-  fullName.vb: ClipperLib.Clipper.Execute(ClipperLib.ClipType, List(Of List(Of ClipperLib.IntPoint)))
+  fullName: ClipperLib.Clipper.Execute(ClipperLib.ClipType, System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>)
+  fullName.vb: ClipperLib.Clipper.Execute(ClipperLib.ClipType, System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)))
   nameWithType: Clipper.Execute(ClipType, List<List<IntPoint>>)
   nameWithType.vb: Clipper.Execute(ClipType, List(Of List(Of IntPoint)))
-- uid: ClipperLib.Clipper.Execute(ClipperLib.ClipType,List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,ClipperLib.PolyFillType)
+- uid: ClipperLib.Clipper.Execute(ClipperLib.ClipType,System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,ClipperLib.PolyFillType)
   name: Execute(ClipType, List<List<IntPoint>>, PolyFillType, PolyFillType)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Execute_ClipperLib_ClipType_List_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_ClipperLib_PolyFillType_
-  commentId: M:ClipperLib.Clipper.Execute(ClipperLib.ClipType,List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,ClipperLib.PolyFillType)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Execute_ClipperLib_ClipType_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_ClipperLib_PolyFillType_
+  commentId: M:ClipperLib.Clipper.Execute(ClipperLib.ClipType,System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,ClipperLib.PolyFillType)
   name.vb: Execute(ClipType, List(Of List(Of IntPoint)), PolyFillType, PolyFillType)
-  fullName: ClipperLib.Clipper.Execute(ClipperLib.ClipType, List<List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType, ClipperLib.PolyFillType)
-  fullName.vb: ClipperLib.Clipper.Execute(ClipperLib.ClipType, List(Of List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType, ClipperLib.PolyFillType)
+  fullName: ClipperLib.Clipper.Execute(ClipperLib.ClipType, System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType, ClipperLib.PolyFillType)
+  fullName.vb: ClipperLib.Clipper.Execute(ClipperLib.ClipType, System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType, ClipperLib.PolyFillType)
   nameWithType: Clipper.Execute(ClipType, List<List<IntPoint>>, PolyFillType, PolyFillType)
   nameWithType.vb: Clipper.Execute(ClipType, List(Of List(Of IntPoint)), PolyFillType, PolyFillType)
 - uid: ClipperLib.Clipper.Execute*
@@ -154,13 +154,13 @@ references:
   commentId: F:ClipperLib.Clipper.ioStrictlySimple
   fullName: ClipperLib.Clipper.ioStrictlySimple
   nameWithType: Clipper.ioStrictlySimple
-- uid: ClipperLib.Clipper.MinkowskiDiff(List{ClipperLib.IntPoint},List{ClipperLib.IntPoint})
+- uid: ClipperLib.Clipper.MinkowskiDiff(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{ClipperLib.IntPoint})
   name: MinkowskiDiff(List<IntPoint>, List<IntPoint>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiDiff_List_ClipperLib_IntPoint__List_ClipperLib_IntPoint__
-  commentId: M:ClipperLib.Clipper.MinkowskiDiff(List{ClipperLib.IntPoint},List{ClipperLib.IntPoint})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiDiff_System_Collections_Generic_List_ClipperLib_IntPoint__System_Collections_Generic_List_ClipperLib_IntPoint__
+  commentId: M:ClipperLib.Clipper.MinkowskiDiff(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{ClipperLib.IntPoint})
   name.vb: MinkowskiDiff(List(Of IntPoint), List(Of IntPoint))
-  fullName: ClipperLib.Clipper.MinkowskiDiff(List<ClipperLib.IntPoint>, List<ClipperLib.IntPoint>)
-  fullName.vb: ClipperLib.Clipper.MinkowskiDiff(List(Of ClipperLib.IntPoint), List(Of ClipperLib.IntPoint))
+  fullName: ClipperLib.Clipper.MinkowskiDiff(System.Collections.Generic.List<ClipperLib.IntPoint>, System.Collections.Generic.List<ClipperLib.IntPoint>)
+  fullName.vb: ClipperLib.Clipper.MinkowskiDiff(System.Collections.Generic.List(Of ClipperLib.IntPoint), System.Collections.Generic.List(Of ClipperLib.IntPoint))
   nameWithType: Clipper.MinkowskiDiff(List<IntPoint>, List<IntPoint>)
   nameWithType.vb: Clipper.MinkowskiDiff(List(Of IntPoint), List(Of IntPoint))
 - uid: ClipperLib.Clipper.MinkowskiDiff*
@@ -170,22 +170,22 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.MinkowskiDiff
   nameWithType: Clipper.MinkowskiDiff
-- uid: ClipperLib.Clipper.MinkowskiSum(List{ClipperLib.IntPoint},List{ClipperLib.IntPoint},System.Boolean)
+- uid: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{ClipperLib.IntPoint},System.Boolean)
   name: MinkowskiSum(List<IntPoint>, List<IntPoint>, Boolean)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiSum_List_ClipperLib_IntPoint__List_ClipperLib_IntPoint__System_Boolean_
-  commentId: M:ClipperLib.Clipper.MinkowskiSum(List{ClipperLib.IntPoint},List{ClipperLib.IntPoint},System.Boolean)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiSum_System_Collections_Generic_List_ClipperLib_IntPoint__System_Collections_Generic_List_ClipperLib_IntPoint__System_Boolean_
+  commentId: M:ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{ClipperLib.IntPoint},System.Boolean)
   name.vb: MinkowskiSum(List(Of IntPoint), List(Of IntPoint), Boolean)
-  fullName: ClipperLib.Clipper.MinkowskiSum(List<ClipperLib.IntPoint>, List<ClipperLib.IntPoint>, System.Boolean)
-  fullName.vb: ClipperLib.Clipper.MinkowskiSum(List(Of ClipperLib.IntPoint), List(Of ClipperLib.IntPoint), System.Boolean)
+  fullName: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List<ClipperLib.IntPoint>, System.Collections.Generic.List<ClipperLib.IntPoint>, System.Boolean)
+  fullName.vb: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List(Of ClipperLib.IntPoint), System.Collections.Generic.List(Of ClipperLib.IntPoint), System.Boolean)
   nameWithType: Clipper.MinkowskiSum(List<IntPoint>, List<IntPoint>, Boolean)
   nameWithType.vb: Clipper.MinkowskiSum(List(Of IntPoint), List(Of IntPoint), Boolean)
-- uid: ClipperLib.Clipper.MinkowskiSum(List{ClipperLib.IntPoint},List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,System.Boolean)
+- uid: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,System.Boolean)
   name: MinkowskiSum(List<IntPoint>, List<List<IntPoint>>, PolyFillType, Boolean)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiSum_List_ClipperLib_IntPoint__List_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_System_Boolean_
-  commentId: M:ClipperLib.Clipper.MinkowskiSum(List{ClipperLib.IntPoint},List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,System.Boolean)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_MinkowskiSum_System_Collections_Generic_List_ClipperLib_IntPoint__System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_System_Boolean_
+  commentId: M:ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List{ClipperLib.IntPoint},System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType,System.Boolean)
   name.vb: MinkowskiSum(List(Of IntPoint), List(Of List(Of IntPoint)), PolyFillType, Boolean)
-  fullName: ClipperLib.Clipper.MinkowskiSum(List<ClipperLib.IntPoint>, List<List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType, System.Boolean)
-  fullName.vb: ClipperLib.Clipper.MinkowskiSum(List(Of ClipperLib.IntPoint), List(Of List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType, System.Boolean)
+  fullName: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List<ClipperLib.IntPoint>, System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType, System.Boolean)
+  fullName.vb: ClipperLib.Clipper.MinkowskiSum(System.Collections.Generic.List(Of ClipperLib.IntPoint), System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType, System.Boolean)
   nameWithType: Clipper.MinkowskiSum(List<IntPoint>, List<List<IntPoint>>, PolyFillType, Boolean)
   nameWithType.vb: Clipper.MinkowskiSum(List(Of IntPoint), List(Of List(Of IntPoint)), PolyFillType, Boolean)
 - uid: ClipperLib.Clipper.MinkowskiSum*
@@ -195,13 +195,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.MinkowskiSum
   nameWithType: Clipper.MinkowskiSum
-- uid: ClipperLib.Clipper.OffsetPaths(List{List{ClipperLib.IntPoint}},System.Double,ClipperLib.JoinType,ClipperLib.EndType_,System.Double)
+- uid: ClipperLib.Clipper.OffsetPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},System.Double,ClipperLib.JoinType,ClipperLib.EndType_,System.Double)
   name: OffsetPaths(List<List<IntPoint>>, Double, JoinType, EndType_, Double)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_OffsetPaths_List_List_ClipperLib_IntPoint___System_Double_ClipperLib_JoinType_ClipperLib_EndType__System_Double_
-  commentId: M:ClipperLib.Clipper.OffsetPaths(List{List{ClipperLib.IntPoint}},System.Double,ClipperLib.JoinType,ClipperLib.EndType_,System.Double)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_OffsetPaths_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___System_Double_ClipperLib_JoinType_ClipperLib_EndType__System_Double_
+  commentId: M:ClipperLib.Clipper.OffsetPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},System.Double,ClipperLib.JoinType,ClipperLib.EndType_,System.Double)
   name.vb: OffsetPaths(List(Of List(Of IntPoint)), Double, JoinType, EndType_, Double)
-  fullName: ClipperLib.Clipper.OffsetPaths(List<List<ClipperLib.IntPoint>>, System.Double, ClipperLib.JoinType, ClipperLib.EndType_, System.Double)
-  fullName.vb: ClipperLib.Clipper.OffsetPaths(List(Of List(Of ClipperLib.IntPoint)), System.Double, ClipperLib.JoinType, ClipperLib.EndType_, System.Double)
+  fullName: ClipperLib.Clipper.OffsetPaths(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, System.Double, ClipperLib.JoinType, ClipperLib.EndType_, System.Double)
+  fullName.vb: ClipperLib.Clipper.OffsetPaths(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), System.Double, ClipperLib.JoinType, ClipperLib.EndType_, System.Double)
   nameWithType: Clipper.OffsetPaths(List<List<IntPoint>>, Double, JoinType, EndType_, Double)
   nameWithType.vb: Clipper.OffsetPaths(List(Of List(Of IntPoint)), Double, JoinType, EndType_, Double)
 - uid: ClipperLib.Clipper.OffsetPaths*
@@ -224,13 +224,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.OpenPathsFromPolyTree
   nameWithType: Clipper.OpenPathsFromPolyTree
-- uid: ClipperLib.Clipper.Orientation(List{ClipperLib.IntPoint})
+- uid: ClipperLib.Clipper.Orientation(System.Collections.Generic.List{ClipperLib.IntPoint})
   name: Orientation(List<IntPoint>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Orientation_List_ClipperLib_IntPoint__
-  commentId: M:ClipperLib.Clipper.Orientation(List{ClipperLib.IntPoint})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_Orientation_System_Collections_Generic_List_ClipperLib_IntPoint__
+  commentId: M:ClipperLib.Clipper.Orientation(System.Collections.Generic.List{ClipperLib.IntPoint})
   name.vb: Orientation(List(Of IntPoint))
-  fullName: ClipperLib.Clipper.Orientation(List<ClipperLib.IntPoint>)
-  fullName.vb: ClipperLib.Clipper.Orientation(List(Of ClipperLib.IntPoint))
+  fullName: ClipperLib.Clipper.Orientation(System.Collections.Generic.List<ClipperLib.IntPoint>)
+  fullName.vb: ClipperLib.Clipper.Orientation(System.Collections.Generic.List(Of ClipperLib.IntPoint))
   nameWithType: Clipper.Orientation(List<IntPoint>)
   nameWithType.vb: Clipper.Orientation(List(Of IntPoint))
 - uid: ClipperLib.Clipper.Orientation*
@@ -240,13 +240,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.Orientation
   nameWithType: Clipper.Orientation
-- uid: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint,List{ClipperLib.IntPoint})
+- uid: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint,System.Collections.Generic.List{ClipperLib.IntPoint})
   name: PointInPolygon(IntPoint, List<IntPoint>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_PointInPolygon_ClipperLib_IntPoint_List_ClipperLib_IntPoint__
-  commentId: M:ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint,List{ClipperLib.IntPoint})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_PointInPolygon_ClipperLib_IntPoint_System_Collections_Generic_List_ClipperLib_IntPoint__
+  commentId: M:ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint,System.Collections.Generic.List{ClipperLib.IntPoint})
   name.vb: PointInPolygon(IntPoint, List(Of IntPoint))
-  fullName: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint, List<ClipperLib.IntPoint>)
-  fullName.vb: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint, List(Of ClipperLib.IntPoint))
+  fullName: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint, System.Collections.Generic.List<ClipperLib.IntPoint>)
+  fullName.vb: ClipperLib.Clipper.PointInPolygon(ClipperLib.IntPoint, System.Collections.Generic.List(Of ClipperLib.IntPoint))
   nameWithType: Clipper.PointInPolygon(IntPoint, List<IntPoint>)
   nameWithType.vb: Clipper.PointInPolygon(IntPoint, List(Of IntPoint))
 - uid: ClipperLib.Clipper.PointInPolygon*
@@ -282,13 +282,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.Reset
   nameWithType: Clipper.Reset
-- uid: ClipperLib.Clipper.ReversePaths(List{List{ClipperLib.IntPoint}})
+- uid: ClipperLib.Clipper.ReversePaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name: ReversePaths(List<List<IntPoint>>)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_ReversePaths_List_List_ClipperLib_IntPoint___
-  commentId: M:ClipperLib.Clipper.ReversePaths(List{List{ClipperLib.IntPoint}})
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_ReversePaths_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___
+  commentId: M:ClipperLib.Clipper.ReversePaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name.vb: ReversePaths(List(Of List(Of IntPoint)))
-  fullName: ClipperLib.Clipper.ReversePaths(List<List<ClipperLib.IntPoint>>)
-  fullName.vb: ClipperLib.Clipper.ReversePaths(List(Of List(Of ClipperLib.IntPoint)))
+  fullName: ClipperLib.Clipper.ReversePaths(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>)
+  fullName.vb: ClipperLib.Clipper.ReversePaths(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)))
   nameWithType: Clipper.ReversePaths(List<List<IntPoint>>)
   nameWithType.vb: Clipper.ReversePaths(List(Of List(Of IntPoint)))
 - uid: ClipperLib.Clipper.ReversePaths*
@@ -311,13 +311,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.ReverseSolution
   nameWithType: Clipper.ReverseSolution
-- uid: ClipperLib.Clipper.SimplifyPolygon(List{ClipperLib.IntPoint},ClipperLib.PolyFillType)
+- uid: ClipperLib.Clipper.SimplifyPolygon(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.PolyFillType)
   name: SimplifyPolygon(List<IntPoint>, PolyFillType)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_SimplifyPolygon_List_ClipperLib_IntPoint__ClipperLib_PolyFillType_
-  commentId: M:ClipperLib.Clipper.SimplifyPolygon(List{ClipperLib.IntPoint},ClipperLib.PolyFillType)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_SimplifyPolygon_System_Collections_Generic_List_ClipperLib_IntPoint__ClipperLib_PolyFillType_
+  commentId: M:ClipperLib.Clipper.SimplifyPolygon(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.PolyFillType)
   name.vb: SimplifyPolygon(List(Of IntPoint), PolyFillType)
-  fullName: ClipperLib.Clipper.SimplifyPolygon(List<ClipperLib.IntPoint>, ClipperLib.PolyFillType)
-  fullName.vb: ClipperLib.Clipper.SimplifyPolygon(List(Of ClipperLib.IntPoint), ClipperLib.PolyFillType)
+  fullName: ClipperLib.Clipper.SimplifyPolygon(System.Collections.Generic.List<ClipperLib.IntPoint>, ClipperLib.PolyFillType)
+  fullName.vb: ClipperLib.Clipper.SimplifyPolygon(System.Collections.Generic.List(Of ClipperLib.IntPoint), ClipperLib.PolyFillType)
   nameWithType: Clipper.SimplifyPolygon(List<IntPoint>, PolyFillType)
   nameWithType.vb: Clipper.SimplifyPolygon(List(Of IntPoint), PolyFillType)
 - uid: ClipperLib.Clipper.SimplifyPolygon*
@@ -327,13 +327,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.Clipper.SimplifyPolygon
   nameWithType: Clipper.SimplifyPolygon
-- uid: ClipperLib.Clipper.SimplifyPolygons(List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType)
+- uid: ClipperLib.Clipper.SimplifyPolygons(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType)
   name: SimplifyPolygons(List<List<IntPoint>>, PolyFillType)
-  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_SimplifyPolygons_List_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_
-  commentId: M:ClipperLib.Clipper.SimplifyPolygons(List{List{ClipperLib.IntPoint}},ClipperLib.PolyFillType)
+  href: api/ClipperLib.Clipper.html#ClipperLib_Clipper_SimplifyPolygons_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___ClipperLib_PolyFillType_
+  commentId: M:ClipperLib.Clipper.SimplifyPolygons(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyFillType)
   name.vb: SimplifyPolygons(List(Of List(Of IntPoint)), PolyFillType)
-  fullName: ClipperLib.Clipper.SimplifyPolygons(List<List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType)
-  fullName.vb: ClipperLib.Clipper.SimplifyPolygons(List(Of List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType)
+  fullName: ClipperLib.Clipper.SimplifyPolygons(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, ClipperLib.PolyFillType)
+  fullName.vb: ClipperLib.Clipper.SimplifyPolygons(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), ClipperLib.PolyFillType)
   nameWithType: Clipper.SimplifyPolygons(List<List<IntPoint>>, PolyFillType)
   nameWithType.vb: Clipper.SimplifyPolygons(List(Of List(Of IntPoint)), PolyFillType)
 - uid: ClipperLib.Clipper.SimplifyPolygons*
@@ -362,13 +362,13 @@ references:
   commentId: T:ClipperLib.ClipperBase
   fullName: ClipperLib.ClipperBase
   nameWithType: ClipperBase
-- uid: ClipperLib.ClipperBase.AddPath(List{ClipperLib.IntPoint},ClipperLib.PolyType,System.Boolean)
+- uid: ClipperLib.ClipperBase.AddPath(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.PolyType,System.Boolean)
   name: AddPath(List<IntPoint>, PolyType, Boolean)
-  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_AddPath_List_ClipperLib_IntPoint__ClipperLib_PolyType_System_Boolean_
-  commentId: M:ClipperLib.ClipperBase.AddPath(List{ClipperLib.IntPoint},ClipperLib.PolyType,System.Boolean)
+  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_AddPath_System_Collections_Generic_List_ClipperLib_IntPoint__ClipperLib_PolyType_System_Boolean_
+  commentId: M:ClipperLib.ClipperBase.AddPath(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.PolyType,System.Boolean)
   name.vb: AddPath(List(Of IntPoint), PolyType, Boolean)
-  fullName: ClipperLib.ClipperBase.AddPath(List<ClipperLib.IntPoint>, ClipperLib.PolyType, System.Boolean)
-  fullName.vb: ClipperLib.ClipperBase.AddPath(List(Of ClipperLib.IntPoint), ClipperLib.PolyType, System.Boolean)
+  fullName: ClipperLib.ClipperBase.AddPath(System.Collections.Generic.List<ClipperLib.IntPoint>, ClipperLib.PolyType, System.Boolean)
+  fullName.vb: ClipperLib.ClipperBase.AddPath(System.Collections.Generic.List(Of ClipperLib.IntPoint), ClipperLib.PolyType, System.Boolean)
   nameWithType: ClipperBase.AddPath(List<IntPoint>, PolyType, Boolean)
   nameWithType.vb: ClipperBase.AddPath(List(Of IntPoint), PolyType, Boolean)
 - uid: ClipperLib.ClipperBase.AddPath*
@@ -378,13 +378,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.ClipperBase.AddPath
   nameWithType: ClipperBase.AddPath
-- uid: ClipperLib.ClipperBase.AddPaths(List{List{ClipperLib.IntPoint}},ClipperLib.PolyType,System.Boolean)
+- uid: ClipperLib.ClipperBase.AddPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyType,System.Boolean)
   name: AddPaths(List<List<IntPoint>>, PolyType, Boolean)
-  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_AddPaths_List_List_ClipperLib_IntPoint___ClipperLib_PolyType_System_Boolean_
-  commentId: M:ClipperLib.ClipperBase.AddPaths(List{List{ClipperLib.IntPoint}},ClipperLib.PolyType,System.Boolean)
+  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_AddPaths_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___ClipperLib_PolyType_System_Boolean_
+  commentId: M:ClipperLib.ClipperBase.AddPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.PolyType,System.Boolean)
   name.vb: AddPaths(List(Of List(Of IntPoint)), PolyType, Boolean)
-  fullName: ClipperLib.ClipperBase.AddPaths(List<List<ClipperLib.IntPoint>>, ClipperLib.PolyType, System.Boolean)
-  fullName.vb: ClipperLib.ClipperBase.AddPaths(List(Of List(Of ClipperLib.IntPoint)), ClipperLib.PolyType, System.Boolean)
+  fullName: ClipperLib.ClipperBase.AddPaths(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, ClipperLib.PolyType, System.Boolean)
+  fullName.vb: ClipperLib.ClipperBase.AddPaths(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), ClipperLib.PolyType, System.Boolean)
   nameWithType: ClipperBase.AddPaths(List<List<IntPoint>>, PolyType, Boolean)
   nameWithType.vb: ClipperBase.AddPaths(List(Of List(Of IntPoint)), PolyType, Boolean)
 - uid: ClipperLib.ClipperBase.AddPaths*
@@ -407,13 +407,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.ClipperBase.Clear
   nameWithType: ClipperBase.Clear
-- uid: ClipperLib.ClipperBase.GetBounds(List{List{ClipperLib.IntPoint}})
+- uid: ClipperLib.ClipperBase.GetBounds(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name: GetBounds(List<List<IntPoint>>)
-  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_GetBounds_List_List_ClipperLib_IntPoint___
-  commentId: M:ClipperLib.ClipperBase.GetBounds(List{List{ClipperLib.IntPoint}})
+  href: api/ClipperLib.ClipperBase.html#ClipperLib_ClipperBase_GetBounds_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___
+  commentId: M:ClipperLib.ClipperBase.GetBounds(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}})
   name.vb: GetBounds(List(Of List(Of IntPoint)))
-  fullName: ClipperLib.ClipperBase.GetBounds(List<List<ClipperLib.IntPoint>>)
-  fullName.vb: ClipperLib.ClipperBase.GetBounds(List(Of List(Of ClipperLib.IntPoint)))
+  fullName: ClipperLib.ClipperBase.GetBounds(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>)
+  fullName.vb: ClipperLib.ClipperBase.GetBounds(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)))
   nameWithType: ClipperBase.GetBounds(List<List<IntPoint>>)
   nameWithType.vb: ClipperBase.GetBounds(List(Of List(Of IntPoint)))
 - uid: ClipperLib.ClipperBase.GetBounds*
@@ -524,13 +524,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.ClipperOffset.ClipperOffset
   nameWithType: ClipperOffset.ClipperOffset
-- uid: ClipperLib.ClipperOffset.AddPath(List{ClipperLib.IntPoint},ClipperLib.JoinType,ClipperLib.EndType)
+- uid: ClipperLib.ClipperOffset.AddPath(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.JoinType,ClipperLib.EndType)
   name: AddPath(List<IntPoint>, JoinType, EndType)
-  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_AddPath_List_ClipperLib_IntPoint__ClipperLib_JoinType_ClipperLib_EndType_
-  commentId: M:ClipperLib.ClipperOffset.AddPath(List{ClipperLib.IntPoint},ClipperLib.JoinType,ClipperLib.EndType)
+  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_AddPath_System_Collections_Generic_List_ClipperLib_IntPoint__ClipperLib_JoinType_ClipperLib_EndType_
+  commentId: M:ClipperLib.ClipperOffset.AddPath(System.Collections.Generic.List{ClipperLib.IntPoint},ClipperLib.JoinType,ClipperLib.EndType)
   name.vb: AddPath(List(Of IntPoint), JoinType, EndType)
-  fullName: ClipperLib.ClipperOffset.AddPath(List<ClipperLib.IntPoint>, ClipperLib.JoinType, ClipperLib.EndType)
-  fullName.vb: ClipperLib.ClipperOffset.AddPath(List(Of ClipperLib.IntPoint), ClipperLib.JoinType, ClipperLib.EndType)
+  fullName: ClipperLib.ClipperOffset.AddPath(System.Collections.Generic.List<ClipperLib.IntPoint>, ClipperLib.JoinType, ClipperLib.EndType)
+  fullName.vb: ClipperLib.ClipperOffset.AddPath(System.Collections.Generic.List(Of ClipperLib.IntPoint), ClipperLib.JoinType, ClipperLib.EndType)
   nameWithType: ClipperOffset.AddPath(List<IntPoint>, JoinType, EndType)
   nameWithType.vb: ClipperOffset.AddPath(List(Of IntPoint), JoinType, EndType)
 - uid: ClipperLib.ClipperOffset.AddPath*
@@ -540,13 +540,13 @@ references:
   isSpec: "True"
   fullName: ClipperLib.ClipperOffset.AddPath
   nameWithType: ClipperOffset.AddPath
-- uid: ClipperLib.ClipperOffset.AddPaths(List{List{ClipperLib.IntPoint}},ClipperLib.JoinType,ClipperLib.EndType)
+- uid: ClipperLib.ClipperOffset.AddPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.JoinType,ClipperLib.EndType)
   name: AddPaths(List<List<IntPoint>>, JoinType, EndType)
-  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_AddPaths_List_List_ClipperLib_IntPoint___ClipperLib_JoinType_ClipperLib_EndType_
-  commentId: M:ClipperLib.ClipperOffset.AddPaths(List{List{ClipperLib.IntPoint}},ClipperLib.JoinType,ClipperLib.EndType)
+  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_AddPaths_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint___ClipperLib_JoinType_ClipperLib_EndType_
+  commentId: M:ClipperLib.ClipperOffset.AddPaths(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}},ClipperLib.JoinType,ClipperLib.EndType)
   name.vb: AddPaths(List(Of List(Of IntPoint)), JoinType, EndType)
-  fullName: ClipperLib.ClipperOffset.AddPaths(List<List<ClipperLib.IntPoint>>, ClipperLib.JoinType, ClipperLib.EndType)
-  fullName.vb: ClipperLib.ClipperOffset.AddPaths(List(Of List(Of ClipperLib.IntPoint)), ClipperLib.JoinType, ClipperLib.EndType)
+  fullName: ClipperLib.ClipperOffset.AddPaths(System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, ClipperLib.JoinType, ClipperLib.EndType)
+  fullName.vb: ClipperLib.ClipperOffset.AddPaths(System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), ClipperLib.JoinType, ClipperLib.EndType)
   nameWithType: ClipperOffset.AddPaths(List<List<IntPoint>>, JoinType, EndType)
   nameWithType.vb: ClipperOffset.AddPaths(List(Of List(Of IntPoint)), JoinType, EndType)
 - uid: ClipperLib.ClipperOffset.AddPaths*
@@ -591,13 +591,13 @@ references:
   fullName.vb: ClipperLib.ClipperOffset.Execute(ByRef ClipperLib.PolyTree, System.Double)
   nameWithType: ClipperOffset.Execute(ref PolyTree, Double)
   nameWithType.vb: ClipperOffset.Execute(ByRef PolyTree, Double)
-- uid: ClipperLib.ClipperOffset.Execute(List{List{ClipperLib.IntPoint}}@,System.Double)
+- uid: ClipperLib.ClipperOffset.Execute(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}}@,System.Double)
   name: Execute(ref List<List<IntPoint>>, Double)
-  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_Execute_List_List_ClipperLib_IntPoint____System_Double_
-  commentId: M:ClipperLib.ClipperOffset.Execute(List{List{ClipperLib.IntPoint}}@,System.Double)
+  href: api/ClipperLib.ClipperOffset.html#ClipperLib_ClipperOffset_Execute_System_Collections_Generic_List_System_Collections_Generic_List_ClipperLib_IntPoint____System_Double_
+  commentId: M:ClipperLib.ClipperOffset.Execute(System.Collections.Generic.List{System.Collections.Generic.List{ClipperLib.IntPoint}}@,System.Double)
   name.vb: Execute(ByRef List(Of List(Of IntPoint)), Double)
-  fullName: ClipperLib.ClipperOffset.Execute(ref List<List<ClipperLib.IntPoint>>, System.Double)
-  fullName.vb: ClipperLib.ClipperOffset.Execute(ByRef List(Of List(Of ClipperLib.IntPoint)), System.Double)
+  fullName: ClipperLib.ClipperOffset.Execute(ref System.Collections.Generic.List<System.Collections.Generic.List<ClipperLib.IntPoint>>, System.Double)
+  fullName.vb: ClipperLib.ClipperOffset.Execute(ByRef System.Collections.Generic.List(Of System.Collections.Generic.List(Of ClipperLib.IntPoint)), System.Double)
   nameWithType: ClipperOffset.Execute(ref List<List<IntPoint>>, Double)
   nameWithType.vb: ClipperOffset.Execute(ByRef List(Of List(Of IntPoint)), Double)
 - uid: ClipperLib.ClipperOffset.Execute*
@@ -1370,13 +1370,13 @@ references:
   commentId: T:Delaunay.DelaunayHelpers
   fullName: Delaunay.DelaunayHelpers
   nameWithType: DelaunayHelpers
-- uid: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(List{Delaunay.Edge})
+- uid: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(System.Collections.Generic.List{Delaunay.Edge})
   name: DelaunayLinesForEdges(List<Edge>)
-  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_DelaunayLinesForEdges_List_Delaunay_Edge__
-  commentId: M:Delaunay.DelaunayHelpers.DelaunayLinesForEdges(List{Delaunay.Edge})
+  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_DelaunayLinesForEdges_System_Collections_Generic_List_Delaunay_Edge__
+  commentId: M:Delaunay.DelaunayHelpers.DelaunayLinesForEdges(System.Collections.Generic.List{Delaunay.Edge})
   name.vb: DelaunayLinesForEdges(List(Of Edge))
-  fullName: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(List<Delaunay.Edge>)
-  fullName.vb: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(List(Of Delaunay.Edge))
+  fullName: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(System.Collections.Generic.List<Delaunay.Edge>)
+  fullName.vb: Delaunay.DelaunayHelpers.DelaunayLinesForEdges(System.Collections.Generic.List(Of Delaunay.Edge))
   nameWithType: DelaunayHelpers.DelaunayLinesForEdges(List<Edge>)
   nameWithType.vb: DelaunayHelpers.DelaunayLinesForEdges(List(Of Edge))
 - uid: Delaunay.DelaunayHelpers.DelaunayLinesForEdges*
@@ -1386,13 +1386,13 @@ references:
   isSpec: "True"
   fullName: Delaunay.DelaunayHelpers.DelaunayLinesForEdges
   nameWithType: DelaunayHelpers.DelaunayLinesForEdges
-- uid: Delaunay.DelaunayHelpers.Kruskal(List{LineSegment},Delaunay.KruskalType)
+- uid: Delaunay.DelaunayHelpers.Kruskal(System.Collections.Generic.List{LineSegment},Delaunay.KruskalType)
   name: Kruskal(List<LineSegment>, KruskalType)
-  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_Kruskal_List_LineSegment__Delaunay_KruskalType_
-  commentId: M:Delaunay.DelaunayHelpers.Kruskal(List{LineSegment},Delaunay.KruskalType)
+  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_Kruskal_System_Collections_Generic_List_LineSegment__Delaunay_KruskalType_
+  commentId: M:Delaunay.DelaunayHelpers.Kruskal(System.Collections.Generic.List{LineSegment},Delaunay.KruskalType)
   name.vb: Kruskal(List(Of LineSegment), KruskalType)
-  fullName: Delaunay.DelaunayHelpers.Kruskal(List<LineSegment>, Delaunay.KruskalType)
-  fullName.vb: Delaunay.DelaunayHelpers.Kruskal(List(Of LineSegment), Delaunay.KruskalType)
+  fullName: Delaunay.DelaunayHelpers.Kruskal(System.Collections.Generic.List<LineSegment>, Delaunay.KruskalType)
+  fullName.vb: Delaunay.DelaunayHelpers.Kruskal(System.Collections.Generic.List(Of LineSegment), Delaunay.KruskalType)
   nameWithType: DelaunayHelpers.Kruskal(List<LineSegment>, KruskalType)
   nameWithType.vb: DelaunayHelpers.Kruskal(List(Of LineSegment), KruskalType)
 - uid: Delaunay.DelaunayHelpers.Kruskal*
@@ -1402,13 +1402,13 @@ references:
   isSpec: "True"
   fullName: Delaunay.DelaunayHelpers.Kruskal
   nameWithType: DelaunayHelpers.Kruskal
-- uid: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2,List{Delaunay.Edge})
+- uid: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2,System.Collections.Generic.List{Delaunay.Edge})
   name: SelectEdgesForSitePoint(Vector2, List<Edge>)
-  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_SelectEdgesForSitePoint_Vector2_List_Delaunay_Edge__
-  commentId: M:Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2,List{Delaunay.Edge})
+  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_SelectEdgesForSitePoint_Vector2_System_Collections_Generic_List_Delaunay_Edge__
+  commentId: M:Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2,System.Collections.Generic.List{Delaunay.Edge})
   name.vb: SelectEdgesForSitePoint(Vector2, List(Of Edge))
-  fullName: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2, List<Delaunay.Edge>)
-  fullName.vb: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2, List(Of Delaunay.Edge))
+  fullName: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2, System.Collections.Generic.List<Delaunay.Edge>)
+  fullName.vb: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint(Vector2, System.Collections.Generic.List(Of Delaunay.Edge))
   nameWithType: DelaunayHelpers.SelectEdgesForSitePoint(Vector2, List<Edge>)
   nameWithType.vb: DelaunayHelpers.SelectEdgesForSitePoint(Vector2, List(Of Edge))
 - uid: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint*
@@ -1418,13 +1418,13 @@ references:
   isSpec: "True"
   fullName: Delaunay.DelaunayHelpers.SelectEdgesForSitePoint
   nameWithType: DelaunayHelpers.SelectEdgesForSitePoint
-- uid: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(List{Delaunay.Edge})
+- uid: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(System.Collections.Generic.List{Delaunay.Edge})
   name: SelectNonIntersectingEdges(List<Edge>)
-  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_SelectNonIntersectingEdges_List_Delaunay_Edge__
-  commentId: M:Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(List{Delaunay.Edge})
+  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_SelectNonIntersectingEdges_System_Collections_Generic_List_Delaunay_Edge__
+  commentId: M:Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(System.Collections.Generic.List{Delaunay.Edge})
   name.vb: SelectNonIntersectingEdges(List(Of Edge))
-  fullName: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(List<Delaunay.Edge>)
-  fullName.vb: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(List(Of Delaunay.Edge))
+  fullName: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(System.Collections.Generic.List<Delaunay.Edge>)
+  fullName.vb: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges(System.Collections.Generic.List(Of Delaunay.Edge))
   nameWithType: DelaunayHelpers.SelectNonIntersectingEdges(List<Edge>)
   nameWithType.vb: DelaunayHelpers.SelectNonIntersectingEdges(List(Of Edge))
 - uid: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges*
@@ -1434,13 +1434,13 @@ references:
   isSpec: "True"
   fullName: Delaunay.DelaunayHelpers.SelectNonIntersectingEdges
   nameWithType: DelaunayHelpers.SelectNonIntersectingEdges
-- uid: Delaunay.DelaunayHelpers.VisibleLineSegments(List{Delaunay.Edge})
+- uid: Delaunay.DelaunayHelpers.VisibleLineSegments(System.Collections.Generic.List{Delaunay.Edge})
   name: VisibleLineSegments(List<Edge>)
-  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_VisibleLineSegments_List_Delaunay_Edge__
-  commentId: M:Delaunay.DelaunayHelpers.VisibleLineSegments(List{Delaunay.Edge})
+  href: api/Delaunay.DelaunayHelpers.html#Delaunay_DelaunayHelpers_VisibleLineSegments_System_Collections_Generic_List_Delaunay_Edge__
+  commentId: M:Delaunay.DelaunayHelpers.VisibleLineSegments(System.Collections.Generic.List{Delaunay.Edge})
   name.vb: VisibleLineSegments(List(Of Edge))
-  fullName: Delaunay.DelaunayHelpers.VisibleLineSegments(List<Delaunay.Edge>)
-  fullName.vb: Delaunay.DelaunayHelpers.VisibleLineSegments(List(Of Delaunay.Edge))
+  fullName: Delaunay.DelaunayHelpers.VisibleLineSegments(System.Collections.Generic.List<Delaunay.Edge>)
+  fullName.vb: Delaunay.DelaunayHelpers.VisibleLineSegments(System.Collections.Generic.List(Of Delaunay.Edge))
   nameWithType: DelaunayHelpers.VisibleLineSegments(List<Edge>)
   nameWithType.vb: DelaunayHelpers.VisibleLineSegments(List(Of Edge))
 - uid: Delaunay.DelaunayHelpers.VisibleLineSegments*
@@ -1843,13 +1843,13 @@ references:
   commentId: T:Delaunay.Geo.Polygon
   fullName: Delaunay.Geo.Polygon
   nameWithType: Polygon
-- uid: Delaunay.Geo.Polygon.#ctor(List{Vector2})
+- uid: Delaunay.Geo.Polygon.#ctor(System.Collections.Generic.List{Vector2})
   name: Polygon(List<Vector2>)
-  href: api/Delaunay.Geo.Polygon.html#Delaunay_Geo_Polygon__ctor_List_Vector2__
-  commentId: M:Delaunay.Geo.Polygon.#ctor(List{Vector2})
+  href: api/Delaunay.Geo.Polygon.html#Delaunay_Geo_Polygon__ctor_System_Collections_Generic_List_Vector2__
+  commentId: M:Delaunay.Geo.Polygon.#ctor(System.Collections.Generic.List{Vector2})
   name.vb: Polygon(List(Of Vector2))
-  fullName: Delaunay.Geo.Polygon.Polygon(List<Vector2>)
-  fullName.vb: Delaunay.Geo.Polygon.Polygon(List(Of Vector2))
+  fullName: Delaunay.Geo.Polygon.Polygon(System.Collections.Generic.List<Vector2>)
+  fullName.vb: Delaunay.Geo.Polygon.Polygon(System.Collections.Generic.List(Of Vector2))
   nameWithType: Polygon.Polygon(List<Vector2>)
   nameWithType.vb: Polygon.Polygon(List(Of Vector2))
 - uid: Delaunay.Geo.Polygon.#ctor*
@@ -2684,13 +2684,13 @@ references:
   commentId: T:Delaunay.Voronoi
   fullName: Delaunay.Voronoi
   nameWithType: Voronoi
-- uid: Delaunay.Voronoi.#ctor(List{Vector2},List{System.UInt32},Rect)
+- uid: Delaunay.Voronoi.#ctor(System.Collections.Generic.List{Vector2},System.Collections.Generic.List{System.UInt32},Rect)
   name: Voronoi(List<Vector2>, List<UInt32>, Rect)
-  href: api/Delaunay.Voronoi.html#Delaunay_Voronoi__ctor_List_Vector2__List_System_UInt32__Rect_
-  commentId: M:Delaunay.Voronoi.#ctor(List{Vector2},List{System.UInt32},Rect)
+  href: api/Delaunay.Voronoi.html#Delaunay_Voronoi__ctor_System_Collections_Generic_List_Vector2__System_Collections_Generic_List_System_UInt32__Rect_
+  commentId: M:Delaunay.Voronoi.#ctor(System.Collections.Generic.List{Vector2},System.Collections.Generic.List{System.UInt32},Rect)
   name.vb: Voronoi(List(Of Vector2), List(Of UInt32), Rect)
-  fullName: Delaunay.Voronoi.Voronoi(List<Vector2>, List<System.UInt32>, Rect)
-  fullName.vb: Delaunay.Voronoi.Voronoi(List(Of Vector2), List(Of System.UInt32), Rect)
+  fullName: Delaunay.Voronoi.Voronoi(System.Collections.Generic.List<Vector2>, System.Collections.Generic.List<System.UInt32>, Rect)
+  fullName.vb: Delaunay.Voronoi.Voronoi(System.Collections.Generic.List(Of Vector2), System.Collections.Generic.List(Of System.UInt32), Rect)
   nameWithType: Voronoi.Voronoi(List<Vector2>, List<UInt32>, Rect)
   nameWithType.vb: Voronoi.Voronoi(List(Of Vector2), List(Of UInt32), Rect)
 - uid: Delaunay.Voronoi.#ctor*
@@ -3059,22 +3059,22 @@ references:
   commentId: T:Explodable.ClipperHelper
   fullName: Explodable.ClipperHelper
   nameWithType: ClipperHelper
-- uid: Explodable.ClipperHelper.Clip(List{Vector2},List{Vector2})
+- uid: Explodable.ClipperHelper.Clip(System.Collections.Generic.List{Vector2},System.Collections.Generic.List{Vector2})
   name: Clip(List<Vector2>, List<Vector2>)
-  href: api/Explodable.ClipperHelper.html#Explodable_ClipperHelper_Clip_List_Vector2__List_Vector2__
-  commentId: M:Explodable.ClipperHelper.Clip(List{Vector2},List{Vector2})
+  href: api/Explodable.ClipperHelper.html#Explodable_ClipperHelper_Clip_System_Collections_Generic_List_Vector2__System_Collections_Generic_List_Vector2__
+  commentId: M:Explodable.ClipperHelper.Clip(System.Collections.Generic.List{Vector2},System.Collections.Generic.List{Vector2})
   name.vb: Clip(List(Of Vector2), List(Of Vector2))
-  fullName: Explodable.ClipperHelper.Clip(List<Vector2>, List<Vector2>)
-  fullName.vb: Explodable.ClipperHelper.Clip(List(Of Vector2), List(Of Vector2))
+  fullName: Explodable.ClipperHelper.Clip(System.Collections.Generic.List<Vector2>, System.Collections.Generic.List<Vector2>)
+  fullName.vb: Explodable.ClipperHelper.Clip(System.Collections.Generic.List(Of Vector2), System.Collections.Generic.List(Of Vector2))
   nameWithType: ClipperHelper.Clip(List<Vector2>, List<Vector2>)
   nameWithType.vb: ClipperHelper.Clip(List(Of Vector2), List(Of Vector2))
-- uid: Explodable.ClipperHelper.Clip(List{Vector2},Triangle)
+- uid: Explodable.ClipperHelper.Clip(System.Collections.Generic.List{Vector2},Triangle)
   name: Clip(List<Vector2>, Triangle)
-  href: api/Explodable.ClipperHelper.html#Explodable_ClipperHelper_Clip_List_Vector2__Triangle_
-  commentId: M:Explodable.ClipperHelper.Clip(List{Vector2},Triangle)
+  href: api/Explodable.ClipperHelper.html#Explodable_ClipperHelper_Clip_System_Collections_Generic_List_Vector2__Triangle_
+  commentId: M:Explodable.ClipperHelper.Clip(System.Collections.Generic.List{Vector2},Triangle)
   name.vb: Clip(List(Of Vector2), Triangle)
-  fullName: Explodable.ClipperHelper.Clip(List<Vector2>, Triangle)
-  fullName.vb: Explodable.ClipperHelper.Clip(List(Of Vector2), Triangle)
+  fullName: Explodable.ClipperHelper.Clip(System.Collections.Generic.List<Vector2>, Triangle)
+  fullName.vb: Explodable.ClipperHelper.Clip(System.Collections.Generic.List(Of Vector2), Triangle)
   nameWithType: ClipperHelper.Clip(List<Vector2>, Triangle)
   nameWithType.vb: ClipperHelper.Clip(List(Of Vector2), Triangle)
 - uid: Explodable.ClipperHelper.Clip*
@@ -3334,6 +3334,242 @@ references:
   commentId: T:Global.DisableRendererOnStart
   fullName: DisableRendererOnStart
   nameWithType: DisableRendererOnStart
+- uid: Global.dreamloLeaderBoard
+  name: dreamloLeaderBoard
+  href: api/Global.dreamloLeaderBoard.html
+  commentId: T:Global.dreamloLeaderBoard
+  fullName: dreamloLeaderBoard
+  nameWithType: dreamloLeaderBoard
+- uid: Global.dreamloLeaderBoard.AddScore(System.String,System.Int32)
+  name: AddScore(String, Int32)
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_AddScore_System_String_System_Int32_
+  commentId: M:Global.dreamloLeaderBoard.AddScore(System.String,System.Int32)
+  fullName: dreamloLeaderBoard.AddScore(System.String, System.Int32)
+  nameWithType: dreamloLeaderBoard.AddScore(String, Int32)
+- uid: Global.dreamloLeaderBoard.AddScore(System.String,System.Int32,System.Int32)
+  name: AddScore(String, Int32, Int32)
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_AddScore_System_String_System_Int32_System_Int32_
+  commentId: M:Global.dreamloLeaderBoard.AddScore(System.String,System.Int32,System.Int32)
+  fullName: dreamloLeaderBoard.AddScore(System.String, System.Int32, System.Int32)
+  nameWithType: dreamloLeaderBoard.AddScore(String, Int32, Int32)
+- uid: Global.dreamloLeaderBoard.AddScore(System.String,System.Int32,System.Int32,System.String)
+  name: AddScore(String, Int32, Int32, String)
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_AddScore_System_String_System_Int32_System_Int32_System_String_
+  commentId: M:Global.dreamloLeaderBoard.AddScore(System.String,System.Int32,System.Int32,System.String)
+  fullName: dreamloLeaderBoard.AddScore(System.String, System.Int32, System.Int32, System.String)
+  nameWithType: dreamloLeaderBoard.AddScore(String, Int32, Int32, String)
+- uid: Global.dreamloLeaderBoard.AddScore*
+  name: AddScore
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_AddScore_
+  commentId: Overload:Global.dreamloLeaderBoard.AddScore
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.AddScore
+  nameWithType: dreamloLeaderBoard.AddScore
+- uid: Global.dreamloLeaderBoard.GetSceneDreamloLeaderboard
+  name: GetSceneDreamloLeaderboard()
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_GetSceneDreamloLeaderboard
+  commentId: M:Global.dreamloLeaderBoard.GetSceneDreamloLeaderboard
+  fullName: dreamloLeaderBoard.GetSceneDreamloLeaderboard()
+  nameWithType: dreamloLeaderBoard.GetSceneDreamloLeaderboard()
+- uid: Global.dreamloLeaderBoard.GetSceneDreamloLeaderboard*
+  name: GetSceneDreamloLeaderboard
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_GetSceneDreamloLeaderboard_
+  commentId: Overload:Global.dreamloLeaderBoard.GetSceneDreamloLeaderboard
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.GetSceneDreamloLeaderboard
+  nameWithType: dreamloLeaderBoard.GetSceneDreamloLeaderboard
+- uid: Global.dreamloLeaderBoard.IUpgradedAndGotSSL
+  name: IUpgradedAndGotSSL
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_IUpgradedAndGotSSL
+  commentId: F:Global.dreamloLeaderBoard.IUpgradedAndGotSSL
+  fullName: dreamloLeaderBoard.IUpgradedAndGotSSL
+  nameWithType: dreamloLeaderBoard.IUpgradedAndGotSSL
+- uid: Global.dreamloLeaderBoard.privateCode
+  name: privateCode
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_privateCode
+  commentId: F:Global.dreamloLeaderBoard.privateCode
+  fullName: dreamloLeaderBoard.privateCode
+  nameWithType: dreamloLeaderBoard.privateCode
+- uid: Global.dreamloLeaderBoard.publicCode
+  name: publicCode
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_publicCode
+  commentId: F:Global.dreamloLeaderBoard.publicCode
+  fullName: dreamloLeaderBoard.publicCode
+  nameWithType: dreamloLeaderBoard.publicCode
+- uid: Global.dreamloLeaderBoard.Score
+  name: dreamloLeaderBoard.Score
+  href: api/Global.dreamloLeaderBoard.Score.html
+  commentId: T:Global.dreamloLeaderBoard.Score
+  fullName: dreamloLeaderBoard.Score
+  nameWithType: dreamloLeaderBoard.Score
+- uid: Global.dreamloLeaderBoard.Score.dateString
+  name: dateString
+  href: api/Global.dreamloLeaderBoard.Score.html#Global_dreamloLeaderBoard_Score_dateString
+  commentId: F:Global.dreamloLeaderBoard.Score.dateString
+  fullName: dreamloLeaderBoard.Score.dateString
+  nameWithType: dreamloLeaderBoard.Score.dateString
+- uid: Global.dreamloLeaderBoard.Score.playerName
+  name: playerName
+  href: api/Global.dreamloLeaderBoard.Score.html#Global_dreamloLeaderBoard_Score_playerName
+  commentId: F:Global.dreamloLeaderBoard.Score.playerName
+  fullName: dreamloLeaderBoard.Score.playerName
+  nameWithType: dreamloLeaderBoard.Score.playerName
+- uid: Global.dreamloLeaderBoard.Score.score
+  name: score
+  href: api/Global.dreamloLeaderBoard.Score.html#Global_dreamloLeaderBoard_Score_score
+  commentId: F:Global.dreamloLeaderBoard.Score.score
+  fullName: dreamloLeaderBoard.Score.score
+  nameWithType: dreamloLeaderBoard.Score.score
+- uid: Global.dreamloLeaderBoard.Score.seconds
+  name: seconds
+  href: api/Global.dreamloLeaderBoard.Score.html#Global_dreamloLeaderBoard_Score_seconds
+  commentId: F:Global.dreamloLeaderBoard.Score.seconds
+  fullName: dreamloLeaderBoard.Score.seconds
+  nameWithType: dreamloLeaderBoard.Score.seconds
+- uid: Global.dreamloLeaderBoard.Score.shortText
+  name: shortText
+  href: api/Global.dreamloLeaderBoard.Score.html#Global_dreamloLeaderBoard_Score_shortText
+  commentId: F:Global.dreamloLeaderBoard.Score.shortText
+  fullName: dreamloLeaderBoard.Score.shortText
+  nameWithType: dreamloLeaderBoard.Score.shortText
+- uid: Global.dreamloLeaderBoard.ToListHighToLow
+  name: ToListHighToLow()
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToListHighToLow
+  commentId: M:Global.dreamloLeaderBoard.ToListHighToLow
+  fullName: dreamloLeaderBoard.ToListHighToLow()
+  nameWithType: dreamloLeaderBoard.ToListHighToLow()
+- uid: Global.dreamloLeaderBoard.ToListHighToLow*
+  name: ToListHighToLow
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToListHighToLow_
+  commentId: Overload:Global.dreamloLeaderBoard.ToListHighToLow
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.ToListHighToLow
+  nameWithType: dreamloLeaderBoard.ToListHighToLow
+- uid: Global.dreamloLeaderBoard.ToListLowToHigh
+  name: ToListLowToHigh()
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToListLowToHigh
+  commentId: M:Global.dreamloLeaderBoard.ToListLowToHigh
+  fullName: dreamloLeaderBoard.ToListLowToHigh()
+  nameWithType: dreamloLeaderBoard.ToListLowToHigh()
+- uid: Global.dreamloLeaderBoard.ToListLowToHigh*
+  name: ToListLowToHigh
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToListLowToHigh_
+  commentId: Overload:Global.dreamloLeaderBoard.ToListLowToHigh
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.ToListLowToHigh
+  nameWithType: dreamloLeaderBoard.ToListLowToHigh
+- uid: Global.dreamloLeaderBoard.ToScoreArray
+  name: ToScoreArray()
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToScoreArray
+  commentId: M:Global.dreamloLeaderBoard.ToScoreArray
+  fullName: dreamloLeaderBoard.ToScoreArray()
+  nameWithType: dreamloLeaderBoard.ToScoreArray()
+- uid: Global.dreamloLeaderBoard.ToScoreArray*
+  name: ToScoreArray
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToScoreArray_
+  commentId: Overload:Global.dreamloLeaderBoard.ToScoreArray
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.ToScoreArray
+  nameWithType: dreamloLeaderBoard.ToScoreArray
+- uid: Global.dreamloLeaderBoard.ToStringArray
+  name: ToStringArray()
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToStringArray
+  commentId: M:Global.dreamloLeaderBoard.ToStringArray
+  fullName: dreamloLeaderBoard.ToStringArray()
+  nameWithType: dreamloLeaderBoard.ToStringArray()
+- uid: Global.dreamloLeaderBoard.ToStringArray*
+  name: ToStringArray
+  href: api/Global.dreamloLeaderBoard.html#Global_dreamloLeaderBoard_ToStringArray_
+  commentId: Overload:Global.dreamloLeaderBoard.ToStringArray
+  isSpec: "True"
+  fullName: dreamloLeaderBoard.ToStringArray
+  nameWithType: dreamloLeaderBoard.ToStringArray
+- uid: Global.dreamloPromoCode
+  name: dreamloPromoCode
+  href: api/Global.dreamloPromoCode.html
+  commentId: T:Global.dreamloPromoCode
+  fullName: dreamloPromoCode
+  nameWithType: dreamloPromoCode
+- uid: Global.dreamloPromoCode.error
+  name: error
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_error
+  commentId: F:Global.dreamloPromoCode.error
+  fullName: dreamloPromoCode.error
+  nameWithType: dreamloPromoCode.error
+- uid: Global.dreamloPromoCode.GetSceneDreamloPromoCode
+  name: GetSceneDreamloPromoCode()
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_GetSceneDreamloPromoCode
+  commentId: M:Global.dreamloPromoCode.GetSceneDreamloPromoCode
+  fullName: dreamloPromoCode.GetSceneDreamloPromoCode()
+  nameWithType: dreamloPromoCode.GetSceneDreamloPromoCode()
+- uid: Global.dreamloPromoCode.GetSceneDreamloPromoCode*
+  name: GetSceneDreamloPromoCode
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_GetSceneDreamloPromoCode_
+  commentId: Overload:Global.dreamloPromoCode.GetSceneDreamloPromoCode
+  isSpec: "True"
+  fullName: dreamloPromoCode.GetSceneDreamloPromoCode
+  nameWithType: dreamloPromoCode.GetSceneDreamloPromoCode
+- uid: Global.dreamloPromoCode.publicCode
+  name: publicCode
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_publicCode
+  commentId: F:Global.dreamloPromoCode.publicCode
+  fullName: dreamloPromoCode.publicCode
+  nameWithType: dreamloPromoCode.publicCode
+- uid: Global.dreamloPromoCode.RedeemCode(System.String)
+  name: RedeemCode(String)
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_RedeemCode_System_String_
+  commentId: M:Global.dreamloPromoCode.RedeemCode(System.String)
+  fullName: dreamloPromoCode.RedeemCode(System.String)
+  nameWithType: dreamloPromoCode.RedeemCode(String)
+- uid: Global.dreamloPromoCode.RedeemCode*
+  name: RedeemCode
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_RedeemCode_
+  commentId: Overload:Global.dreamloPromoCode.RedeemCode
+  isSpec: "True"
+  fullName: dreamloPromoCode.RedeemCode
+  nameWithType: dreamloPromoCode.RedeemCode
+- uid: Global.dreamloPromoCode.state
+  name: state
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_state
+  commentId: F:Global.dreamloPromoCode.state
+  fullName: dreamloPromoCode.state
+  nameWithType: dreamloPromoCode.state
+- uid: Global.dreamloPromoCode.State
+  name: dreamloPromoCode.State
+  href: api/Global.dreamloPromoCode.State.html
+  commentId: T:Global.dreamloPromoCode.State
+  fullName: dreamloPromoCode.State
+  nameWithType: dreamloPromoCode.State
+- uid: Global.dreamloPromoCode.State.ERROR
+  name: ERROR
+  href: api/Global.dreamloPromoCode.State.html#Global_dreamloPromoCode_State_ERROR
+  commentId: F:Global.dreamloPromoCode.State.ERROR
+  fullName: dreamloPromoCode.State.ERROR
+  nameWithType: dreamloPromoCode.State.ERROR
+- uid: Global.dreamloPromoCode.State.None
+  name: None
+  href: api/Global.dreamloPromoCode.State.html#Global_dreamloPromoCode_State_None
+  commentId: F:Global.dreamloPromoCode.State.None
+  fullName: dreamloPromoCode.State.None
+  nameWithType: dreamloPromoCode.State.None
+- uid: Global.dreamloPromoCode.State.OK
+  name: OK
+  href: api/Global.dreamloPromoCode.State.html#Global_dreamloPromoCode_State_OK
+  commentId: F:Global.dreamloPromoCode.State.OK
+  fullName: dreamloPromoCode.State.OK
+  nameWithType: dreamloPromoCode.State.OK
+- uid: Global.dreamloPromoCode.State.WaitingForResponse
+  name: WaitingForResponse
+  href: api/Global.dreamloPromoCode.State.html#Global_dreamloPromoCode_State_WaitingForResponse
+  commentId: F:Global.dreamloPromoCode.State.WaitingForResponse
+  fullName: dreamloPromoCode.State.WaitingForResponse
+  nameWithType: dreamloPromoCode.State.WaitingForResponse
+- uid: Global.dreamloPromoCode.value
+  name: value
+  href: api/Global.dreamloPromoCode.html#Global_dreamloPromoCode_value
+  commentId: F:Global.dreamloPromoCode.value
+  fullName: dreamloPromoCode.value
+  nameWithType: dreamloPromoCode.value
 - uid: Global.EnemySpawner
   name: EnemySpawner
   href: api/Global.EnemySpawner.html
@@ -3749,6 +3985,12 @@ references:
   commentId: F:Global.ItemController.ItemData
   fullName: ItemController.ItemData
   nameWithType: ItemController.ItemData
+- uid: Global.LeaderBoardSample
+  name: LeaderBoardSample
+  href: api/Global.LeaderBoardSample.html
+  commentId: T:Global.LeaderBoardSample
+  fullName: LeaderBoardSample
+  nameWithType: LeaderBoardSample
 - uid: Global.LootTable
   name: LootTable
   href: api/Global.LootTable.html
@@ -4072,6 +4314,19 @@ references:
   commentId: F:Global.PauseMenu.pauseMenuUI
   fullName: PauseMenu.pauseMenuUI
   nameWithType: PauseMenu.pauseMenuUI
+- uid: Global.PauseMenu.PauseTime
+  name: PauseTime()
+  href: api/Global.PauseMenu.html#Global_PauseMenu_PauseTime
+  commentId: M:Global.PauseMenu.PauseTime
+  fullName: PauseMenu.PauseTime()
+  nameWithType: PauseMenu.PauseTime()
+- uid: Global.PauseMenu.PauseTime*
+  name: PauseTime
+  href: api/Global.PauseMenu.html#Global_PauseMenu_PauseTime_
+  commentId: Overload:Global.PauseMenu.PauseTime
+  isSpec: "True"
+  fullName: PauseMenu.PauseTime
+  nameWithType: PauseMenu.PauseTime
 - uid: Global.PauseMenu.QuitGame
   name: QuitGame()
   href: api/Global.PauseMenu.html#Global_PauseMenu_QuitGame
@@ -5649,6 +5904,213 @@ references:
   isSpec: "True"
   fullName: Interactable.DoorController.OpenDoor
   nameWithType: DoorController.OpenDoor
+- uid: Leaderboard
+  name: Leaderboard
+  href: api/Leaderboard.html
+  commentId: N:Leaderboard
+  fullName: Leaderboard
+  nameWithType: Leaderboard
+- uid: Leaderboard.Database
+  name: Database
+  href: api/Leaderboard.Database.html
+  commentId: T:Leaderboard.Database
+  fullName: Leaderboard.Database
+  nameWithType: Database
+- uid: Leaderboard.Database.AddNewUserScore(System.String,System.Int32,System.Int32,System.Int32,System.String,UnityAction{System.String},UnityAction{System.String})
+  name: AddNewUserScore(String, Int32, Int32, Int32, String, UnityAction<String>, UnityAction<String>)
+  href: api/Leaderboard.Database.html#Leaderboard_Database_AddNewUserScore_System_String_System_Int32_System_Int32_System_Int32_System_String_UnityAction_System_String__UnityAction_System_String__
+  commentId: M:Leaderboard.Database.AddNewUserScore(System.String,System.Int32,System.Int32,System.Int32,System.String,UnityAction{System.String},UnityAction{System.String})
+  name.vb: AddNewUserScore(String, Int32, Int32, Int32, String, UnityAction(Of String), UnityAction(Of String))
+  fullName: Leaderboard.Database.AddNewUserScore(System.String, System.Int32, System.Int32, System.Int32, System.String, UnityAction<System.String>, UnityAction<System.String>)
+  fullName.vb: Leaderboard.Database.AddNewUserScore(System.String, System.Int32, System.Int32, System.Int32, System.String, UnityAction(Of System.String), UnityAction(Of System.String))
+  nameWithType: Database.AddNewUserScore(String, Int32, Int32, Int32, String, UnityAction<String>, UnityAction<String>)
+  nameWithType.vb: Database.AddNewUserScore(String, Int32, Int32, Int32, String, UnityAction(Of String), UnityAction(Of String))
+- uid: Leaderboard.Database.AddNewUserScore*
+  name: AddNewUserScore
+  href: api/Leaderboard.Database.html#Leaderboard_Database_AddNewUserScore_
+  commentId: Overload:Leaderboard.Database.AddNewUserScore
+  isSpec: "True"
+  fullName: Leaderboard.Database.AddNewUserScore
+  nameWithType: Database.AddNewUserScore
+- uid: Leaderboard.Database.DeleteUserScore(System.String,UnityAction{System.String},UnityAction{System.String})
+  name: DeleteUserScore(String, UnityAction<String>, UnityAction<String>)
+  href: api/Leaderboard.Database.html#Leaderboard_Database_DeleteUserScore_System_String_UnityAction_System_String__UnityAction_System_String__
+  commentId: M:Leaderboard.Database.DeleteUserScore(System.String,UnityAction{System.String},UnityAction{System.String})
+  name.vb: DeleteUserScore(String, UnityAction(Of String), UnityAction(Of String))
+  fullName: Leaderboard.Database.DeleteUserScore(System.String, UnityAction<System.String>, UnityAction<System.String>)
+  fullName.vb: Leaderboard.Database.DeleteUserScore(System.String, UnityAction(Of System.String), UnityAction(Of System.String))
+  nameWithType: Database.DeleteUserScore(String, UnityAction<String>, UnityAction<String>)
+  nameWithType.vb: Database.DeleteUserScore(String, UnityAction(Of String), UnityAction(Of String))
+- uid: Leaderboard.Database.DeleteUserScore*
+  name: DeleteUserScore
+  href: api/Leaderboard.Database.html#Leaderboard_Database_DeleteUserScore_
+  commentId: Overload:Leaderboard.Database.DeleteUserScore
+  isSpec: "True"
+  fullName: Leaderboard.Database.DeleteUserScore
+  nameWithType: Database.DeleteUserScore
+- uid: Leaderboard.Database.GetLeaderboard(UnityAction{Leaderboard.DreamloLeaderboard},UnityAction{System.String})
+  name: GetLeaderboard(UnityAction<DreamloLeaderboard>, UnityAction<String>)
+  href: api/Leaderboard.Database.html#Leaderboard_Database_GetLeaderboard_UnityAction_Leaderboard_DreamloLeaderboard__UnityAction_System_String__
+  commentId: M:Leaderboard.Database.GetLeaderboard(UnityAction{Leaderboard.DreamloLeaderboard},UnityAction{System.String})
+  name.vb: GetLeaderboard(UnityAction(Of DreamloLeaderboard), UnityAction(Of String))
+  fullName: Leaderboard.Database.GetLeaderboard(UnityAction<Leaderboard.DreamloLeaderboard>, UnityAction<System.String>)
+  fullName.vb: Leaderboard.Database.GetLeaderboard(UnityAction(Of Leaderboard.DreamloLeaderboard), UnityAction(Of System.String))
+  nameWithType: Database.GetLeaderboard(UnityAction<DreamloLeaderboard>, UnityAction<String>)
+  nameWithType.vb: Database.GetLeaderboard(UnityAction(Of DreamloLeaderboard), UnityAction(Of String))
+- uid: Leaderboard.Database.GetLeaderboard*
+  name: GetLeaderboard
+  href: api/Leaderboard.Database.html#Leaderboard_Database_GetLeaderboard_
+  commentId: Overload:Leaderboard.Database.GetLeaderboard
+  isSpec: "True"
+  fullName: Leaderboard.Database.GetLeaderboard
+  nameWithType: Database.GetLeaderboard
+- uid: Leaderboard.Dreamlo
+  name: Dreamlo
+  href: api/Leaderboard.Dreamlo.html
+  commentId: T:Leaderboard.Dreamlo
+  fullName: Leaderboard.Dreamlo
+  nameWithType: Dreamlo
+- uid: Leaderboard.Dreamlo.leaderboard
+  name: leaderboard
+  href: api/Leaderboard.Dreamlo.html#Leaderboard_Dreamlo_leaderboard
+  commentId: P:Leaderboard.Dreamlo.leaderboard
+  fullName: Leaderboard.Dreamlo.leaderboard
+  nameWithType: Dreamlo.leaderboard
+- uid: Leaderboard.Dreamlo.leaderboard*
+  name: leaderboard
+  href: api/Leaderboard.Dreamlo.html#Leaderboard_Dreamlo_leaderboard_
+  commentId: Overload:Leaderboard.Dreamlo.leaderboard
+  isSpec: "True"
+  fullName: Leaderboard.Dreamlo.leaderboard
+  nameWithType: Dreamlo.leaderboard
+- uid: Leaderboard.DreamloLeaderboard
+  name: DreamloLeaderboard
+  href: api/Leaderboard.DreamloLeaderboard.html
+  commentId: T:Leaderboard.DreamloLeaderboard
+  fullName: Leaderboard.DreamloLeaderboard
+  nameWithType: DreamloLeaderboard
+- uid: Leaderboard.DreamloLeaderboard.dreamlo
+  name: dreamlo
+  href: api/Leaderboard.DreamloLeaderboard.html#Leaderboard_DreamloLeaderboard_dreamlo
+  commentId: P:Leaderboard.DreamloLeaderboard.dreamlo
+  fullName: Leaderboard.DreamloLeaderboard.dreamlo
+  nameWithType: DreamloLeaderboard.dreamlo
+- uid: Leaderboard.DreamloLeaderboard.dreamlo*
+  name: dreamlo
+  href: api/Leaderboard.DreamloLeaderboard.html#Leaderboard_DreamloLeaderboard_dreamlo_
+  commentId: Overload:Leaderboard.DreamloLeaderboard.dreamlo
+  isSpec: "True"
+  fullName: Leaderboard.DreamloLeaderboard.dreamlo
+  nameWithType: DreamloLeaderboard.dreamlo
+- uid: Leaderboard.Leaderboard
+  name: Leaderboard
+  href: api/Leaderboard.Leaderboard.html
+  commentId: T:Leaderboard.Leaderboard
+  fullName: Leaderboard.Leaderboard
+  nameWithType: Leaderboard
+- uid: Leaderboard.Leaderboard.entry
+  name: entry
+  href: api/Leaderboard.Leaderboard.html#Leaderboard_Leaderboard_entry
+  commentId: P:Leaderboard.Leaderboard.entry
+  fullName: Leaderboard.Leaderboard.entry
+  nameWithType: Leaderboard.entry
+- uid: Leaderboard.Leaderboard.entry*
+  name: entry
+  href: api/Leaderboard.Leaderboard.html#Leaderboard_Leaderboard_entry_
+  commentId: Overload:Leaderboard.Leaderboard.entry
+  isSpec: "True"
+  fullName: Leaderboard.Leaderboard.entry
+  nameWithType: Leaderboard.entry
+- uid: Leaderboard.LeaderboardEntry
+  name: LeaderboardEntry
+  href: api/Leaderboard.LeaderboardEntry.html
+  commentId: T:Leaderboard.LeaderboardEntry
+  fullName: Leaderboard.LeaderboardEntry
+  nameWithType: LeaderboardEntry
+- uid: Leaderboard.LeaderboardEntry.date
+  name: date
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_date
+  commentId: P:Leaderboard.LeaderboardEntry.date
+  fullName: Leaderboard.LeaderboardEntry.date
+  nameWithType: LeaderboardEntry.date
+- uid: Leaderboard.LeaderboardEntry.date*
+  name: date
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_date_
+  commentId: Overload:Leaderboard.LeaderboardEntry.date
+  isSpec: "True"
+  fullName: Leaderboard.LeaderboardEntry.date
+  nameWithType: LeaderboardEntry.date
+- uid: Leaderboard.LeaderboardEntry.name
+  name: name
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_name
+  commentId: P:Leaderboard.LeaderboardEntry.name
+  fullName: Leaderboard.LeaderboardEntry.name
+  nameWithType: LeaderboardEntry.name
+- uid: Leaderboard.LeaderboardEntry.name*
+  name: name
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_name_
+  commentId: Overload:Leaderboard.LeaderboardEntry.name
+  isSpec: "True"
+  fullName: Leaderboard.LeaderboardEntry.name
+  nameWithType: LeaderboardEntry.name
+- uid: Leaderboard.LeaderboardEntry.score
+  name: score
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_score
+  commentId: P:Leaderboard.LeaderboardEntry.score
+  fullName: Leaderboard.LeaderboardEntry.score
+  nameWithType: LeaderboardEntry.score
+- uid: Leaderboard.LeaderboardEntry.score*
+  name: score
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_score_
+  commentId: Overload:Leaderboard.LeaderboardEntry.score
+  isSpec: "True"
+  fullName: Leaderboard.LeaderboardEntry.score
+  nameWithType: LeaderboardEntry.score
+- uid: Leaderboard.LeaderboardEntry.seconds
+  name: seconds
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_seconds
+  commentId: P:Leaderboard.LeaderboardEntry.seconds
+  fullName: Leaderboard.LeaderboardEntry.seconds
+  nameWithType: LeaderboardEntry.seconds
+- uid: Leaderboard.LeaderboardEntry.seconds*
+  name: seconds
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_seconds_
+  commentId: Overload:Leaderboard.LeaderboardEntry.seconds
+  isSpec: "True"
+  fullName: Leaderboard.LeaderboardEntry.seconds
+  nameWithType: LeaderboardEntry.seconds
+- uid: Leaderboard.LeaderboardEntry.text
+  name: text
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_text
+  commentId: P:Leaderboard.LeaderboardEntry.text
+  fullName: Leaderboard.LeaderboardEntry.text
+  nameWithType: LeaderboardEntry.text
+- uid: Leaderboard.LeaderboardEntry.text*
+  name: text
+  href: api/Leaderboard.LeaderboardEntry.html#Leaderboard_LeaderboardEntry_text_
+  commentId: Overload:Leaderboard.LeaderboardEntry.text
+  isSpec: "True"
+  fullName: Leaderboard.LeaderboardEntry.text
+  nameWithType: LeaderboardEntry.text
+- uid: Leaderboard.ScoreCalculator
+  name: ScoreCalculator
+  href: api/Leaderboard.ScoreCalculator.html
+  commentId: T:Leaderboard.ScoreCalculator
+  fullName: Leaderboard.ScoreCalculator
+  nameWithType: ScoreCalculator
+- uid: Leaderboard.ScoreCalculator.CalculateScore(System.Int32,System.Int32,System.Int32)
+  name: CalculateScore(Int32, Int32, Int32)
+  href: api/Leaderboard.ScoreCalculator.html#Leaderboard_ScoreCalculator_CalculateScore_System_Int32_System_Int32_System_Int32_
+  commentId: M:Leaderboard.ScoreCalculator.CalculateScore(System.Int32,System.Int32,System.Int32)
+  fullName: Leaderboard.ScoreCalculator.CalculateScore(System.Int32, System.Int32, System.Int32)
+  nameWithType: ScoreCalculator.CalculateScore(Int32, Int32, Int32)
+- uid: Leaderboard.ScoreCalculator.CalculateScore*
+  name: CalculateScore
+  href: api/Leaderboard.ScoreCalculator.html#Leaderboard_ScoreCalculator_CalculateScore_
+  commentId: Overload:Leaderboard.ScoreCalculator.CalculateScore
+  isSpec: "True"
+  fullName: Leaderboard.ScoreCalculator.CalculateScore
+  nameWithType: ScoreCalculator.CalculateScore
 - uid: PowerUps
   name: PowerUps
   href: api/PowerUps.html
@@ -5930,6 +6392,38 @@ references:
   commentId: N:UI
   fullName: UI
   nameWithType: UI
+- uid: UI.FinishMenuController
+  name: FinishMenuController
+  href: api/UI.FinishMenuController.html
+  commentId: T:UI.FinishMenuController
+  fullName: UI.FinishMenuController
+  nameWithType: FinishMenuController
+- uid: UI.FinishMenuController.SendScore
+  name: SendScore()
+  href: api/UI.FinishMenuController.html#UI_FinishMenuController_SendScore
+  commentId: M:UI.FinishMenuController.SendScore
+  fullName: UI.FinishMenuController.SendScore()
+  nameWithType: FinishMenuController.SendScore()
+- uid: UI.FinishMenuController.SendScore*
+  name: SendScore
+  href: api/UI.FinishMenuController.html#UI_FinishMenuController_SendScore_
+  commentId: Overload:UI.FinishMenuController.SendScore
+  isSpec: "True"
+  fullName: UI.FinishMenuController.SendScore
+  nameWithType: FinishMenuController.SendScore
+- uid: UI.FinishMenuController.ShowFinishMenu
+  name: ShowFinishMenu()
+  href: api/UI.FinishMenuController.html#UI_FinishMenuController_ShowFinishMenu
+  commentId: M:UI.FinishMenuController.ShowFinishMenu
+  fullName: UI.FinishMenuController.ShowFinishMenu()
+  nameWithType: FinishMenuController.ShowFinishMenu()
+- uid: UI.FinishMenuController.ShowFinishMenu*
+  name: ShowFinishMenu
+  href: api/UI.FinishMenuController.html#UI_FinishMenuController_ShowFinishMenu_
+  commentId: Overload:UI.FinishMenuController.ShowFinishMenu
+  isSpec: "True"
+  fullName: UI.FinishMenuController.ShowFinishMenu
+  nameWithType: FinishMenuController.ShowFinishMenu
 - uid: UI.PlayerStatsMenu
   name: PlayerStatsMenu
   href: api/UI.PlayerStatsMenu.html

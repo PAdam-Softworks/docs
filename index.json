@@ -334,6 +334,26 @@
     "title": "Class DisableRendererOnStart | PAdam Softworks",
     "keywords": "Class DisableRendererOnStart Inheritance Object DisableRendererOnStart Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DisableRendererOnStart : MonoBehaviour"
   },
+  "api/Global.dreamloLeaderBoard.html": {
+    "href": "api/Global.dreamloLeaderBoard.html",
+    "title": "Class dreamloLeaderBoard | PAdam Softworks",
+    "keywords": "Class dreamloLeaderBoard Inheritance Object dreamloLeaderBoard Namespace : Global Assembly : cs.temp.dll.dll Syntax public class dreamloLeaderBoard : MonoBehaviour Fields IUpgradedAndGotSSL Declaration public bool IUpgradedAndGotSSL Field Value Type Description Boolean privateCode Declaration public string privateCode Field Value Type Description String publicCode Declaration public string publicCode Field Value Type Description String Methods AddScore(String, Int32) Declaration public void AddScore(string playerName, int totalScore) Parameters Type Name Description String playerName Int32 totalScore AddScore(String, Int32, Int32) Declaration public void AddScore(string playerName, int totalScore, int totalSeconds) Parameters Type Name Description String playerName Int32 totalScore Int32 totalSeconds AddScore(String, Int32, Int32, String) Declaration public void AddScore(string playerName, int totalScore, int totalSeconds, string shortText) Parameters Type Name Description String playerName Int32 totalScore Int32 totalSeconds String shortText GetSceneDreamloLeaderboard() Declaration public static dreamloLeaderBoard GetSceneDreamloLeaderboard() Returns Type Description dreamloLeaderBoard ToListHighToLow() Declaration public List<dreamloLeaderBoard.Score> ToListHighToLow() Returns Type Description List < dreamloLeaderBoard.Score > ToListLowToHigh() Declaration public List<dreamloLeaderBoard.Score> ToListLowToHigh() Returns Type Description List < dreamloLeaderBoard.Score > ToScoreArray() Declaration public dreamloLeaderBoard.Score[] ToScoreArray() Returns Type Description dreamloLeaderBoard.Score [] ToStringArray() Declaration public string[] ToStringArray() Returns Type Description String []"
+  },
+  "api/Global.dreamloLeaderBoard.Score.html": {
+    "href": "api/Global.dreamloLeaderBoard.Score.html",
+    "title": "Struct dreamloLeaderBoard.Score | PAdam Softworks",
+    "keywords": "Struct dreamloLeaderBoard.Score Namespace : Global Assembly : cs.temp.dll.dll Syntax public struct Score Fields dateString Declaration public string dateString Field Value Type Description String playerName Declaration public string playerName Field Value Type Description String score Declaration public int score Field Value Type Description Int32 seconds Declaration public int seconds Field Value Type Description Int32 shortText Declaration public string shortText Field Value Type Description String"
+  },
+  "api/Global.dreamloPromoCode.html": {
+    "href": "api/Global.dreamloPromoCode.html",
+    "title": "Class dreamloPromoCode | PAdam Softworks",
+    "keywords": "Class dreamloPromoCode Inheritance Object dreamloPromoCode Namespace : Global Assembly : cs.temp.dll.dll Syntax public class dreamloPromoCode : MonoBehaviour Fields error Declaration public string error Field Value Type Description String publicCode Declaration public string publicCode Field Value Type Description String state Declaration public dreamloPromoCode.State state Field Value Type Description dreamloPromoCode.State value Declaration public string value Field Value Type Description String Methods GetSceneDreamloPromoCode() Declaration public static dreamloPromoCode GetSceneDreamloPromoCode() Returns Type Description dreamloPromoCode RedeemCode(String) Declaration public void RedeemCode(string code) Parameters Type Name Description String code"
+  },
+  "api/Global.dreamloPromoCode.State.html": {
+    "href": "api/Global.dreamloPromoCode.State.html",
+    "title": "Enum dreamloPromoCode.State | PAdam Softworks",
+    "keywords": "Enum dreamloPromoCode.State Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum State Fields Name Description ERROR None OK WaitingForResponse"
+  },
   "api/Global.EnemySpawner.html": {
     "href": "api/Global.EnemySpawner.html",
     "title": "Class EnemySpawner | PAdam Softworks",
@@ -357,7 +377,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | PAdam Softworks",
-    "keywords": "Namespace Global Classes AttackController CoinsController DeathZone DestroyAfterTime DisableRendererOnStart EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. LootTable LootTableItem MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayAudioOnTrigger PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController StatisticsManager TestInventory Testuje klase Inventory TimerController ToggleGameobject TurretController Tutorial Interfaces IInventory Inerfejs dostarczający podstawowe operacje na ekwipunku Enums Item.ItemType"
+    "keywords": "Namespace Global Classes AttackController CoinsController DeathZone DestroyAfterTime DisableRendererOnStart dreamloLeaderBoard dreamloPromoCode EnemySpawner GlobalLabels GraphicsSettingsMenu HoboController Inventory Bazowa klasa ekwipunku. Obsługuje dodawanie i odejmowanie rzeczy w \"ekwipunku\" gracza. Klasa również wystawia metody niezbędne do obserwowania, czy coś się zmieniło w kolekcji przedmiotów. InventoryController Kontroler dla ekwipunku gracza. Item Model przedmiot�w w grze ItemController Kontroler zachowań przedmiotów na mapie. LeaderBoardSample LootTable LootTableItem MainMenuController MovingPlatformController Obstacle OrmBossController ParallaxBackground PauseMenu PlayAudioOnTrigger PlayerController PlayerTestingUI ProjectileController RollingBallController ScoreManager ScrollingCameraController SpiderController StatisticsManager TestInventory Testuje klase Inventory TimerController ToggleGameobject TurretController Tutorial Structs dreamloLeaderBoard.Score Interfaces IInventory Inerfejs dostarczający podstawowe operacje na ekwipunku Enums dreamloPromoCode.State Item.ItemType"
   },
   "api/Global.IInventory.html": {
     "href": "api/Global.IInventory.html",
@@ -388,6 +408,11 @@
     "href": "api/Global.ItemController.html",
     "title": "Class ItemController | PAdam Softworks",
     "keywords": "Class ItemController Kontroler zachowań przedmiotów na mapie. Inheritance Object ItemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemController : MonoBehaviour Fields ItemData Declaration public TextAsset ItemData Field Value Type Description TextAsset"
+  },
+  "api/Global.LeaderBoardSample.html": {
+    "href": "api/Global.LeaderBoardSample.html",
+    "title": "Class LeaderBoardSample | PAdam Softworks",
+    "keywords": "Class LeaderBoardSample Inheritance Object LeaderBoardSample Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LeaderBoardSample : MonoBehaviour"
   },
   "api/Global.LootTable.html": {
     "href": "api/Global.LootTable.html",
@@ -427,7 +452,7 @@
   "api/Global.PauseMenu.html": {
     "href": "api/Global.PauseMenu.html",
     "title": "Class PauseMenu | PAdam Softworks",
-    "keywords": "Class PauseMenu Inheritance Object PauseMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PauseMenu : MonoBehaviour Fields IsDeathMenu Declaration public bool IsDeathMenu Field Value Type Description Boolean IsPaused Declaration public static bool IsPaused Field Value Type Description Boolean pauseMenuUI Declaration public GameObject pauseMenuUI Field Value Type Description GameObject resumeButtonUi Declaration public GameObject resumeButtonUi Field Value Type Description GameObject Methods NextLevel(String) Declaration public void NextLevel(string sceneName) Parameters Type Name Description String sceneName OpenMenu() Przejście do głównego menu Declaration public void OpenMenu() Pause(Boolean) Declaration public void Pause(bool OnPlayerDeath = false) Parameters Type Name Description Boolean OnPlayerDeath QuitGame() Declaration public void QuitGame() Restart() Declaration public void Restart() Resume() Declaration public void Resume()"
+    "keywords": "Class PauseMenu Inheritance Object PauseMenu Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PauseMenu : MonoBehaviour Fields IsDeathMenu Declaration public bool IsDeathMenu Field Value Type Description Boolean IsPaused Declaration public static bool IsPaused Field Value Type Description Boolean pauseMenuUI Declaration public GameObject pauseMenuUI Field Value Type Description GameObject resumeButtonUi Declaration public GameObject resumeButtonUi Field Value Type Description GameObject Methods NextLevel(String) Declaration public void NextLevel(string sceneName) Parameters Type Name Description String sceneName OpenMenu() Przejście do głównego menu Declaration public void OpenMenu() Pause(Boolean) Declaration public void Pause(bool OnPlayerDeath = false) Parameters Type Name Description Boolean OnPlayerDeath PauseTime() Zastopowanie czasu Declaration public void PauseTime() QuitGame() Declaration public void QuitGame() Restart() Declaration public void Restart() Resume() Declaration public void Resume()"
   },
   "api/Global.PlayAudioOnTrigger.html": {
     "href": "api/Global.PlayAudioOnTrigger.html",
@@ -569,6 +594,41 @@
     "title": "Namespace Interactable | PAdam Softworks",
     "keywords": "Namespace Interactable Classes DoorController Enums DoorClass Dostępne typy drzwi"
   },
+  "api/Leaderboard.Database.html": {
+    "href": "api/Leaderboard.Database.html",
+    "title": "Class Database | PAdam Softworks",
+    "keywords": "Class Database Inheritance Object Database Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class Database : Singleton<Database> Methods AddNewUserScore(String, Int32, Int32, Int32, String, UnityAction<String>, UnityAction<String>) Dodanie nowego wyniku do bazy danych Declaration public void AddNewUserScore(string userName, int levelScore, int seconds, int coins, string levelName = \"Pierwszy\", UnityAction<string> callbackOnSuccess = null, UnityAction<string> callbackOnFail = null) Parameters Type Name Description String userName Nick użytkownika Int32 levelScore Ilość zdobytych punktów na poziomie Int32 seconds Czas przejścia poziomu Int32 coins Ilość zdobytych monet String levelName Nazwa poziomu UnityAction < String > callbackOnSuccess Funkcja wynonana w przypadku po pomyślnym wykonaniu funkcji UnityAction < String > callbackOnFail Funkcja wykonana w przypadku wystąpienia błędu DeleteUserScore(String, UnityAction<String>, UnityAction<String>) Usunięcie użytkownika z leaderboardu Declaration public void DeleteUserScore(string userName, UnityAction<string> callbackOnSuccess = null, UnityAction<string> callbackOnFail = null) Parameters Type Name Description String userName Nick użytkownika UnityAction < String > callbackOnSuccess Funkcja wynonana w przypadku po pomyślnym wykonaniu funkcji UnityAction < String > callbackOnFail Funkcja wykonana w przypadku wystąpienia błędu GetLeaderboard(UnityAction<DreamloLeaderboard>, UnityAction<String>) Pobranie danych rankingu Declaration public void GetLeaderboard(UnityAction<DreamloLeaderboard> onSuccess = null, UnityAction<string> onFail = null) Parameters Type Name Description UnityAction < DreamloLeaderboard > onSuccess Funkcja wynonana w przypadku po pomyślnym wykonaniu funkcji UnityAction < String > onFail Funkcja wykonana w przypadku wystąpienia błędu"
+  },
+  "api/Leaderboard.Dreamlo.html": {
+    "href": "api/Leaderboard.Dreamlo.html",
+    "title": "Class Dreamlo | PAdam Softworks",
+    "keywords": "Class Dreamlo Inheritance Object Dreamlo Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class Dreamlo Properties leaderboard Declaration public Leaderboard leaderboard { get; set; } Property Value Type Description Leaderboard"
+  },
+  "api/Leaderboard.DreamloLeaderboard.html": {
+    "href": "api/Leaderboard.DreamloLeaderboard.html",
+    "title": "Class DreamloLeaderboard | PAdam Softworks",
+    "keywords": "Class DreamloLeaderboard Inheritance Object DreamloLeaderboard Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class DreamloLeaderboard Properties dreamlo Declaration public Dreamlo dreamlo { get; set; } Property Value Type Description Dreamlo"
+  },
+  "api/Leaderboard.html": {
+    "href": "api/Leaderboard.html",
+    "title": "Namespace Leaderboard | PAdam Softworks",
+    "keywords": "Namespace Leaderboard Classes Database Dreamlo DreamloLeaderboard Leaderboard LeaderboardEntry ScoreCalculator"
+  },
+  "api/Leaderboard.Leaderboard.html": {
+    "href": "api/Leaderboard.Leaderboard.html",
+    "title": "Class Leaderboard | PAdam Softworks",
+    "keywords": "Class Leaderboard Inheritance Object Leaderboard Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class Leaderboard Properties entry Declaration public List<LeaderboardEntry> entry { get; set; } Property Value Type Description List < LeaderboardEntry >"
+  },
+  "api/Leaderboard.LeaderboardEntry.html": {
+    "href": "api/Leaderboard.LeaderboardEntry.html",
+    "title": "Class LeaderboardEntry | PAdam Softworks",
+    "keywords": "Class LeaderboardEntry Inheritance Object LeaderboardEntry Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class LeaderboardEntry Properties date Data przejścia poziomu Declaration public string date { get; set; } Property Value Type Description String name Nazwa użytkwnika Declaration public string name { get; set; } Property Value Type Description String score Ilość zdobytych punktów Declaration public string score { get; set; } Property Value Type Description String seconds Czas przejścia poziomu w sekundach Declaration public string seconds { get; set; } Property Value Type Description String text Nazwa poziomu Declaration public string text { get; set; } Property Value Type Description String"
+  },
+  "api/Leaderboard.ScoreCalculator.html": {
+    "href": "api/Leaderboard.ScoreCalculator.html",
+    "title": "Class ScoreCalculator | PAdam Softworks",
+    "keywords": "Class ScoreCalculator Inheritance Object ScoreCalculator Namespace : Leaderboard Assembly : cs.temp.dll.dll Syntax public class ScoreCalculator Methods CalculateScore(Int32, Int32, Int32) Oblicza całkkowitą ilość punktów zdobytą przez gracza Declaration public int CalculateScore(int levelScore, int seconds, int coins) Parameters Type Name Description Int32 levelScore Ilość punktów zdobytych na poziomie Int32 seconds Czas przejscia poziomu w sekundach Int32 coins Ilość podniesionych coinsów Returns Type Description Int32"
+  },
   "api/PowerUps.DoctorMonsterPowerUp.html": {
     "href": "api/PowerUps.DoctorMonsterPowerUp.html",
     "title": "Class DoctorMonsterPowerUp | PAdam Softworks",
@@ -614,10 +674,15 @@
     "title": "Class WhiteMonsterPowerUp | PAdam Softworks",
     "keywords": "Class WhiteMonsterPowerUp PowerUp białego monstera. Zwiększa siłę ataku bohatera Inheritance Object WhiteMonsterPowerUp Implements ITimedPowerUp IPowerUp Namespace : PowerUps Assembly : cs.temp.dll.dll Syntax public class WhiteMonsterPowerUp : ITimedPowerUp, IPowerUp Remarks ten power up to lepsza wersja green monstera, bo nie ma prostego sposobu na zwiększenie dps Properties PowerUpDuration Czas przez jaki działa powerup Declaration public float PowerUpDuration { get; } Property Value Type Description Single PowerUpTimer Czas pozostały do końca powerupu Declaration public float PowerUpTimer { get; } Property Value Type Description Single Methods ApplyPowerUp(PlayerController) Używa powerupa na graczu Declaration public void ApplyPowerUp(PlayerController controller) Parameters Type Name Description PlayerController controller Instacja kontrolera gracza UpdateTimer() Aktualizuje czas powerupu Declaration public void UpdateTimer() Implements ITimedPowerUp IPowerUp"
   },
+  "api/UI.FinishMenuController.html": {
+    "href": "api/UI.FinishMenuController.html",
+    "title": "Class FinishMenuController | PAdam Softworks",
+    "keywords": "Class FinishMenuController Inheritance Object FinishMenuController Namespace : UI Assembly : cs.temp.dll.dll Syntax public class FinishMenuController : MonoBehaviour Methods SendScore() Wysłanie wyniku do bazy danych Declaration public void SendScore() ShowFinishMenu() Pokazanie menu skończenia poziomu Declaration public void ShowFinishMenu()"
+  },
   "api/UI.html": {
     "href": "api/UI.html",
     "title": "Namespace UI | PAdam Softworks",
-    "keywords": "Namespace UI Classes PlayerStatsMenu"
+    "keywords": "Namespace UI Classes FinishMenuController PlayerStatsMenu"
   },
   "api/UI.PlayerStatsMenu.html": {
     "href": "api/UI.PlayerStatsMenu.html",
