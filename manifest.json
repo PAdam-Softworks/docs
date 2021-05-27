@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PauseMenu.html",
-          "hash": "grMr4Tl0A2qCWU+hHzX/EaQRH5Rs1EAFSkTWQGSXdwE="
+          "hash": "WB3QT76lwWCwi5XxsmBYARVUkdpOuN4cJuTZRsmIEHs="
         }
       },
       "is_incremental": false,
@@ -1430,11 +1430,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Leaderboard.Database.ScoreContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Leaderboard.Database.ScoreContainer.html",
+          "hash": "TBl1tXBebn70awzPO9NMnUyLDyXqqqoSx3mrMVeELDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Leaderboard.Database.yml",
       "output": {
         ".html": {
           "relative_path": "api/Leaderboard.Database.html",
-          "hash": "7kQN0t54IIwgvlXWY1wH0Wgv5c7PV6kXwUfy8o6x/WM="
+          "hash": "KECMd77eAkUdmffmZe31oy4wADhbkr2YymIfg/9/gAM="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Leaderboard.html",
-          "hash": "5jnJnggXbyqxn2fQTNecdvJIRF4I9D/XobIF370DSB0="
+          "hash": "Idum076GqaBqUoA+1p+q7wLdj1FYLrGdXJALtLrQFIQ="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NT8HYKm8Dt85ASr9eFxISJjrKgKLDmuuv+r3qDHWcf8="
+          "hash": "dc2RwLrFXCC4kJwnnzQ/p4Qr5aIxFuGeBG0tzOOW4W0="
         }
       },
       "is_incremental": false,
@@ -1887,7 +1899,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 140,
+          "total_file_count": 141,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

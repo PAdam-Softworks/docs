@@ -4263,6 +4263,12 @@ references:
   commentId: F:Global.PauseMenu.IsDeathMenu
   fullName: PauseMenu.IsDeathMenu
   nameWithType: PauseMenu.IsDeathMenu
+- uid: Global.PauseMenu.IsLevelFinished
+  name: IsLevelFinished
+  href: api/Global.PauseMenu.html#Global_PauseMenu_IsLevelFinished
+  commentId: F:Global.PauseMenu.IsLevelFinished
+  fullName: PauseMenu.IsLevelFinished
+  nameWithType: PauseMenu.IsLevelFinished
 - uid: Global.PauseMenu.IsPaused
   name: IsPaused
   href: api/Global.PauseMenu.html#Global_PauseMenu_IsPaused
@@ -5948,15 +5954,15 @@ references:
   isSpec: "True"
   fullName: Leaderboard.Database.DeleteUserScore
   nameWithType: Database.DeleteUserScore
-- uid: Leaderboard.Database.GetLeaderboard(UnityAction{Leaderboard.DreamloLeaderboard},UnityAction{System.String})
-  name: GetLeaderboard(UnityAction<DreamloLeaderboard>, UnityAction<String>)
-  href: api/Leaderboard.Database.html#Leaderboard_Database_GetLeaderboard_UnityAction_Leaderboard_DreamloLeaderboard__UnityAction_System_String__
-  commentId: M:Leaderboard.Database.GetLeaderboard(UnityAction{Leaderboard.DreamloLeaderboard},UnityAction{System.String})
-  name.vb: GetLeaderboard(UnityAction(Of DreamloLeaderboard), UnityAction(Of String))
-  fullName: Leaderboard.Database.GetLeaderboard(UnityAction<Leaderboard.DreamloLeaderboard>, UnityAction<System.String>)
-  fullName.vb: Leaderboard.Database.GetLeaderboard(UnityAction(Of Leaderboard.DreamloLeaderboard), UnityAction(Of System.String))
-  nameWithType: Database.GetLeaderboard(UnityAction<DreamloLeaderboard>, UnityAction<String>)
-  nameWithType.vb: Database.GetLeaderboard(UnityAction(Of DreamloLeaderboard), UnityAction(Of String))
+- uid: Leaderboard.Database.GetLeaderboard(System.Single,UnityAction{System.String},UnityAction{System.String})
+  name: GetLeaderboard(Single, UnityAction<String>, UnityAction<String>)
+  href: api/Leaderboard.Database.html#Leaderboard_Database_GetLeaderboard_System_Single_UnityAction_System_String__UnityAction_System_String__
+  commentId: M:Leaderboard.Database.GetLeaderboard(System.Single,UnityAction{System.String},UnityAction{System.String})
+  name.vb: GetLeaderboard(Single, UnityAction(Of String), UnityAction(Of String))
+  fullName: Leaderboard.Database.GetLeaderboard(System.Single, UnityAction<System.String>, UnityAction<System.String>)
+  fullName.vb: Leaderboard.Database.GetLeaderboard(System.Single, UnityAction(Of System.String), UnityAction(Of System.String))
+  nameWithType: Database.GetLeaderboard(Single, UnityAction<String>, UnityAction<String>)
+  nameWithType.vb: Database.GetLeaderboard(Single, UnityAction(Of String), UnityAction(Of String))
 - uid: Leaderboard.Database.GetLeaderboard*
   name: GetLeaderboard
   href: api/Leaderboard.Database.html#Leaderboard_Database_GetLeaderboard_
@@ -5964,6 +5970,55 @@ references:
   isSpec: "True"
   fullName: Leaderboard.Database.GetLeaderboard
   nameWithType: Database.GetLeaderboard
+- uid: Leaderboard.Database.ScoreContainer
+  name: Database.ScoreContainer
+  href: api/Leaderboard.Database.ScoreContainer.html
+  commentId: T:Leaderboard.Database.ScoreContainer
+  fullName: Leaderboard.Database.ScoreContainer
+  nameWithType: Database.ScoreContainer
+- uid: Leaderboard.Database.ScoreContainer.#ctor(System.String,System.String,System.String,System.String)
+  name: ScoreContainer(String, String, String, String)
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:Leaderboard.Database.ScoreContainer.#ctor(System.String,System.String,System.String,System.String)
+  fullName: Leaderboard.Database.ScoreContainer.ScoreContainer(System.String, System.String, System.String, System.String)
+  nameWithType: Database.ScoreContainer.ScoreContainer(String, String, String, String)
+- uid: Leaderboard.Database.ScoreContainer.#ctor*
+  name: ScoreContainer
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer__ctor_
+  commentId: Overload:Leaderboard.Database.ScoreContainer.#ctor
+  isSpec: "True"
+  fullName: Leaderboard.Database.ScoreContainer.ScoreContainer
+  nameWithType: Database.ScoreContainer.ScoreContainer
+- uid: Leaderboard.Database.ScoreContainer.Level
+  name: Level
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer_Level
+  commentId: F:Leaderboard.Database.ScoreContainer.Level
+  fullName: Leaderboard.Database.ScoreContainer.Level
+  nameWithType: Database.ScoreContainer.Level
+- uid: Leaderboard.Database.ScoreContainer.Name
+  name: Name
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer_Name
+  commentId: F:Leaderboard.Database.ScoreContainer.Name
+  fullName: Leaderboard.Database.ScoreContainer.Name
+  nameWithType: Database.ScoreContainer.Name
+- uid: Leaderboard.Database.ScoreContainer.Rank
+  name: Rank
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer_Rank
+  commentId: F:Leaderboard.Database.ScoreContainer.Rank
+  fullName: Leaderboard.Database.ScoreContainer.Rank
+  nameWithType: Database.ScoreContainer.Rank
+- uid: Leaderboard.Database.ScoreContainer.Score
+  name: Score
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer_Score
+  commentId: F:Leaderboard.Database.ScoreContainer.Score
+  fullName: Leaderboard.Database.ScoreContainer.Score
+  nameWithType: Database.ScoreContainer.Score
+- uid: Leaderboard.Database.ScoreContainer.Seconds
+  name: Seconds
+  href: api/Leaderboard.Database.ScoreContainer.html#Leaderboard_Database_ScoreContainer_Seconds
+  commentId: F:Leaderboard.Database.ScoreContainer.Seconds
+  fullName: Leaderboard.Database.ScoreContainer.Seconds
+  nameWithType: Database.ScoreContainer.Seconds
 - uid: Leaderboard.Dreamlo
   name: Dreamlo
   href: api/Leaderboard.Dreamlo.html
