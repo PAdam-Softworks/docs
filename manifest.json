@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Core.DestroyGameObject.html",
-          "hash": "Pmhh4hdrNSYp7Sknpl5K+QcjOSI3EiPBoQ2O8uMELKQ="
+          "hash": "MLcxWX+sIrBX7+0vWVkZgdY9P09Gzld7Ox6MeBK2/3c="
         }
       },
       "is_incremental": false,
@@ -782,6 +782,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.CutsceneController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CutsceneController.html",
+          "hash": "1CGXhNa6Cg9cSkW3n6zbBihKR2Y5i7SuSnC1NmmiPbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.DeathZone.yml",
       "output": {
         ".html": {
@@ -1014,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.OrmBossController.html",
-          "hash": "thRooiJ7UV6H67RztEACp6eGWROtWUd9T9hN10TFDSI="
+          "hash": "Y1qXbCJ9OucxjAz/xpyFJq/sfWC1zRMwdgKrA5B4sYI="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "6dYc2k503w6ulLSDcYGbEK/998fVM9RrXDqLFVMY4OQ="
+          "hash": "R/Tg60ekKIZysI64A1hx5/DYoEM0UIq1hMBxajSlXbY="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dc2RwLrFXCC4kJwnnzQ/p4Qr5aIxFuGeBG0tzOOW4W0="
+          "hash": "HfrtjC6ydnzcolsEUMeBAe5Ept8htgzUT+JttyUJVMg="
         }
       },
       "is_incremental": false,
@@ -1899,7 +1911,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 141,
+          "total_file_count": 142,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

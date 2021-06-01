@@ -1243,6 +1243,18 @@ references:
   isSpec: "True"
   fullName: Core.DestroyGameObject.Destroy
   nameWithType: DestroyGameObject.Destroy
+- uid: Core.DestroyGameObject.mixerGroup
+  name: mixerGroup
+  href: api/Core.DestroyGameObject.html#Core_DestroyGameObject_mixerGroup
+  commentId: F:Core.DestroyGameObject.mixerGroup
+  fullName: Core.DestroyGameObject.mixerGroup
+  nameWithType: DestroyGameObject.mixerGroup
+- uid: Core.DestroyGameObject.pickUpClip
+  name: pickUpClip
+  href: api/Core.DestroyGameObject.html#Core_DestroyGameObject_pickUpClip
+  commentId: F:Core.DestroyGameObject.pickUpClip
+  fullName: Core.DestroyGameObject.pickUpClip
+  nameWithType: DestroyGameObject.pickUpClip
 - uid: Core.InteractOnCollision2D
   name: InteractOnCollision2D
   href: api/Core.InteractOnCollision2D.html
@@ -3316,6 +3328,44 @@ references:
   isSpec: "True"
   fullName: CoinsController.SetCoinsCount
   nameWithType: CoinsController.SetCoinsCount
+- uid: Global.CutsceneController
+  name: CutsceneController
+  href: api/Global.CutsceneController.html
+  commentId: T:Global.CutsceneController
+  fullName: CutsceneController
+  nameWithType: CutsceneController
+- uid: Global.CutsceneController.FloydCutsceneEnd
+  name: FloydCutsceneEnd()
+  href: api/Global.CutsceneController.html#Global_CutsceneController_FloydCutsceneEnd
+  commentId: M:Global.CutsceneController.FloydCutsceneEnd
+  fullName: CutsceneController.FloydCutsceneEnd()
+  nameWithType: CutsceneController.FloydCutsceneEnd()
+- uid: Global.CutsceneController.FloydCutsceneEnd*
+  name: FloydCutsceneEnd
+  href: api/Global.CutsceneController.html#Global_CutsceneController_FloydCutsceneEnd_
+  commentId: Overload:Global.CutsceneController.FloydCutsceneEnd
+  isSpec: "True"
+  fullName: CutsceneController.FloydCutsceneEnd
+  nameWithType: CutsceneController.FloydCutsceneEnd
+- uid: Global.CutsceneController.FloydCutsceneStart
+  name: FloydCutsceneStart()
+  href: api/Global.CutsceneController.html#Global_CutsceneController_FloydCutsceneStart
+  commentId: M:Global.CutsceneController.FloydCutsceneStart
+  fullName: CutsceneController.FloydCutsceneStart()
+  nameWithType: CutsceneController.FloydCutsceneStart()
+- uid: Global.CutsceneController.FloydCutsceneStart*
+  name: FloydCutsceneStart
+  href: api/Global.CutsceneController.html#Global_CutsceneController_FloydCutsceneStart_
+  commentId: Overload:Global.CutsceneController.FloydCutsceneStart
+  isSpec: "True"
+  fullName: CutsceneController.FloydCutsceneStart
+  nameWithType: CutsceneController.FloydCutsceneStart
+- uid: Global.CutsceneController.Level3SpecialOnEnd
+  name: Level3SpecialOnEnd
+  href: api/Global.CutsceneController.html#Global_CutsceneController_Level3SpecialOnEnd
+  commentId: F:Global.CutsceneController.Level3SpecialOnEnd
+  fullName: CutsceneController.Level3SpecialOnEnd
+  nameWithType: CutsceneController.Level3SpecialOnEnd
 - uid: Global.DeathZone
   name: DeathZone
   href: api/Global.DeathZone.html
@@ -4177,6 +4227,12 @@ references:
   commentId: F:Global.OrmBossController.DamageSound
   fullName: OrmBossController.DamageSound
   nameWithType: OrmBossController.DamageSound
+- uid: Global.OrmBossController.DeathFrames
+  name: DeathFrames
+  href: api/Global.OrmBossController.html#Global_OrmBossController_DeathFrames
+  commentId: F:Global.OrmBossController.DeathFrames
+  fullName: OrmBossController.DeathFrames
+  nameWithType: OrmBossController.DeathFrames
 - uid: Global.OrmBossController.DeathSound
   name: DeathSound
   href: api/Global.OrmBossController.html#Global_OrmBossController_DeathSound
@@ -4201,6 +4257,19 @@ references:
   commentId: F:Global.OrmBossController.isMove
   fullName: OrmBossController.isMove
   nameWithType: OrmBossController.isMove
+- uid: Global.OrmBossController.Level3DeathSequence
+  name: Level3DeathSequence()
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Level3DeathSequence
+  commentId: M:Global.OrmBossController.Level3DeathSequence
+  fullName: OrmBossController.Level3DeathSequence()
+  nameWithType: OrmBossController.Level3DeathSequence()
+- uid: Global.OrmBossController.Level3DeathSequence*
+  name: Level3DeathSequence
+  href: api/Global.OrmBossController.html#Global_OrmBossController_Level3DeathSequence_
+  commentId: Overload:Global.OrmBossController.Level3DeathSequence
+  isSpec: "True"
+  fullName: OrmBossController.Level3DeathSequence
+  nameWithType: OrmBossController.Level3DeathSequence
 - uid: Global.OrmBossController.moveDirection
   name: moveDirection
   href: api/Global.OrmBossController.html#Global_OrmBossController_moveDirection
